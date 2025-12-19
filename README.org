@@ -1,16 +1,1 @@
-* à faire
-
-******** TODO éditions précédentes -> 2025
-:PROPERTIES:
-:CREATED:  [2025-02-23 dim. 21:56]
-:TRIGGER:  chain-find-next(TODO,todo-only,from-current,no-wrap)
-:END:
-******** INACTIVE update sitemap
-:PROPERTIES:
-:CREATED:  [2022-05-04 mer. 15:09]
-:END:
-
-******** INACTIVE update redirect
-:PROPERTIES:
-:CREATED:  [2022-05-04 mer. 15:09]
-:END:
+* *todo*
