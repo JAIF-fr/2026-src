@@ -1,0 +1,157 @@
+#+STARTUP: showall
+#+OPTIONS: toc:nil
+#+title: JAIF
+
+* Journée thématique sur les attaques par injection de fautes
+
+#+begin_export html
+<p style="text-align:center; font-weight: bold;">
+</p>
+<p class="alert" style="text-align:center; color: #3B31D9; line-height: 2em; font-size: x-large; font-weight: bold;">
+Mercredi 1er Octobre 2026
+<br>
+Montpellier
+<br>
+</p>
+<center>
+</center>
+#+end_export
+
+L’attaque par injection de fautes est une technique souvent exploitée par les attaquants pour extraire des données confidentielles des systèmes embarqués. Ces attaques deviennent de plus en plus complexes, avec par exemple, des injections multiples ou en les combinant avec des observations de canaux cachés.
+
+Cette journée a pour objectif de réunir la communauté académique, industrielle et étatique pour faire émerger de nouvelles collaborations, en considérant les nombreux domaines de la physique au logiciel, pour concevoir :
+- Des outils d’injection de fautes, et les modèles de fautes,
+- Des outils de simulation et des méthodes formelles pour évaluer la robustesse, et pour comprendre l’impact des fautes,
+- Des preuves de sécurité,
+- Des protections ou mécanismes de détection matériels ou logiciels,
+- Des outils automatisant la conception de systèmes embarqués robustes.
+
+Le [[./programme.html][programme]] est construit de sorte à favoriser les échanges entre les participants sur l’ensemble de ces sujets, au travers de présentations et de discussions.
+La journée est composée d’exposés invités, de chercheurs ou d’industriels seniors, des exposés sélectionnés sur résumé, ainsi que des sessions posters sur le temps des pauses et du déjeuner.
+
+ # La journée se poursuit avec un [[./infos-pratiques.html#social-event][social event]] en soirée.
+
+
+# ** Dates importantes
+# :PROPERTIES:
+# :CUSTOM_ID: dates
+# :END:
+
+# L'[[./cfp.html][appel à contributions]] est détaillé sur une page dédiée.
+
+# |                                |                   |
+# | Date limite pour la soumission | +27 juin+ *4 juillet* |
+# | Réponses aux auteurs           | *12 juillet*        |
+# | JAIF                           | *1er Octobre*       |
+
+** Soutien institutionnel et sponsors
+:PROPERTIES:
+:CUSTOM_ID: sponsors
+:END:
+
+La journée est organisée avec le soutien
+du [[https://www.lirmm.fr/securite][LIRMM]].
+# de l'IMT, des [[https://www.mines-stetienne.fr][Mines de Saint-Étienne]], de l'[[https://www.irisa.fr][IRISA]] et de l'[[https://www.inria.fr][INRIA]],
+# de l'[[https://www.univ-grenoble-alpes.fr][UGA]],
+# du [[https://www.pepr-cybersecurite.fr][PEPR cybersécurité]],
+# du [[https://gdr-securite.irisa.fr][GDR Sécurité Informatique]],
+# et avec le support du [[https://list.cea.fr][CEA-List]].
+
+# #+BEGIN_EXPORT html
+# <center>
+# <p>
+# <a href="https://www.mines-stetienne.fr">
+# <img src="./media/MSE_IMT.png" alt="Logo MSE IMT" title="École des Mines de Saint-Étienne / Institut Mines Télécom" data-align="center" height="100" /></a>
+
+#      
+# <a href="https://www.inria.fr">
+# <img src="./media/Inria.jpg"
+# alt="Logo INRIA"
+# title="INRIA"
+# data-align="center" height="80" /></a>
+
+#      
+# <a href="https://www.irisa.fr">
+# <img src="./media/IRISA.png"
+# alt="Logo IRISA"
+# title="IRISA"
+# data-align="center" height="80" /></a>
+
+#      
+# <a href="https://www.univ-grenoble-alpes.fr">
+# <img src="./media/UGA.png"
+# alt="Logo UGA"
+# title="UGA"
+# data-align="center" height="100" /></a>
+
+#      
+# <a href="https://www.pepr-cybersecurite.fr">
+# <img src="./media/FR2030_Cybersecurite.png"
+# alt="Logo PEPR cybersécurité"
+# title="ARSENE"
+# data-align="center" height="100" /></a>
+
+#      
+# <a href="https://gdr-securite.irisa.fr">
+# <img src="./media/GDR_logo_04-vecto-01.png"
+# alt="Logo GDR sécurité"
+# title="GDR sécurité"
+# data-align="center" height="100" /></a>
+
+#      
+# <a href="https://list.cea.fr">
+# <img src="./media/logo-List.jpeg" alt="Logo CEA-List"
+# title="CEA-List"
+# data-align="center" height="100" /></a>
+
+# </p>
+# </center>
+# #+END_EXPORT
+
+# et est sponsorisée par
+# [[https://www.alphanov.com/produits-services/solutions-laser-test-de-circuits-integres][ALPhANOV]],
+# l'[[https://www.ssi.gouv.fr/][ANSSI]],
+#  [[https://www.brightsight.com][Brightsight]],
+#  [[https://eshard.com][eShard]],
+# [[https://www.thalesgroup.com/fr/europe/france/dis][Thales DIS Identité et Sécurité Numériques]].
+
+# #+BEGIN_EXPORT html
+# <center>
+
+# <a href="https://www.alphanov.com/produits-services/solutions-laser-test-de-circuits-integres">
+# <img src="./media/Alphanov.png" alt="Logo ALPhANOV" title="ALPhANOV" data-align="center" height="80" /></a>
+
+#      
+# <a href="https://cyber.gouv.fr">
+# <img src="./media/ANSSI_Logo.svg" alt="Logo ANSSI" title="ANSSI" data-align="center" height="120" /></a>
+
+#      
+# <a href="https://www.brightsight.com">
+# <img src="./media/SGS-Brightsight.png" alt="Logo SGS-Brightsight" title="SGS-Brightsight" data-align="center" height="100" /></a>
+
+#      
+# <a href="https://www.eshard.com">
+# <img src="./media/eShard.png" alt="Logo eShard" title="eShard" data-align="center" height="120" /></a>
+
+#      
+# <a href="https://www.thalesgroup.com/fr/europe/france/dis">
+# <img src="./media/Thales.png" alt="Logo Thales" title="Thales DIS" data-align="center" height="140" /></a>
+# </center>
+# #+END_EXPORT
+
+** Comité d'organisation
+:PROPERTIES:
+:CUSTOM_ID: comite
+:END:
+
++ Vincent Beroulle  -- LCIS, Grenoble INP, Université Grenoble Alpes
++ Guillaume Bouffard --  ANSSI
++ Brice Colombier -- Lab. Hubert Curien
++ Damien Couroussé -- CEA-List, Université Grenoble Alpes
++ Jean-Max Dutertre  -- MSE, Centre Microélectronique de Provence
++ Karine Heydemann -- Thales DIS France
++ Ronan Lashermes -- INRIA Rennes
++ Philippe Maurine (organisateur local) -- Université de Montpellier, LIRMM
++ Marie-Laure Potet -- VÉRIMAG, Grenoble INP
+
+Contact: [[mailto:jaif@saxifrage.saclay.cea.fr][jaif@saxifrage.saclay.cea.fr]]

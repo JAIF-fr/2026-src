@@ -1,0 +1,18 @@
+* visioconference
+
+Participer à la réunion Zoom
+https://grenoble-inp.zoom.us/j/99743726537
+- ID de réunion: 997 4372 6537
+- Code secret: 520792
+
+
+Une seule pression sur l’appareil mobile
++33170372246,,99743726537#,,,,*520792# France
+
+
+Participez à l’aide d’un protocole SIP
+- 99743726537@zoomcrc.com
+
+Instructions pour participer
+https://grenoble-inp.zoom.us/meetings/99743726537/invitations?signature=ookkL02cENrF4lL_dkbU7FEZcG9uZCHOWYnC3huHGbk
+

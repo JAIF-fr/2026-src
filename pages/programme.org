@@ -1,0 +1,6 @@
+#+STARTUP: showall
+#+OPTIONS: toc:nil
+#+OPTIONS: H:5
+#+EXPORT_EXCLUDE_TAGS: noexport
+#+title: JAIF -- programme
+

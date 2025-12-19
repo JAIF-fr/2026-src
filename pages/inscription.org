@@ -1,0 +1,4 @@
+#+STARTUP: showall
+#+OPTIONS: toc:nil
+#+title: JAIF -- inscriptions
+
