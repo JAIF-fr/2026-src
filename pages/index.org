@@ -148,7 +148,7 @@ La journée est organisée avec le soutien de
 
 + Vincent Beroulle  -- LCIS, Grenoble INP, Université Grenoble Alpes
 + Guillaume Bouffard --  ANSSI
-+ Brice Colombier -- Lab. Hubert Curien
++ Brice Colombier -- Lab. Hubert Curien, Université Jean Monnet, Saint-Étienne
 + Damien Couroussé -- CEA-List, Université Grenoble Alpes
 + Jean-Max Dutertre  -- MSE, Centre Microélectronique de Provence
 + Karine Heydemann -- Thales DIS France
