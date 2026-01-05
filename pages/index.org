@@ -156,4 +156,4 @@ La journée est organisée avec le soutien de
 + Philippe Maurine (organisateur local) -- Université de Montpellier, LIRMM
 + Marie-Laure Potet -- VÉRIMAG, Grenoble INP
 
-Contact: [[mailto:jaif@saxifrage.saclay.cea.fr][jaif@saxifrage.saclay.cea.fr]]
+Contact: [[mailto:jaif@groupes.renater.fr][jaif@groupes.renater.fr]]
