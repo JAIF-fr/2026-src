@@ -117,7 +117,9 @@ La journée est organisée avec le soutien de
 
 La journée est aussi sponsorisée par
 [[https://www.alphanov.com/produits-services/solutions-laser-test-de-circuits-integres][ALPhANOV]],
-l'[[https://www.ssi.gouv.fr/][ANSSI]].
+l'[[https://www.ssi.gouv.fr/][ANSSI]],
+[[https://ninjalab.io][NinjaLab]].
+
 #  [[https://www.brightsight.com][Brightsight]],
 #  [[https://eshard.com][eShard]],
 # [[https://www.thalesgroup.com/fr/europe/france/dis][Thales DIS Identité et Sécurité Numériques]].
@@ -132,6 +134,9 @@ l'[[https://www.ssi.gouv.fr/][ANSSI]].
 <a href="https://cyber.gouv.fr">
 <img src="./media/logo-ANSSI.svg" alt="Logo ANSSI" title="ANSSI" data-align="center" height="140" /></a>
 
+     
+<a href="https://ninjalab.io">
+<img src="./media/logo-NinjaLab.svg" alt="Logo NinjaLab" title="NinjaLab" data-align="center" height="100" /></a>
 </center>
 #+END_EXPORT
 
