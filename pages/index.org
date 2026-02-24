@@ -50,7 +50,9 @@ La journée est composée d’exposés invités, de chercheurs ou d’industriel
 :END:
 
 La journée est organisée avec le soutien de
-[[https://www.lirmm.fr/securite][l’axe transverse Sécurité et Sûreté du LIRMM]].
+- [[https://www.lirmm.fr/securite][l’axe transverse Sécurité et Sûreté du LIRMM]] ;
+- l'[[https://www.ico-occitanie.fr/][Institut Cybersécurité Occitanie]]---cet évènement bénéficie du soutien du Défi Clé ICO, Institut Cybersécurité Occitanie, initié et financé par la Région Occitanie, France.
+
 
 
 # de l'IMT, des [[https://www.mines-stetienne.fr][Mines de Saint-Étienne]], de l'[[https://www.irisa.fr][IRISA]] et de l'[[https://www.inria.fr][INRIA]],
@@ -59,9 +61,16 @@ La journée est organisée avec le soutien de
 # du [[https://gdr-securite.irisa.fr][GDR Sécurité Informatique]],
 # et avec le support du [[https://list.cea.fr][CEA-List]].
 
-# #+BEGIN_EXPORT html
-# <center>
-# <p>
+#+BEGIN_EXPORT html
+<center>
+<p>
+<a href="https://www.mines-stetienne.fr">
+<img src="./media/logo-ICO_FR.png" alt="Logo ICO" title="Institut Cybersécurité Occitanie" data-align="center" height="100" /></a>
+
+</p>
+</center>
+#+END_EXPORT
+
 # <a href="https://www.mines-stetienne.fr">
 # <img src="./media/MSE_IMT.png" alt="Logo MSE IMT" title="École des Mines de Saint-Étienne / Institut Mines Télécom" data-align="center" height="100" /></a>
 
