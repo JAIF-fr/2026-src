@@ -117,8 +117,8 @@ La journée est organisée avec le soutien de
 
 La journée est aussi sponsorisée par
 [[https://www.alphanov.com/produits-services/solutions-laser-test-de-circuits-integres][ALPhANOV]],
+l'[[https://www.ssi.gouv.fr/][ANSSI]],
 [[https://eshard.com][eShard]],
-# l'[[https://www.ssi.gouv.fr/][ANSSI]],
 [[https://ninjalab.io][NinjaLab]].
 
 #  [[https://www.brightsight.com][Brightsight]],
@@ -131,6 +131,10 @@ La journée est aussi sponsorisée par
 <img src="./media/logo-Alphanov.png" alt="Logo ALPhANOV" title="ALPhANOV" data-align="center" height="100" /></a>
 
      
+<a href="https://cyber.gouv.fr">
+<img src="./media/logo-ANSSI.svg" alt="Logo ANSSI" title="ANSSI" data-align="center" height="140" /></a>
+
+     
 <a href="https://www.eshard.com">
 <img src="./media/logo-eShard.png" alt="Logo eShard" title="eShard" data-align="center" height="120" /></a>
 
@@ -139,10 +143,6 @@ La journée est aussi sponsorisée par
 <img src="./media/logo-NinjaLab.svg" alt="Logo NinjaLab" title="NinjaLab" data-align="center" height="100" /></a>
 </center>
 #+END_EXPORT
-
-#      
-# <a href="https://cyber.gouv.fr">
-# <img src="./media/logo-ANSSI.svg" alt="Logo ANSSI" title="ANSSI" data-align="center" height="140" /></a>
 
 #      
 # <a href="https://www.brightsight.com">
