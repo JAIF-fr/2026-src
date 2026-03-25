@@ -67,6 +67,10 @@ La journée est organisée avec le soutien de
 <a href="https://www.mines-stetienne.fr">
 <img src="./media/logo-ICO_FR.png" alt="Logo ICO" title="Institut Cybersécurité Occitanie" data-align="center" height="120" /></a>
 
+     
+<a href="https://www.lirmm.fr">
+<img src="./media/logo-LIRMM.png" alt="Logo LIRMM" title="Laboratoire d'Informatique, de Robotique et de Microélectronique de Montpellier" data-align="center" height="120" /></a>
+
 </p>
 </center>
 #+END_EXPORT
