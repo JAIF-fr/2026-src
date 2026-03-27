@@ -2,3 +2,52 @@
 #+OPTIONS: toc:nil
 #+title: JAIF -- infos pratiques
 
+** Plan du lieu
+Le lieu se situe au 2 Rue de l'École de Médecine. L'entrée ressemble à ceci.
+
+#+ATTR_HTML: :width 50% :style margin-left: auto; margin-right: auto; display: block;
+[[file:media/facEntrance.jpg]]
+
+Pour trouver la salle du séminaire, entrez dans la première pièce et traversez le bâtiment jusqu'aux portes donnant sur la cour. Traversez la cour puis montez l'escalier et entrez soit par les portes en haut de l’un des deux escaliers, soit par la porte à gauche. Voir le plan pour les détails.
+
+#+ATTR_HTML: :width 50% :style margin-left: auto; margin-right: auto; display: block;
+[[file:media/facmedicine.png]]
+
+** Le Theatrum Anatomicum
+:PROPERTIES:
+:CUSTOM_ID: infos-theatrum
+:END:
+
+Traversez le monastère du XIVe siècle et retrouvez-vous dans une cour, entourée par la cathédrale Saint‑Pierre d’un côté, le monastère sur deux autres, et le Theatrum Anatomicum. Le théâtre, construit en 1804 et centré autour de la table de démonstration en marbre d’origine, sera notre salle de séminaire.
+Les pauses café et les sessions de posters auront lieu dans la cour.
+
+#+ATTR_HTML: :width 50% :style margin-left: auto; margin-right: auto; display: block;
+[[file:media/rcg2019-seminar.jpg]]
+
+** Se rendre au centre
+:PROPERTIES:
+:CUSTOM_ID: infos-centre
+:END:
+
+TRAIN — Gare « Saint-Roch »
+Vous y êtes déjà !
+
+TRAIN — Gare « Sud de France »
+Suivez la foule qui sort vers le nord du bâtiment et prenez la navette gratuite qui vous mène à la station de tram « Place de France ». Achetez un ticket de tram (1,60 €) et empruntez la ligne 1 (généralement rames bleues) en direction de « Mosson ». La station la plus centrale est « Place de la Comédie ». L’ensemble du trajet prend environ 20 minutes.
+
+AÉROPORT
+Bus/Tram (~30 minutes) : une navette (« navette » — 2,60 € pour le bus + tram) se trouve à l’extérieur du terminal et circule toutes les demi-heures (environ), elle vous déposera à l’arrêt de tram « Place de l’Europe ». De là, prenez la ligne 1 (généralement rames bleues) en direction de « Mosson ». La station la plus centrale est « Place de la Comédie ».
+Taxi (~15 minutes) : le trajet coûte environ 30 €. Il n’y a pas de service Lyft ou Uber à Montpellier.
+
+** Soirée de Gala
+:PROPERTIES:
+:CUSTOM_ID: infos-gala
+:END:
+
+Au Gazette Café (https://www.gazettecafe.com/a-propos)
+6 rue Levat 34000 Montpellier
+
+Avec une animation « Surprise »
+
+#+ATTR_HTML: :width 100%
+[[file:media/BandeauSocial Event.jpeg]]
