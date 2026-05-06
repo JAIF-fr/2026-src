@@ -2,6 +2,25 @@
 #+OPTIONS: toc:nil
 #+title: JAIF -- Appel à contributions
 
+#+begin_center
+[[file:media/JAIF2026-CfP.pdf][Appel à contributions (PDF)]]
+#+end_center
 
+** Appel à présentations en séance plénière et à présentation de posters
 
+Les présentations en français ou en anglais se feront en présentiel uniquement.
+Pour présenter vos travaux, vous devez soumettre les informations suivantes *par mail à [[mailto:jaif@saxifrage.saclay.cea.fr][jaif@groupes.renater.fr]] avant le 26 juin 2026* :
+1. Mention du type de présentation : présentation orale et/ou poster,
+2. La langue de présentation (français ou anglais),
+3. Un résumé de votre présentation (de 15 lignes à une page max au format libre),
+4. Le nom de l’orateur et une courte biographie.
+
+** Dates importantes
+
+|                                |             |
+| Date limite pour la soumission | *26 juin*     |
+| Réponses aux auteurs           | *10 juillet*  |
+| JAIF                           | *1er octobre* |
+
+Pour nous contacter : [[mailto:jaif@groupes.renater.fr][jaif@groupes.renater.fr]]
 

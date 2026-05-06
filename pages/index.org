@@ -31,17 +31,17 @@ La journée est composée d’exposés invités, de chercheurs ou d’industriel
 
  La journée se poursuit avec un [[./infos-pratiques.html#social-event][social event]] en soirée.
 
-# ** Dates importantes
-# :PROPERTIES:
-# :CUSTOM_ID: dates
-# :END:
+** Dates importantes
+:PROPERTIES:
+:CUSTOM_ID: dates
+:END:
 
-# L'[[./cfp.html][appel à contributions]] est détaillé sur une page dédiée.
+L'[[./cfp.html][appel à contributions]] est détaillé sur une page dédiée.
 
-# |                                |                   |
-# | Date limite pour la soumission | +27 juin+ *4 juillet* |
-# | Réponses aux auteurs           | *12 juillet*        |
-# | JAIF                           | *1er Octobre*       |
+|                                |             |
+| Date limite pour la soumission | *26 juin*     |
+| Réponses aux auteurs           | *10 juillet*  |
+| JAIF                           | *1er Octobre* |
 
 ** Soutien institutionnel et sponsors
 :PROPERTIES:
