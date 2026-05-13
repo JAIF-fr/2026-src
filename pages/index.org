@@ -168,7 +168,7 @@ l'[[https://www.ssi.gouv.fr/][ANSSI]],
 + Damien Couroussé -- CEA-List, Université Grenoble Alpes
 + Jean-Max Dutertre  -- MSE, Centre Microélectronique de Provence
 + Karine Heydemann -- Thales DIS France
-+ Ronan Lashermes -- INRIA Rennes
++ Ronan Lashermes -- Rambus
 + Philippe Maurine (organisateur local) -- Université de Montpellier, LIRMM
 + Marie-Laure Potet -- VÉRIMAG, Grenoble INP
 
