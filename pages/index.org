@@ -31,7 +31,6 @@ La journée est composée d’exposés invités, de chercheurs ou d’industriel
 
  # La journée se poursuit avec un [[./infos-pratiques.html#social-event][social event]] en soirée.
 
-
 # ** Dates importantes
 # :PROPERTIES:
 # :CUSTOM_ID: dates
@@ -51,14 +50,12 @@ La journée est composée d’exposés invités, de chercheurs ou d’industriel
 
 La journée est organisée avec le soutien de
 - [[https://www.lirmm.fr/securite][l’axe transverse Sécurité et Sûreté du LIRMM]] ;
-- l'[[https://www.ico-occitanie.fr/][Institut Cybersécurité Occitanie]]---cet évènement bénéficie du soutien du Défi Clé ICO, Institut Cybersécurité Occitanie, initié et financé par la Région Occitanie, France.
-
-
+- l'[[https://www.ico-occitanie.fr/][Institut Cybersécurité Occitanie]]---cet évènement bénéficie du soutien du Défi Clé ICO, Institut Cybersécurité Occitanie, initié et financé par la Région Occitanie, France ;
+- du [[https://gdr-securite.irisa.fr][GDR Sécurité Informatique]].
 
 # de l'IMT, des [[https://www.mines-stetienne.fr][Mines de Saint-Étienne]], de l'[[https://www.irisa.fr][IRISA]] et de l'[[https://www.inria.fr][INRIA]],
 # de l'[[https://www.univ-grenoble-alpes.fr][UGA]],
 # du [[https://www.pepr-cybersecurite.fr][PEPR cybersécurité]],
-# du [[https://gdr-securite.irisa.fr][GDR Sécurité Informatique]],
 # et avec le support du [[https://list.cea.fr][CEA-List]].
 
 #+BEGIN_EXPORT html
@@ -71,6 +68,13 @@ La journée est organisée avec le soutien de
 <a href="https://www.lirmm.fr">
 <img src="./media/logo-LIRMM.png" alt="Logo LIRMM" title="Laboratoire d'Informatique, de Robotique et de Microélectronique de Montpellier" data-align="center" height="120" /></a>
 
+
+     
+<a href="https://gdr-securite.irisa.fr">
+<img src="./media/logo-GDR.png"
+alt="Logo GDR sécurité"
+title="GDR sécurité"
+data-align="center" height="100" /></a>
 </p>
 </center>
 #+END_EXPORT
@@ -106,18 +110,14 @@ La journée est organisée avec le soutien de
 # title="ARSENE"
 # data-align="center" height="100" /></a>
 
-#      
-# <a href="https://gdr-securite.irisa.fr">
-# <img src="./media/GDR_logo_04-vecto-01.png"
-# alt="Logo GDR sécurité"
-# title="GDR sécurité"
-# data-align="center" height="100" /></a>
-
-#      
+#
 # <a href="https://list.cea.fr">
 # <img src="./media/logo-List.jpeg" alt="Logo CEA-List"
 # title="CEA-List"
 # data-align="center" height="100" /></a>
+
+ 
+# ##### saut de ligne 
 
 La journée est aussi sponsorisée par
 [[https://www.alphanov.com/produits-services/solutions-laser-test-de-circuits-integres][ALPhANOV]],
