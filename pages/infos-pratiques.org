@@ -1,5 +1,5 @@
 #+STARTUP: showall
-#+OPTIONS: toc:nil
+#+OPTIONS: toc:nil  \n:t
 #+title: JAIF -- infos pratiques
 
 ** Plan du lieu
@@ -51,3 +51,109 @@ Avec une animation « Surprise »
 
 #+ATTR_HTML: :width 100%
 [[file:media/BandeauSocial Event.jpeg]]
+
+** Hotels
+:PROPERTIES:
+:CUSTOM_ID: hotels
+:END:
+
+Hôtel d'Angleterre**
+7, rue Maguelone
+34000 MONTPELLIER
+Tél : 33 (0)4 67 58 59 50
+contacter par email hoteldangleterre@hotmail.com
+consulter le site Internet  http://www.hotel-d-angleterre.com/
+
+Hôtel du Palais**
+3, rue du Palais
+34000 MONTPELLIER
+Tél : 33 (0)4 67 60 47 38
+contacter par email hoteldupalais2@wanadoo.fr
+consulter le site Internet http://www.hoteldupalais-montpellier.fr/
+
+Hôtel des Arts**
+6, boulevard Victor Hugo
+34000 MONTPELLIER
+Tél : 33 (0)4 67 58 69 20
+contacter par email hoteldesarts@free.fr
+consulter le site Internet  http://www.hotel-des-arts.fr/accueil
+
+Hôtel du Parc**
+8, rue Achille Bégé
+34000 MONTPELLIER
+Tél : 33 (0)4 67 41 16 49
+contacter par email hotelduparcmtp@wanadoo.fr
+http://www.hotelduparc-montpellier.com/
+
+Best Western LE GUILHEM***
+18 rue Jean Jacques Rousseau
+34000 MONTPELLIER
+Tél : +33 4 67 52 90 90
+
+Hôtel d’Aragon***
+10 rue Baudin
+34000 Montpellier, Languedoc Roussillon, France
+Tél : +33 (0)4 67 10 7000
+Courriel : info@hotel-aragon.fr
+
+HÔTEL des ARCEAUX***
+33-35 Boulevard Des Arceaux
+34000 Montpellier
+Tel: +33 (0)4 67 92 03 03
+Mel: contact@hoteldesarceaux.com
+
+IBIS MONTPELLIER CENTRE***
+Boulevard d'Antigone
+95, place Vauban
+34000 MONTPELLIER
+Tél : +33 4 67 64 06 64
+Tél : +33 4 67 42 19 93
+
+Pullman Montpellier Centre Hôtel****
+Rue des Pertuisanes
+34000 MONTPELLIER
+Tel: (+33)4/67997272
+Email : H1294@accor.com
+
+Mercure Montpellier Centre Antigone Hôtel****
+285 bld de l'aéroport
+International-Antigone
+34000 MONTPELLIER
+Tel: (+33)4/67206363
+
+Mercure Montpellier Centre Comedie****
+6 rue de la Spirale
+34000 MONTPELLIER
+Tel: (+33)4/67998989
+
+Hôtel Oceania Le Métropole Montpellier****
+3 rue Clos René
+34000 Montpellier
+Tél. : (+33)4 67 12 32 32
+Email : oceania.montpellier@oceaniahotels.com
+
+Novotel Suites Montpellier****
+45 avenue du Pirée
+34000 MONTPELLIER
+Tel : (+33)4/67205757
+
+Le Grand Hôtel du Midi****
+22 Boulevard Victor Hugo
+34000 Montpellier
+Tel :  (+33)4 67 92 69 61
+Email : hoteldumidi@maranathahotels.com
+
+Le Crown Plaza****
+190 Rue d'Argencourt
+34000 Montpellier
+Tel : (+33)4 67 72 22 22
+
+Hôtel Kyriad Prestige****
+135 Rue Jugurtha
+34070 Montpellier
+Tel : (+33)4 67 64 56 45
+
+Courtyard Montpellier****
+105 Place Georges Frêche
+34000 Montpellier
+Tel : (+33)4 99 54 74 00
