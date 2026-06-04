@@ -120,12 +120,12 @@ data-align="center" height="100" /></a>
 # ##### saut de ligne 
 
 La journée est aussi sponsorisée par
-[[https://www.alphanov.com/produits-services/solutions-laser-test-de-circuits-integres][ALPhANOV]],
-l'[[https://www.ssi.gouv.fr/][ANSSI]],
-[[https://eshard.com][eShard]],
-[[https://ninjalab.io][NinjaLab]],
-[[https://www.serma-safety-security.com][Serma Safety & Security]],
-[[https://www.thalesgroup.com/fr/europe/france/dis][Thales DIS Identité et Sécurité Numériques]].
+- [[https://www.alphanov.com/produits-services/solutions-laser-test-de-circuits-integres][ALPhANOV]],
+- l'[[https://www.ssi.gouv.fr/][ANSSI]],
+- [[https://eshard.com][eShard]],
+- [[https://ninjalab.io][NinjaLab]],
+- [[https://www.serma-safety-security.com][Serma Safety & Security]],
+- [[https://www.thalesgroup.com/fr/europe/france/dis][Thales DIS Identité et Sécurité Numériques]].
 
 #  [[https://www.brightsight.com][Brightsight]],
 
