@@ -123,7 +123,8 @@ La journée est aussi sponsorisée par
 [[https://www.alphanov.com/produits-services/solutions-laser-test-de-circuits-integres][ALPhANOV]],
 l'[[https://www.ssi.gouv.fr/][ANSSI]],
 [[https://eshard.com][eShard]],
-[[https://ninjalab.io][NinjaLab]].
+[[https://ninjalab.io][NinjaLab]],
+[[https://www.serma-safety-security.com][Serma Safety & Security]],
 
 #  [[https://www.brightsight.com][Brightsight]],
 # [[https://www.thalesgroup.com/fr/europe/france/dis][Thales DIS Identité et Sécurité Numériques]].
@@ -145,6 +146,10 @@ l'[[https://www.ssi.gouv.fr/][ANSSI]],
      
 <a href="https://ninjalab.io">
 <img src="./media/logo-NinjaLab.svg" alt="Logo NinjaLab" title="NinjaLab" data-align="center" height="100" /></a>
+
+     
+<a href="https://www.serma-safety-security.com">
+<img src="./media/logo-Serma.jpg" alt="Logo Serma" title="Serma" data-align="center" height="80" /></a>
 </center>
 #+END_EXPORT
 
