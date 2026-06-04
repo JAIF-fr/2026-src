@@ -125,9 +125,9 @@ l'[[https://www.ssi.gouv.fr/][ANSSI]],
 [[https://eshard.com][eShard]],
 [[https://ninjalab.io][NinjaLab]],
 [[https://www.serma-safety-security.com][Serma Safety & Security]],
+[[https://www.thalesgroup.com/fr/europe/france/dis][Thales DIS Identité et Sécurité Numériques]].
 
 #  [[https://www.brightsight.com][Brightsight]],
-# [[https://www.thalesgroup.com/fr/europe/france/dis][Thales DIS Identité et Sécurité Numériques]].
 
 #+BEGIN_EXPORT html
 <center>
@@ -150,6 +150,11 @@ l'[[https://www.ssi.gouv.fr/][ANSSI]],
      
 <a href="https://www.serma-safety-security.com">
 <img src="./media/logo-Serma.jpg" alt="Logo Serma" title="Serma" data-align="center" height="80" /></a>
+
+     
+<a href="https://www.thalesgroup.com/fr/europe/france/dis">
+<img src="./media/logo-Thales.png" alt="Logo Thales" title="Thales DIS" data-align="center" height="140" /></a>
+
 </center>
 #+END_EXPORT
 
@@ -158,9 +163,6 @@ l'[[https://www.ssi.gouv.fr/][ANSSI]],
 # <img src="./media/SGS-Brightsight.png" alt="Logo SGS-Brightsight" title="SGS-Brightsight" data-align="center" height="100" /></a>
 
 
-#      
-# <a href="https://www.thalesgroup.com/fr/europe/france/dis">
-# <img src="./media/Thales.png" alt="Logo Thales" title="Thales DIS" data-align="center" height="140" /></a>
 
 ** Comité d'organisation
 :PROPERTIES:
