@@ -9,7 +9,7 @@
 ** Appel à présentations en séance plénière et à présentation de posters
 
 Les présentations en français ou en anglais se feront en présentiel uniquement.
-Pour présenter vos travaux, vous devez soumettre les informations suivantes *par mail à [[mailto:jaif@saxifrage.saclay.cea.fr][jaif@groupes.renater.fr]] avant le 26 juin 2026* :
+Pour présenter vos travaux, vous devez soumettre les informations suivantes *par mail à [[mailto:jaif@groupes.renater.fr][jaif@groupes.renater.fr]] avant le 26 juin 2026* :
 1. Mention du type de présentation : présentation orale et/ou poster,
 2. La langue de présentation (français ou anglais),
 3. Un résumé de votre présentation (de 15 lignes à une page max au format libre),
