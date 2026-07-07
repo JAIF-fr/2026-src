@@ -1,0 +1,10 @@
+*** [TALK TITLE]
+
+[for each author]
+[AUTHOR NAME] ([AUTHOR AFFILIATION]),
+
+*Abstract*.
+[TALK ABSTRACT. 250 words max.]
+
+*Bio*.
+[SPEAKER BIO. 100 words max.]
