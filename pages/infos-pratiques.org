@@ -41,7 +41,7 @@ Taxi (~15 minutes) : le trajet coûte environ 30 €. Il n’y a pas de service 
 
 ** Soirée de Gala
 :PROPERTIES:
-:CUSTOM_ID: infos-gala
+:CUSTOM_ID: social-event
 :END:
 
 Au Gazette Café (https://www.gazettecafe.com/a-propos)

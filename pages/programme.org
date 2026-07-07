@@ -4,3 +4,83 @@
 #+EXPORT_EXCLUDE_TAGS: noexport
 #+title: JAIF -- programme
 
+
+
+| 09h00 |                                            | Accueil café - badges                                                                                                           |
+| 09h30 | Philippe Maurine  (LIRMM)                  | Ouverture de la journée & mot d’accueil                                                                                         |
+| 09h45 |                                            | *Session 1 – Applications concrètes et implications juridiques*                                                                   |
+|       | Lennert Wouters / Benedikt Gierlichs (KUL) | (tbd)                                                                                                                           |
+|       | Francois Viangalli (Univ. Grenoble-Alpes)  | Les attaques par injection de fautes : premiers jalons pour une analyse juridique                                               |
+| 10h45 |                                            | Pause café - [[#posters][posters / demos / stands]]                                                                                           |
+| 11h30 |                                            | *Session 2 – Contremesures Logicielles*                                                                                           |
+|       | Sébastien Michelland (IRISA)               | Analyse statique pour quantifier la robustesse des programmes contre les attaques multi-fautes sur le flot de contrôle          |
+|       | Yanis Sellami (CEA)                        | Vérification efficace des protections contre les attaques par injection de fautes au niveau binaire                             |
+|       | Etienne Boespflug (Verimag)                | Étude de la surface d'attaque de Rust face aux injections de fautes multiples                                                   |
+| 12h30 |                                            | Déjeuner - [[#posters][posters and demos]]                                                                                                    |
+| 14h00 |                                            | *Session 3 – PQC, Vérification formelle et caractérisation*                                                                       |
+|       | Anderson Callé Viera (Thales)              | (tbd)                                                                                                                           |
+|       | Thomas Techer (SGS)                        | Quand la cryptographie post-quantique rencontre l'injection de fautes : attaques pratiques contre ML-KEM et ML-DSA.             |
+|       | Daniel Thirion (STM)                       | Vérification formelle guidée par des modèles de fautes de primitives cryptographiques matérielles contre les attaques en fautes |
+|       | Jonah Alle Monne (CEA)                     | Synthèse de programmes de caractérisation à partir du RTL pour l'injection de fautes                                            |
+| 15h30 |                                            | Pause café - [[#posters][posters and demos]]                                                                                                  |
+| 16h15 |                                            | *Session 4 – Laser & photoémission*                                                                                               |
+|       | Rodrigo Silva Lima (AlphaNov)              | Analyse de l’efficacité des lasers pico et femto seconde à l’injection de faute.                                                |
+|       | Mael Coatanhay (IETR)                      | Photoémission et injection de fautes laser sur microcontrôleur RISC-V                                                           |
+|       | Olivier Savry (CEA)                        | Au-delà de la redondance : polymorphisme matériel contre l'injection de fautes par laser multi-faisceaux                        |
+| 17h15 | Comité d’organisation                      | Mot de clôture de la journée                                                                                                    |
+| 19h00 |                                            | [[./infos-pratiques.html#social-event][social event]]                                                                                                                    |
+
+
+*Posters*
+
+Germain Eguina, Vincent beroulle, Louis Morge-Rollet, Valentin Egloff, Youssef
+Serrestou. Évaluation et renforcement des modules d'IA embarquée pour la sûreté
+et la sécurité dans les systèmes critiques.
+(Univ. Grenoble-Alpes, Université du Man, CNRS.)
+
+Mouad Rabiai, Valentin Egloff, Vincent Beroulle, Paolo Maistri Modélisation des fautes
+au niveau RTL et contre-mesures : axes de recherche dans le contexte des attaques
+laser sur les microarchitectures RISC-V
+(Univ. Grenoble Alpes)
+
+Telly Raheriniaina, Kévin Quénéhervé, Philippe Tanguy, Rachid Dafali, Vianney Lapôtre.
+Rejeu d'instructions piloté par le matériel dans le coeur RISC-V cva6
+(Univ. Bretagne Sud, DGA MI)
+
+Alexis Hamon, Vincent laporte, Véronique Cortier. Propriété de conservation des
+compilo de la robustesse aux injections de fautes. (LORIA)
+
+Boenzemwendé, Israel Kafando, Jonah Alle Monne, Damien Couroussé, Mathieu Jan
+Une méthodologie pour analyser le comportement de la microarchitecture sous
+injection de glitches d'horloge. (Univ. Grenoble Alpe, CEA, Univ. Paris-Saclay)
+
+Laurent Maingault, Stéphanie Anceau, Alejandro Urena-Acuna, Guillaume hubert,
+Sophie Bouat, Rémi Tucoulou. Attaque par injection de fautes aux rayons X sur un
+transistor unique en 22 nm FD-SOI. (CEA, ONERA, SIMaP, ESRF)
+
+Laurent Le Brizoual, H. Djeha, L. Pichon, E. Ferrucho Alavarez, L. Claudepierre, R. Viera, J. M.
+Dutertre. Simulation TCAD 2D d’injection de faute laser au sein de composant
+unitaire. (ITER, ENSMSE)
+
+Hugo Perrin, Raphael Viera, Jean baptiste Rigaud. Stimulation thermique par laser
+des capteurs de courant intégrés dans les dispositifs silicium. (ENSME)
+
+** Présentations invitées
+
+to be detailed
+
+** Présentations
+:PROPERTIES:
+:CUSTOM_ID: presentations
+:END:
+
+
+to be detailed
+
+** Posters
+:PROPERTIES:
+:CUSTOM_ID: posters
+:END:
+
+
+to be detailed
