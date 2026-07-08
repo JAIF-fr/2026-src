@@ -47,9 +47,6 @@ Telly Raheriniaina, Kévin Quénéhervé, Philippe Tanguy, Rachid Dafali, Vianne
 Rejeu d'instructions piloté par le matériel dans le coeur RISC-V cva6
 (Univ. Bretagne Sud, DGA MI)
 
-Alexis Hamon, Vincent laporte, Véronique Cortier. Propriété de conservation des
-compilo de la robustesse aux injections de fautes. (LORIA)
-
 Boenzemwendé, Israel Kafando, Jonah Alle Monne, Damien Couroussé, Mathieu Jan
 Une méthodologie pour analyser le comportement de la microarchitecture sous
 injection de glitches d'horloge. (Univ. Grenoble Alpe, CEA, Univ. Paris-Saclay)
@@ -57,10 +54,6 @@ injection de glitches d'horloge. (Univ. Grenoble Alpe, CEA, Univ. Paris-Saclay)
 Laurent Maingault, Stéphanie Anceau, Alejandro Urena-Acuna, Guillaume hubert,
 Sophie Bouat, Rémi Tucoulou. Attaque par injection de fautes aux rayons X sur un
 transistor unique en 22 nm FD-SOI. (CEA, ONERA, SIMaP, ESRF)
-
-Laurent Le Brizoual, H. Djeha, L. Pichon, E. Ferrucho Alavarez, L. Claudepierre, R. Viera, J. M.
-Dutertre. Simulation TCAD 2D d’injection de faute laser au sein de composant
-unitaire. (ITER, ENSMSE)
 
 Hugo Perrin, Raphael Viera, Jean baptiste Rigaud. Stimulation thermique par laser
 des capteurs de courant intégrés dans les dispositifs silicium. (ENSME)
