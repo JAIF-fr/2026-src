@@ -4,6 +4,7 @@
 #+EXPORT_EXCLUDE_TAGS: noexport
 #+title: JAIF -- programme
 
+|       |                                                 |                                                                                                                                 |
 | 09h00 |                                                 | Accueil café - badges                                                                                                           |
 | 09h30 | Philippe Maurine  (LIRMM)                       | Ouverture de la journée & mot d’accueil                                                                                         |
 | 09h45 |                                                 | *Session 1 – Applications concrètes et implications juridiques*                                                                   |
