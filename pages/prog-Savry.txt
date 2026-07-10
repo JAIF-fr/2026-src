@@ -1,0 +1,19 @@
+Voici la traduction en français, avec les titres conservés en anglais entre crochets :
+
+---
+
+*** [TALK TITLE]
+Au-delà de la redondance : le polymorphisme matériel contre les injections de fautes laser multi-faisceaux
+
+[for each author
+  [AUTHOR NAME] ([AUTHOR AFFILIATION]),
+]
+Olivier SAVRY, CEA-LETI
+
+_[Abstract]_
+[L'injection laser multi-faisceaux atteint désormais jusqu'à quatre points simultanés, ce qui met la redondance spatiale naïve sous forte pression : détecter quatre fautes simultanées nécessiterait une réplication quintuple, un coût qu'aucun budget CPU réaliste ne peut absorber. Nous soutenons que, au-delà d'un certain ordre d'attaque, la redondance doit être remplacée par le polymorphisme. Nous présentons une permutation binaire légère et dépendante d'une clé, qui transforme une donnée 64 bits en une part permutée sur laquelle chaque opération ALU est reconstruite pour être homomorphe. Les calculs (opérations logiques, ADD, SUB, décalage, MUL) sur le mot original et sur sa part permutée suivent des chemins physiques distincts, et tout désaccord déclenche une exception. La clé de permutation est renouvelée à la volée par une transpermutation rapide qui réinitialise l'ensemble du banc de registres sans jamais exposer les données en clair. Ce schéma a été intégré dans le processeur RISC-V superscalaire hors ordre Naxriscv sur FPGA. Nous mesurons un surcoût de 74 % en surface pour l'ALU permutée.]
+
+_[Bio]_
+[Olivier Savry est titulaire d'un doctorat en microélectronique obtenu en 2001 à l'INP Grenoble (France), après un diplôme de l'école d'ingénieurs Phelma (INP Grenoble) en 1997. Il possède également trois masters en traitement du signal (Université Grenoble Alpes, 1997), en microélectronique (UGA, 1998) et en astrophysique (École Normale Supérieure de Lyon, 1998). Olivier travaille depuis plusieurs années au CEA-LETI, où il a contribué à des projets dans le domaine de la sécurité matérielle. Il a participé à la conception d'une architecture sécurisée pour l'IoT et les systèmes cyber-physiques. Il a également collaboré étroitement avec l'industrie automobile sur la sécurité des véhicules. Depuis 2018, il s'investit dans la sécurité des processeurs applicatifs embarqués, avec pour objectif de traiter la majorité des vulnérabilités de manière holistique. Ses travaux portent sur la conception de processeurs intrinsèquement sécurisés, garantissant une confidentialité et une intégrité de bout en bout.]
+
+---

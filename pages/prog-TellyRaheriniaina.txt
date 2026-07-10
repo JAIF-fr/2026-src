@@ -1,0 +1,25 @@
+Please fill the fields in brackets below, and please do not modify the rest of the template.
+
+
+
+*** [Rejeu d'instructions piloté par le matériel dans le coeur RISC-V CVA6]
+
+[for each author
+  [Telly Raheriniaina] ([Univ. Bretagne Sud, UMR 6285, Lab-STICC]),
+  [Kévin Quénéhervé] ([Univ. Bretagne Sud, UMR 6285, Lab-STICC]),
+  [Philippe Tanguy] ([Univ. Bretagne Sud, UMR 6285, Lab-STICC]),
+  [Rachid Dafali] ([DGA MI]),
+  [Vianney Lapôtre] ([Univ. Bretagne Sud, UMR 6285, Lab-STICC]),
+]
+
+*Abstract*.
+[Les attaques par injection de fautes (FIA) représentent une menace sérieuse pour les processeurs embarqués.
+Pour dépasser les limites des processeurs lock-step, jugés trop coûteux en surface et en énergie, le rejeu d'instruction constitue une alternative légère. 
+Dans ce travail, nous proposons un mécanisme de rejeu aléatoire d'instructions entièrement matériel et intégré dans le processeur RISC-V CVA6.
+Ce mécanisme est transparent pour le développeur logiciel. 
+
+]
+
+*Bio*.
+[Telly RAHERINIAINA est doctorant en première année à l'UBS, Laboratoire Lab-STICC, au sein de l'équipe ARCAD à Lorient.
+Ses travaux de thèse se focalisent sur l'étude et la conception de processeurs embarqués robustes aux attaques par injections de fautes financé dans le cadre du projet ANR FAIR (ANR-25-CE39-5360).]

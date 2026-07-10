@@ -1,0 +1,18 @@
+Please fill the fields in brackets below, and please do not modify the rest of the template.
+
+
+
+*** Analyse statique pour quantifier la robustesse des programmes contre les attaques multi-fautes sur le flot de contrôle
+
+Sébastien Michelland (Univ Rennes, Inria, CNRS, IRISA)
+Antoine Gicquel (Univ Rennes, Inria, CNRS, IRISA)
+Damien Hardy (Univ Rennes, Inria, CNRS, IRISA)
+Erven Rohou (Univ Rennes, Inria, CNRS, IRISA)
+
+*Abstract*.
+Analyser les effets d'injections de fautes au niveau logiciel est difficile parce que l'exécution fautée ne respecte pas la sémantique des programmes. Par exemple, sauter un retour de fonction peut permettre à l'attaquant de tomber dans une fonction différente sans réaliser proprement un appel. D'où des exécutions complètement invalides vis-à-vis du programme source, mais qui se terminent sans erreur tout en violant les propriétés de sécurité du système. Ces problèmes s'amplifient sous la pression d'attaques multi-fautes capables d'altérer à la fois la logique du code et ses contremesures.
+
+L'outil SAMVA, de Gicquel et al., analyse ce type de vulnérabilités en présence de sauts et rejeus d'instruction multi-fautes. Équipé d'un plan d'attaque tel que "partant du début de verifyPIN, atteindre et exécuter authenticated=true sans exécuter la contremesure", SAMVA trouve des séquences de fautes qui réalisent le plan par une combinaison d'analyse statique, heuristiques et émulation. Cette présentation couvrira les idées principales de SAMVA et ses tous nouveaux algorithmes qui éliminent les heuristiques au profit d'une analyse complète. La dernière version de SAMVA trouve *toutes* les attaques possibles (dans une classe bien définie) et les énumère par coût croissant ; elle trouve donc les attaques optimales et, par dualité, le niveau de robustesse du programme contre le modèle de faute et le plan d'attaque choisis. Ses performances sont aussi grandement améliorées ; SAMVA trouve généralement des attaques optimales de plus de 10 fautes en quelques secondes, et dans un cas prouve en 30 secondes qu'aucune attaque n'existe en 17 fautes ou moins.
+
+*Bio*.
+Sébastien researches the development and analysis of programs, from compilation and security to semantics and formal verification. He holds a Ph.D in making compilers obey security requirements (sometimes without crashing!). He is currently a post-doc at Inria Rennes (PACAP), working on secure compilation and static analysis of programs' robustness against fault injections, unless he's being distracted by funny-looking optimization techniques, in which case he's not working.
