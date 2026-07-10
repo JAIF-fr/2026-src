@@ -30,15 +30,11 @@
 
 *Posters*
 
-| Germain Eguina (LCIS) et al.               | [[#eguina][Évaluation et renforcement des modules d'IA embarquée pour la sûreté et la sécurité dans les systèmes critiques]]                                   |
-| Telly Raheriniaina (Lab-STICC) et al.      | [[#raheriniaina][Rejeu d'instructions piloté par le matériel dans le coeur RISC-V CVA6]]                                                                             |
-| Edouard Franco (CEA, ONERA) et al.         | [[#franco][Attaque par injection de fautes aux rayons X sur un transistor unique en 22 nm FD-SOI]]                                                             |
-| Mouad Rabiai (Univ. Grenoble Alpes) et al. | [[#rabiai][Modélisation des fautes au niveau RTL et contre-mesures : axes de recherche dans le contexte des attaques laser sur les microarchitectures RISC-V]] |
-
-Boenzemwendé, Israel Kafando, Jonah Alle Monne, Damien Couroussé, Mathieu Jan
-Une méthodologie pour analyser le comportement de la microarchitecture sous
-injection de glitches d'horloge. (Univ. Grenoble Alpe, CEA, Univ. Paris-Saclay)
-
+| Germain Eguina (LCIS) et al.                   | [[#eguina][Évaluation et renforcement des modules d'IA embarquée pour la sûreté et la sécurité dans les systèmes critiques]]                                   |
+| Telly Raheriniaina (Lab-STICC) et al.          | [[#raheriniaina][Rejeu d'instructions piloté par le matériel dans le coeur RISC-V CVA6]]                                                                             |
+| Edouard Franco (CEA, ONERA) et al.             | [[#franco][Attaque par injection de fautes aux rayons X sur un transistor unique en 22 nm FD-SOI]]                                                             |
+| Mouad Rabiai (Univ. Grenoble Alpes) et al.     | [[#rabiai][Modélisation des fautes au niveau RTL et contre-mesures : axes de recherche dans le contexte des attaques laser sur les microarchitectures RISC-V]] |
+| Boenzemwendé, Israel Kafando (CEA List) et al. | [[#kafando][Une méthodologie pour analyser le comportement de la microarchitecture sous injection de glitches d'horloge]]                                       |
 
 Hugo Perrin, Raphael Viera, Jean baptiste Rigaud. Stimulation thermique par laser
 des capteurs de courant intégrés dans les dispositifs silicium. (ENSME)
@@ -250,3 +246,22 @@ Notre approche s'articule en plusieurs volets. Elle débute par l'étude de mét
 
 *Bio*.
 Je suis Mouad Rabiai, doctorant en première année à l’Université Grenoble Alpes. Je suis affilié au laboratoire LCIS à Valence ainsi qu’au laboratoire TIMA à Grenoble. Ma thèse porte sur la modélisation des attaques par injection de fautes laser au niveau RTL sur les architectures RISC-V. Je suis encadré par Vincent Beroulle, Valentin Egloff et Paolo Maistri.
+
+*** Une méthodologie pour l’analyse du comportement microarchitectural sous injection de glitch d’horloge
+:PROPERTIES:
+:CUSTOM_ID: kafando
+:END:
+
+*Boenzemwendé Israel Kafando* (CEA List),
+Jonah Alle Monne  (CEA List),
+Damien Couroussé (CEA List),
+Mathieu Jan (CEA List)
+
+*Abstract*.
+L’injection de fautes est une technique bien connue permettant de compromettre la sécurité et la sûreté des systèmes embarqués. Il existe un intérêt croissant de comprendre le comportement des processeurs embarqués soumis à des injections de fautes, afin d’expliquer avec précision la manifestation des fautes et de suivre leur propagation depuis leur cause première au sein de la microarchitecture.
+Dans ce travail, nous présentons une méthodologie permettant d’observer avec une précision au cycle près l’état microarchitectural d’un processeur RISC-V soumis à une injection par perturbation de l'horloge. L’approche proposée repose sur une unité de monitoring qui sonde des signaux internes sélectionnés à l’aide d’une horloge indépendante de celle pilotant le processeur testé.
+La méthodologie comprend également une analyse du caractère intrusif introduit par la logique de monitoring supplémentaire, afin de garantir que les conditions d’injection restent représentatives de l’implémentation de base. Parmi un espace de paramètres de 103 284 configurations, seules 69 configurations conduisant à des sorties erronées présentent une correspondance parfaite avec l'implémentation de base.
+Nous appliquons cette méthodologie au cœur CV32E40S afin d’analyser ses contre-mesures basées sur des alertes et montrons que ces mécanismes présentent des dysfonctionnements dans des scénarios de détection d'injections par perturbation de d’horloge
+
+*Bio*.
+Boenzemwendé Israel Kafando est doctorant au CEA-List et à l’Université Grenoble Alpes, en France. Ses travaux de recherche portent sur l’établissement de garanties formelles de robustesse pour les processeurs open-source, à travers la formalisation de contrats matériel–logiciel au niveau de ISA face aux attaques par injection de fautes. Il est titulaire d’un diplôme d’ingénieur en systèmes numériques de l’ENSSAT Lannion depuis 2025.
