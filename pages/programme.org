@@ -30,12 +30,13 @@
 
 *Posters*
 
-| Germain Eguina (LCIS) et al.                   | [[#eguina][Évaluation et renforcement des modules d'IA embarquée pour la sûreté et la sécurité dans les systèmes critiques]]                                   |
-| Telly Raheriniaina (Lab-STICC) et al.          | [[#raheriniaina][Rejeu d'instructions piloté par le matériel dans le coeur RISC-V CVA6]]                                                                             |
-| Edouard Franco (CEA, ONERA) et al.             | [[#franco][Attaque par injection de fautes aux rayons X sur un transistor unique en 22 nm FD-SOI]]                                                             |
-| Mouad Rabiai (Univ. Grenoble Alpes) et al.     | [[#rabiai][Modélisation des fautes au niveau RTL et contre-mesures : axes de recherche dans le contexte des attaques laser sur les microarchitectures RISC-V]] |
-| Boenzemwendé, Israel Kafando (CEA List) et al. | [[#kafando][Une méthodologie pour analyser le comportement de la microarchitecture sous injection de glitches d'horloge]]                                       |
-| Hugo Perrin (ENSME, CEA Leti) et al.           | [[#perrin][Stimulation thermique par laser des capteurs de courant intégrés dans les dispositifs silicium]]                                                    |
+|                                               |                                                                                                                                                   |
+| Israel Kafando Boenzemwendé (CEA List) et al. | [[#kafando][Une méthodologie pour analyser le comportement de la microarchitecture sous injection de glitches d'horloge]]                                       |
+| Germain Eguina (LCIS) et al.                  | [[#eguina][Évaluation et renforcement des modules d'IA embarquée pour la sûreté et la sécurité dans les systèmes critiques]]                                   |
+| Edouard Franco (CEA, ONERA) et al.            | [[#franco][Injection de fautes par rayons X sur transistor unique dans un circuit intégré "Fully-Depleted Silicon On Insulator" 22 nm]]                        |
+| Hugo Perrin (ENSME, CEA Leti) et al.          | [[#perrin][Stimulation thermique par laser des capteurs de courant intégrés dans les dispositifs silicium]]                                                    |
+| Mouad Rabiai (Univ. Grenoble Alpes) et al.    | [[#rabiai][Modélisation des fautes au niveau RTL et contre-mesures : axes de recherche dans le contexte des attaques laser sur les microarchitectures RISC-V]] |
+| Telly Raheriniaina (Lab-STICC) et al.         | [[#raheriniaina][Rejeu d'instructions piloté par le matériel dans le coeur RISC-V CVA6]]                                                                             |
 
 ** Présentations invitées
 
@@ -167,6 +168,7 @@ Pour terminer, nous appliquons des fautes persistantes pour modifier de manière
 
 *Bio*.
  Mael Coatanhay est diplômé du Master Électronique, Énergie Électrique, Automatique (EEEA) option SYSTEMES EMBARQUES de l’Université de Rennes. Il mène actuellement sa thèse au sein de l’équipe Organic And Silicon Systems de l’IETR et l’équipe PACAP, IRISA/INRIA. Sa recherche, porte sur l’évaluation de microcontrôleurs basés sur l’architecture RISC-V face aux attaques par injection de fautes laser et à l’analyse par photoémission. Ce projet est financé par les EUR CyberSchool et le CMA CyberSkills4All.
+
 *** Au-delà de la redondance : le polymorphisme matériel contre les injections de fautes laser multi-faisceaux
 :PROPERTIES:
 :CUSTOM_ID: savry
@@ -184,6 +186,25 @@ Olivier Savry est titulaire d'un doctorat en microélectronique obtenu en 2001 �
 :PROPERTIES:
 :CUSTOM_ID: posters
 :END:
+
+*** Une méthodologie pour l’analyse du comportement microarchitectural sous injection de glitch d’horloge
+:PROPERTIES:
+:CUSTOM_ID: kafando
+:END:
+
+*Boenzemwendé Israel Kafando* (CEA List),
+Jonah Alle Monne  (CEA List),
+Damien Couroussé (CEA List),
+Mathieu Jan (CEA List)
+
+*Abstract*.
+L’injection de fautes est une technique bien connue permettant de compromettre la sécurité et la sûreté des systèmes embarqués. Il existe un intérêt croissant de comprendre le comportement des processeurs embarqués soumis à des injections de fautes, afin d’expliquer avec précision la manifestation des fautes et de suivre leur propagation depuis leur cause première au sein de la microarchitecture.
+Dans ce travail, nous présentons une méthodologie permettant d’observer avec une précision au cycle près l’état microarchitectural d’un processeur RISC-V soumis à une injection par perturbation de l'horloge. L’approche proposée repose sur une unité de monitoring qui sonde des signaux internes sélectionnés à l’aide d’une horloge indépendante de celle pilotant le processeur testé.
+La méthodologie comprend également une analyse du caractère intrusif introduit par la logique de monitoring supplémentaire, afin de garantir que les conditions d’injection restent représentatives de l’implémentation de base. Parmi un espace de paramètres de 103 284 configurations, seules 69 configurations conduisant à des sorties erronées présentent une correspondance parfaite avec l'implémentation de base.
+Nous appliquons cette méthodologie au cœur CV32E40S afin d’analyser ses contre-mesures basées sur des alertes et montrons que ces mécanismes présentent des dysfonctionnements dans des scénarios de détection d'injections par perturbation de d’horloge
+
+*Bio*.
+Boenzemwendé Israel Kafando est doctorant au CEA-List et à l’Université Grenoble Alpes, en France. Ses travaux de recherche portent sur l’établissement de garanties formelles de robustesse pour les processeurs open-source, à travers la formalisation de contrats matériel–logiciel au niveau de ISA face aux attaques par injection de fautes. Il est titulaire d’un diplôme d’ingénieur en systèmes numériques de l’ENSSAT Lannion depuis 2025.
 
 *** Évaluation et renforcement des modules d'IA embarqués pour les systèmes critiques
 :PROPERTIES:
@@ -205,31 +226,6 @@ L'objectif est de développer une méthodologie d'évaluation des modèles unifi
 
 *Bio*.
 Doctorant depuis février 2026 au Laboratoire de Conception et d'Intégration des Systèmes (LCIS) à Valence. Diplômé en 2025 de l'ENSPIMA (Bordeaux INP), où j'ai suivi une formation d'ingénieur en maintenance aéronautique avec une spécialisation en systèmes avioniques et embarqués. Mes travaux de recherche portent sur l'évaluation et le renforcement de la robustesse des modules d'IA embarqués dans les systèmes critiques face aux perturbations intentionnelles et non intentionnelles en considérant conjointement les dimensions algorithmique et matérielle.
-
-
-*** Rejeu d'instructions piloté par le matériel dans le coeur RISC-V CVA6
-:PROPERTIES:
-:CUSTOM_ID: raheriniaina
-:END:
-
-  *Telly Raheriniaina* (Univ. Bretagne Sud, UMR 6285, Lab-STICC),
-  Kévin Quénéhervé (Univ. Bretagne Sud, UMR 6285, Lab-STICC),
-  Philippe Tanguy (Univ. Bretagne Sud, UMR 6285, Lab-STICC),
-  Rachid Dafali (DGA MI),
-  Vianney Lapôtre (Univ. Bretagne Sud, UMR 6285, Lab-STICC)
-
-*Abstract*.
-Les attaques par injection de fautes (FIA) représentent une menace sérieuse pour les processeurs embarqués.
-Pour dépasser les limites des processeurs lock-step, jugés trop coûteux en surface et en énergie, le rejeu d'instruction constitue une alternative légère.
-Dans ce travail, nous proposons un mécanisme de rejeu aléatoire d'instructions entièrement matériel et intégré dans le processeur RISC-V CVA6.
-Ce mécanisme est transparent pour le développeur logiciel.
-
-
-
-*Bio*.
-Telly RAHERINIAINA est doctorant en première année à l'UBS, Laboratoire Lab-STICC, au sein de l'équipe ARCAD à Lorient.
-Ses travaux de thèse se focalisent sur l'étude et la conception de processeurs embarqués robustes aux attaques par injections de fautes financé dans le cadre du projet ANR FAIR (ANR-25-CE39-5360).
-
 
 *** Injection de fautes par rayons X sur transistor unique dans un circuit intégré "Fully-Depleted Silicon On Insulator" 22 nm
 :PROPERTIES:
@@ -254,6 +250,20 @@ Edouard Franco est un doctorant de 2ème année au laboratoire CESTI du CEA-Leti
 
 
 
+*** Thermal Laser Stimulation of Bulk Built-In Current Sensors in Bulk Silicon Devices
+:PROPERTIES:
+:CUSTOM_ID: perrin
+:END:
+
+  *Hugo Perrin* (Mines Saint-Etienne, CEA-Leti, Centre CMP, Equipe commune SAS, F - 13541 Gardanne France),
+  Jean-Baptiste Rigaud (Mines Saint-Etienne, CEA-Leti, Centre CMP, Equipe commune SAS, F - 13541 Gardanne France),
+  Raphael Viera (Mines Saint-Etienne, CEA-Leti, Centre CMP, Equipe commune SAS, F - 13541 Gardanne France)
+
+*Abstract*.
+Lorsque la longueur d'onde d'une source laser dépasse un certain seuil, l'effet photoélectrique devient négligeable par rapport à l'échauffement thermique. Dans ces conditions, nous cherchons à évaluer la capacité du laser à modifier malgré tout l'état électrique d'un circuit intégré en technologie bulk CMOS. Dans le contexte de la sécurité matérielle, ce questionnement répond à deux problématiques : Ces longueurs d'ondes peuvent-elles êtres employées pour effectuer de l'injection de faute ? Le cas échéant, les effets produits échapperaient-ils aux contre-mesures existantes du type capteurs de courant intégrés. Nous présentons des expériences réalisées sur ASIC sur des capteurs de courants intégrés (Bulk Built-In Current Sensors). Ces structures permettent d'une part une comparaison facile avec les longueurs d'ondes utilisées classiquement pour l'injection de faute, d'autre part leur étude sous le laser nous renseigne sur les différents phénomènes physiques impliqués. Les expériences confirment que les photo-courants sont négligeables. Pour autant le laser est capable de déclencher la bascule du capteur lorsque cette dernière est directement sous le spot. L'échauffement des pistes métalliques environnantes ne semble pas suffisante pour modifier significativement le fonctionnement du capteur aux puissances testées. Enfin, des travaux préliminaires de reproduction des résultats expérimentaux en simulation ont été réalisés : d'après la littérature, des sources de tension du fait des gradients thermiques dans le silicium peuvent perturber la polarisation des transistors.
+
+*Bio*.
+Je m'appelle Hugo Perrin, doctorant en début de troisième année aux Mines Saint-Étienne sur le campus Aix-Marseille Provence à Gardanne, dans le département Systèmes et Architectures Sécurisés (SAS). Ma thèse est dirigée par Jean-Baptiste Rigaud et co-encadrée par Raphael Viera. J'ai travaillé un peu plus d'un an sur la photon-émission à SAS avant d'entamer une thèse sur les effets de la stimulation thermique par laser des circuits intégrés en 2024.
 *** Modélisation des fautes au niveau RTL et contre-mesures : axes de recherche dans le contexte des attaques laser sur les microarchitectures RISC-V
 :PROPERTIES:
 :CUSTOM_ID: rabiai
@@ -270,36 +280,24 @@ Notre approche s'articule en plusieurs volets. Elle débute par l'étude de mét
 *Bio*.
 Je suis Mouad Rabiai, doctorant en première année à l’Université Grenoble Alpes. Je suis affilié au laboratoire LCIS à Valence ainsi qu’au laboratoire TIMA à Grenoble. Ma thèse porte sur la modélisation des attaques par injection de fautes laser au niveau RTL sur les architectures RISC-V. Je suis encadré par Vincent Beroulle, Valentin Egloff et Paolo Maistri.
 
-*** Une méthodologie pour l’analyse du comportement microarchitectural sous injection de glitch d’horloge
+*** Rejeu d'instructions piloté par le matériel dans le coeur RISC-V CVA6
 :PROPERTIES:
-:CUSTOM_ID: kafando
+:CUSTOM_ID: raheriniaina
 :END:
 
-*Boenzemwendé Israel Kafando* (CEA List),
-Jonah Alle Monne  (CEA List),
-Damien Couroussé (CEA List),
-Mathieu Jan (CEA List)
+  *Telly Raheriniaina* (Univ. Bretagne Sud, UMR 6285, Lab-STICC),
+  Kévin Quénéhervé (Univ. Bretagne Sud, UMR 6285, Lab-STICC),
+  Philippe Tanguy (Univ. Bretagne Sud, UMR 6285, Lab-STICC),
+  Rachid Dafali (DGA MI),
+  Vianney Lapôtre (Univ. Bretagne Sud, UMR 6285, Lab-STICC)
 
 *Abstract*.
-L’injection de fautes est une technique bien connue permettant de compromettre la sécurité et la sûreté des systèmes embarqués. Il existe un intérêt croissant de comprendre le comportement des processeurs embarqués soumis à des injections de fautes, afin d’expliquer avec précision la manifestation des fautes et de suivre leur propagation depuis leur cause première au sein de la microarchitecture.
-Dans ce travail, nous présentons une méthodologie permettant d’observer avec une précision au cycle près l’état microarchitectural d’un processeur RISC-V soumis à une injection par perturbation de l'horloge. L’approche proposée repose sur une unité de monitoring qui sonde des signaux internes sélectionnés à l’aide d’une horloge indépendante de celle pilotant le processeur testé.
-La méthodologie comprend également une analyse du caractère intrusif introduit par la logique de monitoring supplémentaire, afin de garantir que les conditions d’injection restent représentatives de l’implémentation de base. Parmi un espace de paramètres de 103 284 configurations, seules 69 configurations conduisant à des sorties erronées présentent une correspondance parfaite avec l'implémentation de base.
-Nous appliquons cette méthodologie au cœur CV32E40S afin d’analyser ses contre-mesures basées sur des alertes et montrons que ces mécanismes présentent des dysfonctionnements dans des scénarios de détection d'injections par perturbation de d’horloge
+Les attaques par injection de fautes (FIA) représentent une menace sérieuse pour les processeurs embarqués.
+Pour dépasser les limites des processeurs lock-step, jugés trop coûteux en surface et en énergie, le rejeu d'instruction constitue une alternative légère.
+Dans ce travail, nous proposons un mécanisme de rejeu aléatoire d'instructions entièrement matériel et intégré dans le processeur RISC-V CVA6.
+Ce mécanisme est transparent pour le développeur logiciel.
 
 *Bio*.
-Boenzemwendé Israel Kafando est doctorant au CEA-List et à l’Université Grenoble Alpes, en France. Ses travaux de recherche portent sur l’établissement de garanties formelles de robustesse pour les processeurs open-source, à travers la formalisation de contrats matériel–logiciel au niveau de ISA face aux attaques par injection de fautes. Il est titulaire d’un diplôme d’ingénieur en systèmes numériques de l’ENSSAT Lannion depuis 2025.
+Telly RAHERINIAINA est doctorant en première année à l'UBS, Laboratoire Lab-STICC, au sein de l'équipe ARCAD à Lorient.
+Ses travaux de thèse se focalisent sur l'étude et la conception de processeurs embarqués robustes aux attaques par injections de fautes financé dans le cadre du projet ANR FAIR (ANR-25-CE39-5360).
 
-*** Thermal Laser Stimulation of Bulk Built-In Current Sensors in Bulk Silicon Devices
-:PROPERTIES:
-:CUSTOM_ID: perrin
-:END:
-
-  *Hugo Perrin* (Mines Saint-Etienne, CEA-Leti, Centre CMP, Equipe commune SAS, F - 13541 Gardanne France),
-  Jean-Baptiste Rigaud (Mines Saint-Etienne, CEA-Leti, Centre CMP, Equipe commune SAS, F - 13541 Gardanne France),
-  Raphael Viera (Mines Saint-Etienne, CEA-Leti, Centre CMP, Equipe commune SAS, F - 13541 Gardanne France)
-
-*Abstract*.
-Lorsque la longueur d'onde d'une source laser dépasse un certain seuil, l'effet photoélectrique devient négligeable par rapport à l'échauffement thermique. Dans ces conditions, nous cherchons à évaluer la capacité du laser à modifier malgré tout l'état électrique d'un circuit intégré en technologie bulk CMOS. Dans le contexte de la sécurité matérielle, ce questionnement répond à deux problématiques : Ces longueurs d'ondes peuvent-elles êtres employées pour effectuer de l'injection de faute ? Le cas échéant, les effets produits échapperaient-ils aux contre-mesures existantes du type capteurs de courant intégrés. Nous présentons des expériences réalisées sur ASIC sur des capteurs de courants intégrés (Bulk Built-In Current Sensors). Ces structures permettent d'une part une comparaison facile avec les longueurs d'ondes utilisées classiquement pour l'injection de faute, d'autre part leur étude sous le laser nous renseigne sur les différents phénomènes physiques impliqués. Les expériences confirment que les photo-courants sont négligeables. Pour autant le laser est capable de déclencher la bascule du capteur lorsque cette dernière est directement sous le spot. L'échauffement des pistes métalliques environnantes ne semble pas suffisante pour modifier significativement le fonctionnement du capteur aux puissances testées. Enfin, des travaux préliminaires de reproduction des résultats expérimentaux en simulation ont été réalisés : d'après la littérature, des sources de tension du fait des gradients thermiques dans le silicium peuvent perturber la polarisation des transistors.
-
-*Bio*.
-Je m'appelle Hugo Perrin, doctorant en début de troisième année aux Mines Saint-Étienne sur le campus Aix-Marseille Provence à Gardanne, dans le département Systèmes et Architectures Sécurisés (SAS). Ma thèse est dirigée par Jean-Baptiste Rigaud et co-encadrée par Raphael Viera. J'ai travaillé un peu plus d'un an sur la photon-émission à SAS avant d'entamer une thèse sur les effets de la stimulation thermique par laser des circuits intégrés en 2024.
