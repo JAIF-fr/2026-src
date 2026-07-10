@@ -32,19 +32,16 @@
 
 | Germain Eguina (LCIS) et al.          | [[#eguina][Évaluation et renforcement des modules d'IA embarquée pour la sûreté et la sécurité dans les systèmes critiques]] |
 | Telly Raheriniaina (Lab-STICC) et al. | [[#raheriniaina][Rejeu d'instructions piloté par le matériel dans le coeur RISC-V CVA6]]                                           |
-
 Mouad Rabiai, Valentin Egloff, Vincent Beroulle, Paolo Maistri Modélisation des fautes
 au niveau RTL et contre-mesures : axes de recherche dans le contexte des attaques
 laser sur les microarchitectures RISC-V
 (Univ. Grenoble Alpes)
+| Edouard Franco (CEA, ONERA) et al.         | [[#franco][Attaque par injection de fautes aux rayons X sur un transistor unique en 22 nm FD-SOI]]                                                             |
 
 Boenzemwendé, Israel Kafando, Jonah Alle Monne, Damien Couroussé, Mathieu Jan
 Une méthodologie pour analyser le comportement de la microarchitecture sous
 injection de glitches d'horloge. (Univ. Grenoble Alpe, CEA, Univ. Paris-Saclay)
 
-Laurent Maingault, Stéphanie Anceau, Alejandro Urena-Acuna, Guillaume hubert,
-Sophie Bouat, Rémi Tucoulou. Attaque par injection de fautes aux rayons X sur un
-transistor unique en 22 nm FD-SOI. (CEA, ONERA, SIMaP, ESRF)
 
 Hugo Perrin, Raphael Viera, Jean baptiste Rigaud. Stimulation thermique par laser
 des capteurs de courant intégrés dans les dispositifs silicium. (ENSME)
@@ -216,3 +213,26 @@ Ce mécanisme est transparent pour le développeur logiciel.
 *Bio*.
 Telly RAHERINIAINA est doctorant en première année à l'UBS, Laboratoire Lab-STICC, au sein de l'équipe ARCAD à Lorient.
 Ses travaux de thèse se focalisent sur l'étude et la conception de processeurs embarqués robustes aux attaques par injections de fautes financé dans le cadre du projet ANR FAIR (ANR-25-CE39-5360).
+
+
+*** Injection de fautes par rayons X sur transistor unique dans un circuit intégré "Fully-Depleted Silicon On Insulator" 22 nm
+:PROPERTIES:
+:CUSTOM_ID: franco
+:END:
+
+  *Edouard FRANCO* (CEA, ONERA),
+  Laurent MAINGAULT (CEA),
+  Stéphanie ANCEAU (CEA),
+  Alejandro URENA-ACUNA (ONERA),
+  Guillaume HUBERT (ONERA),
+  Sophie BOUAT (SIMaP),
+  Rémi TUCOULOU (ESRF)
+
+*Abstract*.
+De nombreux travaux ont démontré que les environnements soumis aux rayonnements ionisants, tels que le spatial ou les installations nucléaires, ont un impact sur la fiabilité et sur la performance des circuits intégrés. Par conséquent, de nombreuses contremesures ont été mises au point ces dernières décennies afin de limiter ces effets.
+Toutefois, ces protections ne sont pas nécessairement efficaces face à des adversaires malveillants capables de focaliser volontairement des rayons X sur des zones très localisées d'une puce, allant de plusieurs cellules à un seul transistor. Au cours de la dernière décennie, la technique d'injection de fautes par rayons X (XRFI) s'est imposée comme une menace crédible pour la sécurité d'un large panel de circuits intégrés, y compris pour des nœuds technologiques avancés.
+Dans cette étude, nous présentons une attaque XRFI qui a été réalisée à l'ESRF ("European Synchrotron Radiation Facility") sur un ASIC FDSOI 22nm conçu par le CEA-Leti. Plusieurs D Flip-Flops (DFFs) ont été ciblées à l'aide d'un faisceau X focalisé avec un diamètre de faisceau d'environ 60 nm, nous permettant de créer des fautes permanentes à l'échelle d'un transistor. Nous détaillons également la méthodologie expérimentale à suivre pour réaliser des attaques XRFI dans un centre de rayonnement synchrotron, apportant ainsi des informations complémentaires sur les aspects pratiques et sur les possibilités qu'offrent cette technique.
+
+*Bio*.
+Edouard Franco est un doctorant de 2ème année au laboratoire CESTI du CEA-Leti à Grenoble (France) et au DPHY (Département de Physique) de l'ONERA à Toulouse (France). Passionné par la physique, la microélectronique et la cybersécurité matérielle, il travaille actuellement sur les attaques par injection de fautes rayons X (XRFI), afin d'étudier leur efficacité sur des circuits intégrés récents et pour approfondir la compréhension des mécanismes physiques/électroniques sous-jacents. Suite à un diplôme d'ingénieur en Génie Physique, spécialisé en Instrumentation, il a choisi d'effectuer un doctorat afin de relier recherche fondamentale et applications pratiques.
+
