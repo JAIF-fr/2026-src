@@ -2,3 +2,17 @@
 #+OPTIONS: toc:nil
 #+title: JAIF -- inscriptions
 
+
+*La participation à la journée est gratuite mais l'inscription est
+obligatoire* pour l'organisation logistique de la journée.  Le nombre
+de participants en présentiel est limité par la capacité d'accueil de
+la salle.
+
+Pour les participations à distance, nous enverrons le lien de visio quelques jours avant la journée.
+
+#+begin_export html
+<iframe src="https://framaforms.org/jaif-2026-1779867067" style="overflow: hidden" width="100%" height="1024" style="border:none"></iframe>
+#+end_export
+
+Si le formulaire d'inscription ne s'affiche pas correctement ci-dessous,
+[[https://framaforms.org/jaif-2026-1779867067][vous pouvez également le retrouver ici]].
