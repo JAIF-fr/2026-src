@@ -30,16 +30,14 @@
 
 *Posters*
 
-| Germain Eguina (LCIS) et al. | [[#eguina][Évaluation et renforcement des modules d'IA embarquée pour la sûreté et la sécurité dans les systèmes critiques]] |
+| Germain Eguina (LCIS) et al.          | [[#eguina][Évaluation et renforcement des modules d'IA embarquée pour la sûreté et la sécurité dans les systèmes critiques]] |
+| Telly Raheriniaina (Lab-STICC) et al. | [[#raheriniaina][Rejeu d'instructions piloté par le matériel dans le coeur RISC-V CVA6]]                                           |
 
 Mouad Rabiai, Valentin Egloff, Vincent Beroulle, Paolo Maistri Modélisation des fautes
 au niveau RTL et contre-mesures : axes de recherche dans le contexte des attaques
 laser sur les microarchitectures RISC-V
 (Univ. Grenoble Alpes)
 
-Telly Raheriniaina, Kévin Quénéhervé, Philippe Tanguy, Rachid Dafali, Vianney Lapôtre.
-Rejeu d'instructions piloté par le matériel dans le coeur RISC-V cva6
-(Univ. Bretagne Sud, DGA MI)
 
 Boenzemwendé, Israel Kafando, Jonah Alle Monne, Damien Couroussé, Mathieu Jan
 Une méthodologie pour analyser le comportement de la microarchitecture sous
@@ -120,3 +118,27 @@ L'objectif est de développer une méthodologie d'évaluation des modèles unifi
 
 *Bio*.
 Doctorant depuis février 2026 au Laboratoire de Conception et d'Intégration des Systèmes (LCIS) à Valence. Diplômé en 2025 de l'ENSPIMA (Bordeaux INP), où j'ai suivi une formation d'ingénieur en maintenance aéronautique avec une spécialisation en systèmes avioniques et embarqués. Mes travaux de recherche portent sur l'évaluation et le renforcement de la robustesse des modules d'IA embarqués dans les systèmes critiques face aux perturbations intentionnelles et non intentionnelles en considérant conjointement les dimensions algorithmique et matérielle.
+
+
+*** Rejeu d'instructions piloté par le matériel dans le coeur RISC-V CVA6
+:PROPERTIES:
+:CUSTOM_ID: raheriniaina
+:END:
+
+  *Telly Raheriniaina* (Univ. Bretagne Sud, UMR 6285, Lab-STICC),
+  Kévin Quénéhervé (Univ. Bretagne Sud, UMR 6285, Lab-STICC),
+  Philippe Tanguy (Univ. Bretagne Sud, UMR 6285, Lab-STICC),
+  Rachid Dafali (DGA MI),
+  Vianney Lapôtre (Univ. Bretagne Sud, UMR 6285, Lab-STICC),
+
+*Abstract*.
+Les attaques par injection de fautes (FIA) représentent une menace sérieuse pour les processeurs embarqués.
+Pour dépasser les limites des processeurs lock-step, jugés trop coûteux en surface et en énergie, le rejeu d'instruction constitue une alternative légère.
+Dans ce travail, nous proposons un mécanisme de rejeu aléatoire d'instructions entièrement matériel et intégré dans le processeur RISC-V CVA6.
+Ce mécanisme est transparent pour le développeur logiciel.
+
+
+
+*Bio*.
+Telly RAHERINIAINA est doctorant en première année à l'UBS, Laboratoire Lab-STICC, au sein de l'équipe ARCAD à Lorient.
+Ses travaux de thèse se focalisent sur l'étude et la conception de processeurs embarqués robustes aux attaques par injections de fautes financé dans le cadre du projet ANR FAIR (ANR-25-CE39-5360).
