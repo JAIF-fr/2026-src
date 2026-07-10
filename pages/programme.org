@@ -23,7 +23,7 @@
 | 15h30 |                                            | Pause café - [[#posters][posters and demos]]                                                                                                                                                                                  |
 | 16h15 |                                            | *Session 4 – Laser & photoémission*                                                                                                                                                                               |
 |       | Rodrigo Silva Lima (AlphaNov)              | Analyse de l’efficacité des lasers pico et femto seconde à l’injection de faute.                                                                                                                                |
-|       | Mael Coatanhay (IETR)                      | Photoémission et injection de fautes laser sur microcontrôleur RISC-V                                                                                                                                           |
+|       | Mael Coatanhay (IETR)                      | [[#coatanhay][Photoémission et injection de fautes laser sur microcontrôleur]] RISC-V                                                                                                                                           |
 |       | Olivier Savry (CEA)                        | [[#savry][Au-delà de la redondance : polymorphisme matériel contre l'injection de fautes par laser multi-faisceaux]]                                                                                                        |
 | 17h15 | Comité d’organisation                      | Mot de clôture de la journée                                                                                                                                                                                    |
 | 19h00 |                                            | [[./infos-pratiques.html#social-event][social event]]                                                                                                                                                                                                    |
@@ -80,6 +80,27 @@ Finally, we present improvements to an attack that reuse the nonce to make the e
 *Bio*.
 Thomas holds an MSc in Microelectronics and Information Technology and joined Brightsight in 2024. His work focuses on hardware security evaluations, particularly fault injection attacks and secure code reviews. He is involved in assessing the robustness of secure implementations against physical attacks, with a growing interest in the security of post-quantum cryptography.
 
+*** Photoémission et injection de fautes laser sur microcontrôleur
+:PROPERTIES:
+:CUSTOM_ID: coatanhay
+:END:
+
+  *Mael Coatanhay* (IETR),
+  Laurent Le Brizoual (IETR),
+  Laurent Pichon (IETR),
+  Damien Hardy (IRISA),
+  Thomas Rubiano (INRIA),
+  Ludovic Claudepierre (IETR),
+  Edna Rocio Ferrucho Alvarez (IETR)
+
+*Abstract*.
+Les attaques par injection de fautes laser (LFI) constituent une menace pour les systèmes embarqués en perturbant temporairement leur comportement ou leurs données.
+Nous proposons une méthodologie combinant la photoémission et l'injection de fautes par laser sur un microcontrôleur 32 bits avec une technologie de 40 nm basée sur l'architecture RISC-V. Nous démontrons les capacités de caractérisation des vulnérabilités d'une implémentation de cette procédure sur une étude de cas d'attaque par injection de fautes persistantes tirée de FISSC (Fault Injection and Simulation Secure Collection). Dans un premier temps, l'analyse par photoémission a permis de réaliser une rétro- ingénierie de l'organisation des mémoires SRAM. Cette étape permet d'identifier la disposition des adresses mémoire ainsi que la localisation des instructions donnant des informations exploitées pour guider des injections de fautes laser ciblées.
+Dans un second temps, cette caractérisation de la SRAM est complétée par une rétro- ingénierie par injection de fautes (Fault Injection Reverse Engineering, FIRE) afin de définir la position des bits sur la SRAM via une approche S-LFI (Single-Laser Fault Injection) fondée sur un modèle de faute de type bit-flip.
+Pour terminer, nous appliquons des fautes persistantes pour modifier de manière ciblée les instructions du benchmark et démontrer la faisabilité d'attaques exploitant ces altérations rémanentes.
+
+*Bio*.
+ Mael Coatanhay est diplômé du Master Électronique, Énergie Électrique, Automatique (EEEA) option SYSTEMES EMBARQUES de l’Université de Rennes. Il mène actuellement sa thèse au sein de l’équipe Organic And Silicon Systems de l’IETR et l’équipe PACAP, IRISA/INRIA. Sa recherche, porte sur l’évaluation de microcontrôleurs basés sur l’architecture RISC-V face aux attaques par injection de fautes laser et à l’analyse par photoémission. Ce projet est financé par les EUR CyberSchool et le CMA CyberSkills4All.
 *** Au-delà de la redondance : le polymorphisme matériel contre les injections de fautes laser multi-faisceaux
 :PROPERTIES:
 :CUSTOM_ID: savry
@@ -129,7 +150,7 @@ Doctorant depuis février 2026 au Laboratoire de Conception et d'Intégration de
   Kévin Quénéhervé (Univ. Bretagne Sud, UMR 6285, Lab-STICC),
   Philippe Tanguy (Univ. Bretagne Sud, UMR 6285, Lab-STICC),
   Rachid Dafali (DGA MI),
-  Vianney Lapôtre (Univ. Bretagne Sud, UMR 6285, Lab-STICC),
+  Vianney Lapôtre (Univ. Bretagne Sud, UMR 6285, Lab-STICC)
 
 *Abstract*.
 Les attaques par injection de fautes (FIA) représentent une menace sérieuse pour les processeurs embarqués.
