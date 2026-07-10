@@ -12,7 +12,7 @@
 | 10h45 |                                            | Pause café - [[#posters][posters / demos / stands]]                                                                                           |
 | 11h30 |                                            | *Session 2 – Contremesures Logicielles*                                                                                           |
 |       | Sébastien Michelland (IRISA)               | [[#michelland][Analyse statique pour quantifier la robustesse des programmes contre les attaques multi-fautes sur le flot de contrôle]]          |
-|       | Yanis Sellami (CEA)                        | Vérification efficace des protections contre les attaques par injection de fautes au niveau binaire                             |
+|       | Yanis Sellami (CEA)                        | [[#sellami][Efficient Verification of Fault Injection Attack Protections at Binary Level]]                                                    |
 |       | Etienne Boespflug (Verimag)                | Étude de la surface d'attaque de Rust face aux injections de fautes multiples                                                   |
 | 12h30 |                                            | Déjeuner - [[#posters][posters and demos]]                                                                                                    |
 | 14h00 |                                            | *Session 3 – PQC, Vérification formelle et caractérisation*                                                                       |
@@ -37,7 +37,6 @@ Mouad Rabiai, Valentin Egloff, Vincent Beroulle, Paolo Maistri Modélisation des
 au niveau RTL et contre-mesures : axes de recherche dans le contexte des attaques
 laser sur les microarchitectures RISC-V
 (Univ. Grenoble Alpes)
-
 
 Boenzemwendé, Israel Kafando, Jonah Alle Monne, Damien Couroussé, Mathieu Jan
 Une méthodologie pour analyser le comportement de la microarchitecture sous
@@ -76,6 +75,28 @@ L'outil SAMVA, de Gicquel et al., analyse ce type de vulnérabilités en présen
 
 *Bio*.
 Sébastien researches the development and analysis of programs, from compilation and security to semantics and formal verification. He holds a Ph.D in making compilers obey security requirements (sometimes without crashing!). He is currently a post-doc at Inria Rennes (PACAP), working on secure compilation and static analysis of programs' robustness against fault injections, unless he's being distracted by funny-looking optimization techniques, in which case he's not working.
+
+*** Efficient Verification of Fault Injection Attack Protections at Binary Level
+:PROPERTIES:
+:CUSTOM_ID: sellami
+:END:
+
+  *Yanis Sellami* (CEA List, Université Paris-Saclay),
+  Noémie Bénard (CEA List, Université Paris-Saclay),
+  Frédéric Recoules (CEA List, Université Paris-Saclay),
+  Sébastien Bardin (CEA List, Université Paris-Saclay)
+
+*Abstract*.
+Fault injection attacks use a physical perturbation on the system running a program to obtain an adversarial effect, leading to an execution that does not exist in the semantic of the original program. High-security components, particularly on protected embedded systems, must provide some level of countermeasures against such attacks.
+In order to evaluate the quality of these countermeasures, one solution is to analyze the programs running on the system to detect vulnerabilities to possible fault attacks. We think that designing software level analyses that are made aware of the microarchitectural effects needed to represent the investigated fault attacks is an ideal analysis level to compromise usefulness and efficiency.
+Previous work for Ducousso et. al. has demonstrated that we can construct efficient binary-level formal analyzer to detect fault injection attacks in protected software, including in the WooKey bootloader. However, this work was limited to value fault injection and test inversions, and deeply interleaved with the core of the underlying symbolic execution analyzer.
+We aim to extend this work to design a more parametric and extensible fault-injection aware binary-level symbolic execution.
+We propose to leverage the newest plugin mechanism of Binsec, a binary-level symbolic execution engine developped at CEA List, to design an adversarial symbolic execution analysis able to handle efficiently both value faults and control-flow faults for transient, persistent and permanent scenarios.
+We present the architecture that permits this implementation and the additional benefits we can leverage from it.
+As a validation, we have used this implementation to verify the correct application of hardening strategies against fault injection attacks, including the hardening of CompCert and the CompaSec countermeasure against instruction skips.
+
+*Bio*.
+Yanis Sellami est chercheur au CEA/List LSL, où il travaille sur le moteur d'exécution symbolique Binsec dans le contexte des attaques par injections de fautes, canaux cachés, et sur l'utilisation des techniques d'abduction. Il travaillait au préalable au CEA/List LFIM sur la caractérisation automatique des vulnérabilités aux attaques par injection de fautes, et a obtenu sa Thèse à l'Université Grenoble-Alpes, sous la supervision de N. Peltier et M. Echenim, sur les algorithmes d'abduction. Ses intérêts de recherche incluent la vérification formelle de programmes, l'exécution symbolique, les attaques en fautes et microarchitecturales et les applications de la logique à l'analyse de programme.
 
 *** When Post-Quantum Cryptography meets fault injection: Practical attacks on ML-KEM and ML-DSA
 :PROPERTIES:
