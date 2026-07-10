@@ -4,29 +4,29 @@
 #+EXPORT_EXCLUDE_TAGS: noexport
 #+title: JAIF -- programme
 
-| 09h00 |                                            | Accueil café - badges                                                                                                           |
-| 09h30 | Philippe Maurine  (LIRMM)                  | Ouverture de la journée & mot d’accueil                                                                                         |
-| 09h45 |                                            | *Session 1 – Applications concrètes et implications juridiques*                                                                   |
-|       | Lennert Wouters / Benedikt Gierlichs (KUL) | (tbd)                                                                                                                           |
-|       | Francois Viangalli (Univ. Grenoble-Alpes)  | Les attaques par injection de fautes : premiers jalons pour une analyse juridique                                               |
-| 10h45 |                                            | Pause café - [[#posters][posters / demos / stands]]                                                                                           |
-| 11h30 |                                            | *Session 2 – Contremesures Logicielles*                                                                                           |
-|       | Sébastien Michelland (IRISA)               | [[#michelland][Analyse statique pour quantifier la robustesse des programmes contre les attaques multi-fautes sur le flot de contrôle]]          |
-|       | Yanis Sellami (CEA)                        | [[#sellami][Efficient Verification of Fault Injection Attack Protections at Binary Level]]                                                    |
-|       | Etienne Boespflug (Verimag)                | Étude de la surface d'attaque de Rust face aux injections de fautes multiples                                                   |
-| 12h30 |                                            | Déjeuner - [[#posters][posters and demos]]                                                                                                    |
-| 14h00 |                                            | *Session 3 – PQC, Vérification formelle et caractérisation*                                                                       |
-|       | Anderson Callé Viera (Thales)              | [[#calle viera][Fault Injection Attacks on NIST's Post-Quantum Standards: ML-DSA and ML-KEM]]                                                     |
-|       | Thomas Techer (SGS)                        | [[#techer][When Post-Quantum Cryptography meets fault injection: Practical attacks on ML-KEM and ML-DSA]]                                    |
-|       | Daniel Thirion (STM)                       | Vérification formelle guidée par des modèles de fautes de primitives cryptographiques matérielles contre les attaques en fautes |
-|       | Jonah Alle Monne (CEA)                     | Synthèse de programmes de caractérisation à partir du RTL pour l'injection de fautes                                            |
-| 15h30 |                                            | Pause café - [[#posters][posters and demos]]                                                                                                  |
-| 16h15 |                                            | *Session 4 – Laser & photoémission*                                                                                               |
-|       | Rodrigo Silva Lima (AlphaNov)              | Analyse de l’efficacité des lasers pico et femto seconde à l’injection de faute.                                                |
-|       | Mael Coatanhay (IETR)                      | [[#coatanhay][Photoémission et injection de fautes laser sur microcontrôleur]] RISC-V                                                           |
-|       | Olivier Savry (CEA)                        | [[#savry][Au-delà de la redondance : polymorphisme matériel contre l'injection de fautes par laser multi-faisceaux]]                        |
-| 17h15 | Comité d’organisation                      | Mot de clôture de la journée                                                                                                    |
-| 19h00 |                                            | [[./infos-pratiques.html#social-event][social event]]                                                                                                                    |
+| 09h00 |                                                 | Accueil café - badges                                                                                                           |
+| 09h30 | Philippe Maurine  (LIRMM)                       | Ouverture de la journée & mot d’accueil                                                                                         |
+| 09h45 |                                                 | *Session 1 – Applications concrètes et implications juridiques*                                                                   |
+|       | Lennert Wouters / Benedikt Gierlichs (KUL)      | (tbd)                                                                                                                           |
+|       | Francois Viangalli (Institut CyberAlps, CESICE) | [[#viangalli][Les attaques par injection de fautes : premiers jalons pour une analyse juridique]]                                               |
+| 10h45 |                                                 | Pause café - [[#posters][posters / demos / stands]]                                                                                           |
+| 11h30 |                                                 | *Session 2 – Contremesures Logicielles*                                                                                           |
+|       | Sébastien Michelland (IRISA)                    | [[#michelland][Analyse statique pour quantifier la robustesse des programmes contre les attaques multi-fautes sur le flot de contrôle]]          |
+|       | Yanis Sellami (CEA)                             | [[#sellami][Efficient Verification of Fault Injection Attack Protections at Binary Level]]                                                    |
+|       | Etienne Boespflug (Verimag)                     | Étude de la surface d'attaque de Rust face aux injections de fautes multiples                                                   |
+| 12h30 |                                                 | Déjeuner - [[#posters][posters and demos]]                                                                                                    |
+| 14h00 |                                                 | *Session 3 – PQC, Vérification formelle et caractérisation*                                                                       |
+|       | Anderson Callé Viera (Thales)                   | [[#calle viera][Fault Injection Attacks on NIST's Post-Quantum Standards: ML-DSA and ML-KEM]]                                                     |
+|       | Thomas Techer (SGS)                             | [[#techer][When Post-Quantum Cryptography meets fault injection: Practical attacks on ML-KEM and ML-DSA]]                                    |
+|       | Daniel Thirion (STM)                            | Vérification formelle guidée par des modèles de fautes de primitives cryptographiques matérielles contre les attaques en fautes |
+|       | Jonah Alle Monne (CEA)                          | Synthèse de programmes de caractérisation à partir du RTL pour l'injection de fautes                                            |
+| 15h30 |                                                 | Pause café - [[#posters][posters and demos]]                                                                                                  |
+| 16h15 |                                                 | *Session 4 – Laser & photoémission*                                                                                               |
+|       | Rodrigo Silva Lima (AlphaNov)                   | Analyse de l’efficacité des lasers pico et femto seconde à l’injection de faute.                                                |
+|       | Mael Coatanhay (IETR)                           | [[#coatanhay][Photoémission et injection de fautes laser sur microcontrôleur]] RISC-V                                                           |
+|       | Olivier Savry (CEA)                             | [[#savry][Au-delà de la redondance : polymorphisme matériel contre l'injection de fautes par laser multi-faisceaux]]                        |
+| 17h15 | Comité d’organisation                           | Mot de clôture de la journée                                                                                                    |
+| 19h00 |                                                 | [[./infos-pratiques.html#social-event][social event]]                                                                                                                    |
 
 *Posters*
 
@@ -55,10 +55,35 @@ First, we demonstrate how faults can exploit specific mathematical and structura
 
 *Bio*.
 Andersson Calle Viera holds a PhD in Cryptography from Sorbonne Université, specializing in Post-Quantum Cryptography and their embedded systems security. His doctoral research focused on physical attacks and optimizations of PQC standards, with an emphasis on side-channel attacks and fault injection attacks against ML-KEM and ML-DSA. He is currently working as a Cryptography Engineer at Thales CDI, where he continues to assess and improve the security and performances of secure PQC implementations.
+
 ** Présentations
 :PROPERTIES:
 :CUSTOM_ID: presentations
 :END:
+
+*** Les attaques par injection de fautes : premiers jalons pour une analyse juridique
+:PROPERTIES:
+:CUSTOM_ID: viangalli
+:END:
+
+*François Viangalli*  (Institut CyberAlps, CESICE, Université Grenoble-Alpes)
+
+*Abstract*.
+Les attaques par injection de fautes — perturbations physiques volontaires (tension, horloge, électromagnétique, laser) visant à extraire des secrets cryptographiques ou contourner des authentifications — font l'objet d'une littérature technique abondante, mais restent largement ignorées par la doctrine juridique, encore centrée sur les attaques logicielles et réseau.
+
+Alors que la cybersécurité matérielle devient un enjeu réglementaire majeur (Cyber Resilience Act, NIS2, sécurisation des systèmes embarqués critiques), les attaques physiques contre les composants posent des questions spécifiques qui s'insèrent mal dans les catégories classiques du droit du numérique.
+Cette communication propose une première cartographie exploratoire et interdisciplinaire des enjeux juridiques soulevés par ces attaques, sans prétendre apporter de réponses définitives, mais en identifiant les difficultés normatives et pistes doctrinales autour de six axes :
+- la qualification juridique des recherches offensives en injection de fautes ;
+- la responsabilité des fabricants de composants vulnérables ;
+- la portée juridique des certifications et évaluations de robustesse ;
+- l'impact des attaques matérielles sur la fiabilité des signatures électroniques et preuves numériques ;
+- l'encadrement du lawful hacking recourant à des méthodes proches de l'attaque matérielle ;
+- l'éventuelle obligation de résistance physique dans les systèmes critiques (IoT, automobile, dispositifs médicaux, infrastructures industrielles).
+S'appuyant sur les travaux en sécurité matérielle, attaques par canaux auxiliaires, fiabilité des signatures numériques et recherche offensive en cybersécurité, cette proposition entend ouvrir un dialogue entre communautés techniques et juridiques autour d'un objet encore peu exploré : la cybersécurité matérielle comme question juridique à part entière.
+
+
+*Bio*.
+François Viangalli est maître de conférences HDR en droit du numérique à l'Université Grenoble-Alpes depuis 2004, où il co-préside le Département de droit privé de la Faculté de droit de Grenoble. Docteur en droit (Aix-Marseille, 2003) et HDR (Grenoble-Alpes, 2023), il est rattaché au CESICE et co-anime CyberAlps, institut interdisciplinaire de cybersécurité fédérant CNRS, Inria et l'IEP de Grenoble. Auteur de la monographie Le Concept de donnée numérique (Mare et Martin, 2025), il a publié de nombreux articles sur le droit européen du numérique, la protection des données et l'intelligence artificielle. Il a également exercé les fonctions de conseiller juridique du Président du Conseil exécutif de la Collectivité de Corse (2015-2019).
 
 *** Analyse statique pour quantifier la robustesse des programmes contre les attaques multi-fautes sur le flot de contrôle
 :PROPERTIES:
