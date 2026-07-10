@@ -33,10 +33,7 @@
 
 *Posters*
 
-Germain Eguina, Vincent beroulle, Louis Morge-Rollet, Valentin Egloff, Youssef
-Serrestou. Évaluation et renforcement des modules d'IA embarquée pour la sûreté
-et la sécurité dans les systèmes critiques.
-(Univ. Grenoble-Alpes, Université du Man, CNRS.)
+| Germain Eguina (LCIS) et al. | [[#eguina][Évaluation et renforcement des modules d'IA embarquée pour la sûreté et la sécurité dans les systèmes critiques]] |
 
 Mouad Rabiai, Valentin Egloff, Vincent Beroulle, Paolo Maistri Modélisation des fautes
 au niveau RTL et contre-mesures : axes de recherche dans le contexte des attaques
@@ -75,5 +72,23 @@ to be detailed
 :CUSTOM_ID: posters
 :END:
 
+*** Évaluation et renforcement des modules d'IA embarqués pour les systèmes critiques
+:PROPERTIES:
+:CUSTOM_ID: eguina
+:END:
 
-to be detailed
+  *Germain EGUINA* (LCIS, Grenoble INP-UGA),
+  Vincent BEROULLE (LCIS, Grenoble INP-UGA),
+  Valentin EGLOFF (LCIS, Grenoble INP-UGA),
+  Louis MORGE-ROLLET (LCIS, Grenoble INP-UGA),
+  Youssef SERRESTOU (LAUM, Université du Mans - CNRS UMR 6613)
+
+*Abstract*.
+Ces dernières années, le déploiement de l'IA migre des serveurs vers la périphérie dans les systèmes critiques. Utiliser les modèles au plus près des données réduit la dépendance aux serveurs et permet une prise de décision en temps réel. Cette approche réduit la latence, la consommation de bande passante et les coûts opérationnels tout en améliorant la fiabilité et la confidentialité des données. Cependant, elle augmente la surface d'attaque et l'exposition aux perturbations matérielles et environnementales. Contrairement aux serveurs, les systèmes en périphérie sont accessibles physiquement et fonctionnent dans des environnements imprévisibles les rendant ainsi vulnérables aux menaces algorithmiques et matérielles. Dans les systèmes critiques, cette exposition doit être prise en compte pour garantir leur sécurité et leur sûreté.
+
+Notre travail porte sur les perturbations intentionnelles et non intentionnelles (attaques et fautes) modifiant la sortie des réseaux de neurones convolutifs largement utilisés dans les tâches de perception et de classification (reconnaissance d'image, détection d'objets, classification de signaux) au cœur de nombreux systèmes critiques. Ces perturbations peuvent atteindre les modèles par leurs entrées (exploitation algorithmique) ou via le matériel (injection de fautes). Nous évaluerons leur capacité à fonctionner correctement en présence de telles perturbations, leur robustesse.
+
+L'objectif est de développer une méthodologie d'évaluation des modèles unifiée prenant en compte simultanément les vecteurs algorithmiques et matériels. Un tel environnement fera le pont entre les communautés de la sécurité et de la sûreté, offrant une évaluation réaliste des vulnérabilités. Nous proposerons ensuite des techniques pour améliorer leur robustesse face à ces perturbations.
+
+*Bio*.
+Doctorant depuis février 2026 au Laboratoire de Conception et d'Intégration des Systèmes (LCIS) à Valence. Diplômé en 2025 de l'ENSPIMA (Bordeaux INP), où j'ai suivi une formation d'ingénieur en maintenance aéronautique avec une spécialisation en systèmes avioniques et embarqués. Mes travaux de recherche portent sur l'évaluation et le renforcement de la robustesse des modules d'IA embarqués dans les systèmes critiques face aux perturbations intentionnelles et non intentionnelles en considérant conjointement les dimensions algorithmique et matérielle.
