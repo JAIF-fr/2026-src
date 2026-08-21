@@ -6,29 +6,29 @@
 
 
 
-| 09h00 |                                            | Accueil café - badges                                                                                                           |
-| 09h30 | Philippe Maurine  (LIRMM)                  | Ouverture de la journée & mot d’accueil                                                                                         |
-| 09h45 |                                            | *Session 1 – Applications concrètes et implications juridiques*                                                                   |
-|       | Lennert Wouters / Benedikt Gierlichs (KUL) | (tbd)                                                                                                                           |
-|       | Francois Viangalli (Univ. Grenoble-Alpes)  | Les attaques par injection de fautes : premiers jalons pour une analyse juridique                                               |
-| 10h45 |                                            | Pause café - [[#posters][posters / demos / stands]]                                                                                           |
-| 11h30 |                                            | *Session 2 – Contremesures Logicielles*                                                                                           |
-|       | Sébastien Michelland (IRISA)               | Analyse statique pour quantifier la robustesse des programmes contre les attaques multi-fautes sur le flot de contrôle          |
-|       | Yanis Sellami (CEA)                        | Vérification efficace des protections contre les attaques par injection de fautes au niveau binaire                             |
-|       | Etienne Boespflug (Verimag)                | Étude de la surface d'attaque de Rust face aux injections de fautes multiples                                                   |
-| 12h30 |                                            | Déjeuner - [[#posters][posters and demos]]                                                                                                    |
-| 14h00 |                                            | *Session 3 – PQC, Vérification formelle et caractérisation*                                                                       |
-|       | Anderson Callé Viera (Thales)              | (tbd)                                                                                                                           |
-|       | Thomas Techer (SGS)                        | Quand la cryptographie post-quantique rencontre l'injection de fautes : attaques pratiques contre ML-KEM et ML-DSA.             |
-|       | Daniel Thirion (STM)                       | Vérification formelle guidée par des modèles de fautes de primitives cryptographiques matérielles contre les attaques en fautes |
-|       | Jonah Alle Monne (CEA)                     | Synthèse de programmes de caractérisation à partir du RTL pour l'injection de fautes                                            |
-| 15h30 |                                            | Pause café - [[#posters][posters and demos]]                                                                                                  |
-| 16h15 |                                            | *Session 4 – Laser & photoémission*                                                                                               |
-|       | Rodrigo Silva Lima (AlphaNov)              | Analyse de l’efficacité des lasers pico et femto seconde à l’injection de faute.                                                |
-|       | Mael Coatanhay (IETR)                      | Photoémission et injection de fautes laser sur microcontrôleur RISC-V                                                           |
-|       | Olivier Savry (CEA)                        | Au-delà de la redondance : polymorphisme matériel contre l'injection de fautes par laser multi-faisceaux                        |
-| 17h15 | Comité d’organisation                      | Mot de clôture de la journée                                                                                                    |
-| 19h00 |                                            | [[./infos-pratiques.html#social-event][social event]]                                                                                                                    |
+| 09h00 |                                                         | Accueil café - badges                                                                                                           |
+| 09h30 | Philippe Maurine  (LIRMM)                               | Ouverture de la journée & mot d’accueil                                                                                         |
+| 09h45 |                                                         | *Session 1 – Applications concrètes et implications juridiques*                                                                 |
+|       | Lennert Wouters / Benedikt Gierlichs (KUL)              | (tbd)                                                                                                                           |
+|       | Francois Viangalli (Univ. Grenoble-Alpes)               | Les attaques par injection de fautes : premiers jalons pour une analyse juridique                                               |
+| 10h45 |                                                         | Pause café - [[#posters][posters / demos / stands]]                                                                             |
+| 11h30 |                                                         | *Session 2 – Contremesures Logicielles*                                                                                         |
+|       | Sébastien Michelland (IRISA)                            | Analyse statique pour quantifier la robustesse des programmes contre les attaques multi-fautes sur le flot de contrôle          |
+|       | Yanis Sellami (CEA)                                     | Vérification efficace des protections contre les attaques par injection de fautes au niveau binaire                             |
+|       | Etienne Boespflug (Verimag)                             | Étude de la surface d'attaque de Rust face aux injections de fautes multiples                                                   |
+| 12h30 |                                                         | Déjeuner - [[#posters][posters and demos]]                                                                                      |
+| 14h00 |                                                         | *Session 3 – PQC, Vérification formelle et caractérisation*                                                                     |
+|       | Anderson Callé Viera (Thales)                           | (tbd)                                                                                                                           |
+|       | Thomas Techer (SGS)                                     | Quand la cryptographie post-quantique rencontre l'injection de fautes : attaques pratiques contre ML-KEM et ML-DSA.             |
+|       | Daniel Thirion (STM)                                    | Vérification formelle guidée par des modèles de fautes de primitives cryptographiques matérielles contre les attaques en fautes |
+|       | Jonah Alle Monne (CEA)                                  | Synthèse de programmes de caractérisation à partir du RTL pour l'injection de fautes                                            |
+| 15h30 |                                                         | Pause café - [[#posters][posters and demos]]                                                                                    |
+| 16h15 |                                                         | *Session 4 – Laser & photoémission*                                                                                             |
+|       | Rodrigo Silva Lima (AlphaNov) / Sébastien Ordas (SERMA) | Analyse de l’efficacité des lasers pico et femto seconde à l’injection de faute.                                                |
+|       | Mael Coatanhay (IETR)                                   | Photoémission et injection de fautes laser sur microcontrôleur RISC-V                                                           |
+|       | Olivier Savry (CEA)                                     | Au-delà de la redondance : polymorphisme matériel contre l'injection de fautes par laser multi-faisceaux                        |
+| 17h15 | Comité d’organisation                                   | Mot de clôture de la journée                                                                                                    |
+| 19h00 |                                                         | [[./infos-pratiques.html#social-event][social event]]                                                                                                                    |
 
 
 *Posters*
