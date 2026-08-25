@@ -1,0 +1,27 @@
+Please fill the fields in brackets below, and please do not modify the rest of the template.
+
+
+
+*** Une méthodologie pour l’analyse du comportement microarchitectural sous injection de glitch d’horloge
+
+
+
+Boenzemwendé Israel Kafando Univ. Grenoble Alpes, CEA, List, F-38000, Grenoble, France,
+
+Jonah Alle Monne Univ. Grenoble Alpes, CEA, List, F-38000, Grenoble, France,
+
+Damien Couroussé Univ. Grenoble Alpes, CEA, List, F-38000, Grenoble, France,
+
+Mathieu Jan Univ. Paris-Saclay, CEA, List, F-91120, Palaiseau, France,
+
+
+
+*Abstract*.
+L’injection de fautes est une technique bien connue permettant de compromettre la sécurité et la sûreté des systèmes embarqués. Il existe un intérêt croissant de comprendre le comportement des processeurs embarqués soumis à des injections de fautes, afin d’expliquer avec précision la manifestation des fautes et de suivre leur propagation depuis leur cause première au sein de la microarchitecture.
+Dans ce travail, nous présentons une méthodologie permettant d’observer avec une précision au cycle près l’état microarchitectural d’un processeur RISC-V soumis à une injection par perturbation de l'horloge. L’approche proposée repose sur une unité de monitoring qui sonde des signaux internes sélectionnés à l’aide d’une horloge indépendante de celle pilotant le processeur testé.
+La méthodologie comprend également une analyse du caractère intrusif introduit par la logique de monitoring supplémentaire, afin de garantir que les conditions d’injection restent représentatives de l’implémentation de base. Parmi un espace de paramètres de 103 284 configurations, seules 69 configurations conduisant à des sorties erronées présentent une correspondance parfaite avec l'implémentation de base.
+Nous appliquons cette méthodologie au cœur CV32E40S afin d’analyser ses contre-mesures basées sur des alertes et montrons que ces mécanismes présentent des dysfonctionnements dans des scénarios de détection d'injections par perturbation de d’horloge
+
+
+*Bio*.
+Boenzemwendé Israel Kafando est doctorant au CEA-List et à l’Université Grenoble Alpes, en France. Ses travaux de recherche portent sur l’établissement de garanties formelles de robustesse pour les processeurs open-source, à travers la formalisation de contrats matériel–logiciel au niveau de ISA face aux attaques par injection de fautes. Il est titulaire d’un diplôme d’ingénieur en systèmes numériques de l’ENSSAT Lannion depuis 2025. 

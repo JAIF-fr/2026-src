@@ -4,76 +4,316 @@
 #+EXPORT_EXCLUDE_TAGS: noexport
 #+title: JAIF -- programme
 
-
-
-| 09h00 |                                                         | Accueil café - badges                                                                                                           |
-| 09h30 | Philippe Maurine  (LIRMM)                               | Ouverture de la journée & mot d’accueil                                                                                         |
-| 09h45 |                                                         | *Session 1 – Applications concrètes et implications juridiques*                                                                 |
-|       | Lennert Wouters / Benedikt Gierlichs (KUL)              | (tbd)                                                                                                                           |
-|       | Francois Viangalli (Univ. Grenoble-Alpes)               | Les attaques par injection de fautes : premiers jalons pour une analyse juridique                                               |
-| 10h45 |                                                         | Pause café - [[#posters][posters / demos / stands]]                                                                             |
-| 11h30 |                                                         | *Session 2 – Contremesures Logicielles*                                                                                         |
-|       | Sébastien Michelland (IRISA)                            | Analyse statique pour quantifier la robustesse des programmes contre les attaques multi-fautes sur le flot de contrôle          |
-|       | Yanis Sellami (CEA)                                     | Vérification efficace des protections contre les attaques par injection de fautes au niveau binaire                             |
-|       | Etienne Boespflug (Verimag)                             | Étude de la surface d'attaque de Rust face aux injections de fautes multiples                                                   |
-| 12h30 |                                                         | Déjeuner - [[#posters][posters and demos]]                                                                                      |
-| 14h00 |                                                         | *Session 3 – PQC, Vérification formelle et caractérisation*                                                                     |
-|       | Anderson Callé Viera (Thales)                           | (tbd)                                                                                                                           |
-|       | Thomas Techer (SGS)                                     | Quand la cryptographie post-quantique rencontre l'injection de fautes : attaques pratiques contre ML-KEM et ML-DSA.             |
-|       | Daniel Thirion (STM)                                    | Vérification formelle guidée par des modèles de fautes de primitives cryptographiques matérielles contre les attaques en fautes |
-|       | Jonah Alle Monne (CEA)                                  | Synthèse de programmes de caractérisation à partir du RTL pour l'injection de fautes                                            |
-| 15h30 |                                                         | Pause café - [[#posters][posters and demos]]                                                                                    |
-| 16h15 |                                                         | *Session 4 – Laser & photoémission*                                                                                             |
-|       | Rodrigo Silva Lima (AlphaNov) / Sébastien Ordas (SERMA) | Analyse de l’efficacité des lasers pico et femto seconde à l’injection de faute.                                                |
-|       | Mael Coatanhay (IETR)                                   | Photoémission et injection de fautes laser sur microcontrôleur RISC-V                                                           |
-|       | Olivier Savry (CEA)                                     | Au-delà de la redondance : polymorphisme matériel contre l'injection de fautes par laser multi-faisceaux                        |
-| 17h15 | Comité d’organisation                                   | Mot de clôture de la journée                                                                                                    |
-| 19h00 |                                                         | [[./infos-pratiques.html#social-event][social event]]                                                                                                                    |
-
+|       |                                                 |                                                                                                                                 |
+| 09h00 |                                            | Accueil café - badges                                                                                                           |
+| 09h30 | Philippe Maurine  (LIRMM)                  | Ouverture de la journée & mot d’accueil                                                                                         |
+| 09h45 |                                            | *Session 1 – Applications concrètes et implications juridiques*                                                                   |
+|       | Lennert Wouters / Benedikt Gierlichs (KUL) | (tbd)                                                                                                                           |
+|       | Francois Viangalli (Institut CyberAlps, CESICE) | [[#viangalli][Les attaques par injection de fautes : premiers jalons pour une analyse juridique]]                                               |
+| 10h45 |                                            | Pause café - [[#posters][posters / demos / stands]]                                                                                           |
+| 11h30 |                                            | *Session 2 – Contremesures Logicielles*                                                                                           |
+|       | Sébastien Michelland (IRISA)                    | [[#michelland][Analyse statique pour quantifier la robustesse des programmes contre les attaques multi-fautes sur le flot de contrôle]]          |
+|       | Yanis Sellami (CEA)                             | [[#sellami][Efficient Verification of Fault Injection Attack Protections at Binary Level]]                                                    |
+|       | Etienne Boespflug (Verimag)                | Étude de la surface d'attaque de Rust face aux injections de fautes multiples                                                   |
+| 12h30 |                                            | Déjeuner - [[#posters][posters and demos]]                                                                                                    |
+| 14h00 |                                            | *Session 3 – PQC, Vérification formelle et caractérisation*                                                                       |
+|       | Anderson Callé Viera (Thales)                   | [[#calle viera][Fault Injection Attacks on NIST's Post-Quantum Standards: ML-DSA and ML-KEM]]                                                     |
+|       | Thomas Techer (SGS)                             | [[#techer][When Post-Quantum Cryptography meets fault injection: Practical attacks on ML-KEM and ML-DSA]]                                    |
+|       | Daniel Thirion (STM)                       | Vérification formelle guidée par des modèles de fautes de primitives cryptographiques matérielles contre les attaques en fautes |
+|       | Jonah Alle Monne (CEA)                          | [[#alle monne][Synthèse de programmes de caractérisation à partir du RTL pour l'injection de fautes]]                                            |
+| 15h30 |                                            | Pause café - [[#posters][posters and demos]]                                                                                                  |
+| 16h15 |                                            | *Session 4 – Laser & photoémission*                                                                                               |
+|       | Rodrigo Silva Lima (AlphaNov), Sébastien Ordas (SERMA)                  | Analyse de l’efficacité des lasers pico et femto seconde à l’injection de faute.                                                |
+|       | Mael Coatanhay (IETR)                           | [[#coatanhay][Photoémission et injection de fautes laser sur microcontrôleur]] RISC-V                                                           |
+|       | Olivier Savry (CEA)                             | [[#savry][Au-delà de la redondance : polymorphisme matériel contre l'injection de fautes par laser multi-faisceaux]]                        |
+| 17h15 | Comité d’organisation                      | Mot de clôture de la journée                                                                                                    |
+| 19h00 |                                            | [[./infos-pratiques.html#social-event][social event]]                                                                                                                    |
 
 *Posters*
 
-Germain Eguina, Vincent beroulle, Louis Morge-Rollet, Valentin Egloff, Youssef
-Serrestou. Évaluation et renforcement des modules d'IA embarquée pour la sûreté
-et la sécurité dans les systèmes critiques.
-(Univ. Grenoble-Alpes, Université du Man, CNRS.)
-
-Mouad Rabiai, Valentin Egloff, Vincent Beroulle, Paolo Maistri Modélisation des fautes
-au niveau RTL et contre-mesures : axes de recherche dans le contexte des attaques
-laser sur les microarchitectures RISC-V
-(Univ. Grenoble Alpes)
-
-Telly Raheriniaina, Kévin Quénéhervé, Philippe Tanguy, Rachid Dafali, Vianney Lapôtre.
-Rejeu d'instructions piloté par le matériel dans le coeur RISC-V cva6
-(Univ. Bretagne Sud, DGA MI)
-
-Boenzemwendé, Israel Kafando, Jonah Alle Monne, Damien Couroussé, Mathieu Jan
-Une méthodologie pour analyser le comportement de la microarchitecture sous
-injection de glitches d'horloge. (Univ. Grenoble Alpe, CEA, Univ. Paris-Saclay)
-
-Laurent Maingault, Stéphanie Anceau, Alejandro Urena-Acuna, Guillaume hubert,
-Sophie Bouat, Rémi Tucoulou. Attaque par injection de fautes aux rayons X sur un
-transistor unique en 22 nm FD-SOI. (CEA, ONERA, SIMaP, ESRF)
-
-Hugo Perrin, Raphael Viera, Jean baptiste Rigaud. Stimulation thermique par laser
-des capteurs de courant intégrés dans les dispositifs silicium. (ENSME)
+|                                               |                                                                                                                                                   |
+| Israel Kafando Boenzemwendé (CEA List) et al. | [[#kafando][Une méthodologie pour analyser le comportement de la microarchitecture sous injection de glitches d'horloge]]                                       |
+| Germain Eguina (LCIS) et al.                  | [[#eguina][Évaluation et renforcement des modules d'IA embarquée pour la sûreté et la sécurité dans les systèmes critiques]]                                   |
+| Edouard Franco (CEA, ONERA) et al.            | [[#franco][Injection de fautes par rayons X sur transistor unique dans un circuit intégré "Fully-Depleted Silicon On Insulator" 22 nm]]                        |
+| Hugo Perrin (ENSME, CEA Leti) et al.          | [[#perrin][Stimulation thermique par laser des capteurs de courant intégrés dans les dispositifs silicium]]                                                    |
+| Mouad Rabiai (Univ. Grenoble Alpes) et al.    | [[#rabiai][Modélisation des fautes au niveau RTL et contre-mesures : axes de recherche dans le contexte des attaques laser sur les microarchitectures RISC-V]] |
+| Telly Raheriniaina (Lab-STICC) et al.         | [[#raheriniaina][Rejeu d'instructions piloté par le matériel dans le coeur RISC-V CVA6]]                                                                             |
 
 ** Présentations invitées
 
-to be detailed
+*** Fault Injection Attacks on NIST's Post-Quantum Standards: ML-DSA and ML-KEM
+:PROPERTIES:
+:CUSTOM_ID: calle viera
+:END:
+
+  *Andersson CALLE VIERA* (Thales DIS)
+
+*Abstract*.
+While large-scale quantum computers do not yet exist, major government agencies strongly recommend migrating to Post-Quantum Cryptography (PQC) within the next decade to mitigate the quantum threat. Consequently, migrating to NIST-standardized algorithms like ML-DSA and ML-KEM has become an industry priority. However, implementing these complex algorithms on resource-constrained embedded devices introduces severe physical security risks, making them vulnerable to hardware threats.
+
+This presentation provides a comprehensive review of the main Fault Injection Attacks (FIA) targeting these newly standardized post-quantum schemes and focuses on the feasibility and impact of the most critical ones.
+
+First, we demonstrate how faults can exploit specific mathematical and structural operations within the signature generation of ML-DSA to achieve full secret key recovery. Second, we analyze the verification process of ML-DSA, showing that faults can bypass security checks to force the acceptance of invalid signatures. Finally, we extend our analysis to ML-KEM, highlighting specific operations where FIA enable the full secret key recovery.
+
+*Bio*.
+Andersson Calle Viera holds a PhD in Cryptography from Sorbonne Université, specializing in Post-Quantum Cryptography and their embedded systems security. His doctoral research focused on physical attacks and optimizations of PQC standards, with an emphasis on side-channel attacks and fault injection attacks against ML-KEM and ML-DSA. He is currently working as a Cryptography Engineer at Thales CDI, where he continues to assess and improve the security and performances of secure PQC implementations.
 
 ** Présentations
 :PROPERTIES:
 :CUSTOM_ID: presentations
 :END:
+*** Synthesis of RTL-based Characterization Programs for Fault Injection
+:PROPERTIES:
+:CUSTOM_ID: alle monne
+:END:
+
+*Jonah Alle Monne* (Univ. Grenoble Alpes, CEA, LIST),
+Guillaume Bouffard (ANSSI),
+Damien Couroussé (Univ. Grenoble Alpes, CEA, LIST),
+Mathieu Jan (Univ. Paris-Saclay, CEA, LIST)
+
+*Abstract*.
+Les attaques par injection de fautes représentent une menace importante pour la sécurité des dispositifs embarqués. Bien que leurs effets soient souvent modélisés sous forme de sauts d’instructions ou de corruptions de données, la caractérisation de ces fautes nécessite des programmes capables de mettre en évidence des comportements erronés visibles au niveau logiciel. Cependant, des effets de fautes proviennent d’éléments microarchitecturaux, ce qui les rend difficiles à identifier avec les approches existantes. D’un côté, les analyses au niveau Register Transfer Level (RTL) fournissent des informations fines, mais reposent sur des modèles qui omettent des détails des circuits physiques. De l’autre, la caractérisation empirique permet de capturer des fautes réelles, mais nécessite de nombreuses expérimentations et ne permet souvent pas leur identification précise. Pour combler cette lacune, nous proposons une méthodologie automatisée qui synthétise des programmes de caractérisation conçus pour exposer des modèles de fautes microarchitecturaux précis en utilisant un algorithme de model-checking. Notre méthodologie permet également d’évaluer les modèles de fautes additionnels révélés par ces programmes. Appliquée à deux cœurs de processeurs RISC-V, CV32E40P et Ibex, notre approche synthétise des programmes qui mettent en évidence des fautes de type bit-flip pour environ 70 % des signaux microarchitecturaux, avec deux jours de calcul sur 10 cœurs en parallèle. Pour 25 % des signaux de contrôle du CV32E40P, nous synthétisons des programmes permettant d’attribuer précisément un bit-flip à un signal ciblé. De tels programmes pourraient faciliter l’utilisation de l’injection de fautes pour déduire la disposition des éléments microarchitecturaux et aider à concevoir des contre-mesures plus efficaces. À notre connaissance, ce travail présenté à la conférence IEEE HOST 2026 constitue la première méthodologie systématique de construction de programmes de caractérisation de fautes, marquant une avancée significative par rapport aux approches empiriques.
+
+*Bio*.
+Diplômé d’un Master en électronique et informatique industrielle à Polytech Grenoble, Jonah a contribué chez STMicroelectronics à l’étude de circuits électroniques exposés aux particules cosmiques. Il débute en octobre 2024 une thèse au CEA-LIST à Grenoble portant sur la compréhension et la caractérisation des effets des attaques par injection de fautes sur des microprocesseurs open source. Ses travaux portent actuellement sur le développement d’outils destinés aux évaluateurs de sécurité, c’est-à-dire aux chercheurs ou ingénieurs qui analysent la robustesse des circuits face à des attaques, afin de les aider à comprendre comment les fautes induites interagissent avec la logique interne des processeurs, et à mieux relier les effets observés au niveau logiciel aux mécanismes microarchitecturaux sous-jacents.
+
+*** Les attaques par injection de fautes : premiers jalons pour une analyse juridique
+:PROPERTIES:
+:CUSTOM_ID: viangalli
+:END:
+
+*François Viangalli*  (Institut CyberAlps, CESICE, Université Grenoble-Alpes)
+
+*Abstract*.
+Les attaques par injection de fautes — perturbations physiques volontaires (tension, horloge, électromagnétique, laser) visant à extraire des secrets cryptographiques ou contourner des authentifications — font l'objet d'une littérature technique abondante, mais restent largement ignorées par la doctrine juridique, encore centrée sur les attaques logicielles et réseau.
+
+Alors que la cybersécurité matérielle devient un enjeu réglementaire majeur (Cyber Resilience Act, NIS2, sécurisation des systèmes embarqués critiques), les attaques physiques contre les composants posent des questions spécifiques qui s'insèrent mal dans les catégories classiques du droit du numérique.
+Cette communication propose une première cartographie exploratoire et interdisciplinaire des enjeux juridiques soulevés par ces attaques, sans prétendre apporter de réponses définitives, mais en identifiant les difficultés normatives et pistes doctrinales autour de six axes :
+- la qualification juridique des recherches offensives en injection de fautes ;
+- la responsabilité des fabricants de composants vulnérables ;
+- la portée juridique des certifications et évaluations de robustesse ;
+- l'impact des attaques matérielles sur la fiabilité des signatures électroniques et preuves numériques ;
+- l'encadrement du lawful hacking recourant à des méthodes proches de l'attaque matérielle ;
+- l'éventuelle obligation de résistance physique dans les systèmes critiques (IoT, automobile, dispositifs médicaux, infrastructures industrielles).
+S'appuyant sur les travaux en sécurité matérielle, attaques par canaux auxiliaires, fiabilité des signatures numériques et recherche offensive en cybersécurité, cette proposition entend ouvrir un dialogue entre communautés techniques et juridiques autour d'un objet encore peu exploré : la cybersécurité matérielle comme question juridique à part entière.
 
 
-to be detailed
+*Bio*.
+François Viangalli est maître de conférences HDR en droit du numérique à l'Université Grenoble-Alpes depuis 2004, où il co-préside le Département de droit privé de la Faculté de droit de Grenoble. Docteur en droit (Aix-Marseille, 2003) et HDR (Grenoble-Alpes, 2023), il est rattaché au CESICE et co-anime CyberAlps, institut interdisciplinaire de cybersécurité fédérant CNRS, Inria et l'IEP de Grenoble. Auteur de la monographie Le Concept de donnée numérique (Mare et Martin, 2025), il a publié de nombreux articles sur le droit européen du numérique, la protection des données et l'intelligence artificielle. Il a également exercé les fonctions de conseiller juridique du Président du Conseil exécutif de la Collectivité de Corse (2015-2019).
+
+*** Analyse statique pour quantifier la robustesse des programmes contre les attaques multi-fautes sur le flot de contrôle
+:PROPERTIES:
+:CUSTOM_ID: michelland
+:END:
+
+*Sébastien Michelland* (Univ Rennes, Inria, CNRS, IRISA),
+Antoine Gicquel (Univ Rennes, Inria, CNRS, IRISA),
+Damien Hardy (Univ Rennes, Inria, CNRS, IRISA),
+Erven Rohou (Univ Rennes, Inria, CNRS, IRISA)
+
+*Abstract*.
+Analyser les effets d'injections de fautes au niveau logiciel est difficile parce que l'exécution fautée ne respecte pas la sémantique des programmes. Par exemple, sauter un retour de fonction peut permettre à l'attaquant de tomber dans une fonction différente sans réaliser proprement un appel. D'où des exécutions complètement invalides vis-à-vis du programme source, mais qui se terminent sans erreur tout en violant les propriétés de sécurité du système. Ces problèmes s'amplifient sous la pression d'attaques multi-fautes capables d'altérer à la fois la logique du code et ses contremesures.
+
+L'outil SAMVA, de Gicquel et al., analyse ce type de vulnérabilités en présence de sauts et rejeus d'instruction multi-fautes. Équipé d'un plan d'attaque tel que "partant du début de verifyPIN, atteindre et exécuter authenticated=true sans exécuter la contremesure", SAMVA trouve des séquences de fautes qui réalisent le plan par une combinaison d'analyse statique, heuristiques et émulation. Cette présentation couvrira les idées principales de SAMVA et ses tous nouveaux algorithmes qui éliminent les heuristiques au profit d'une analyse complète. La dernière version de SAMVA trouve *toutes* les attaques possibles (dans une classe bien définie) et les énumère par coût croissant ; elle trouve donc les attaques optimales et, par dualité, le niveau de robustesse du programme contre le modèle de faute et le plan d'attaque choisis. Ses performances sont aussi grandement améliorées ; SAMVA trouve généralement des attaques optimales de plus de 10 fautes en quelques secondes, et dans un cas prouve en 30 secondes qu'aucune attaque n'existe en 17 fautes ou moins.
+
+*Bio*.
+Sébastien researches the development and analysis of programs, from compilation and security to semantics and formal verification. He holds a Ph.D in making compilers obey security requirements (sometimes without crashing!). He is currently a post-doc at Inria Rennes (PACAP), working on secure compilation and static analysis of programs' robustness against fault injections, unless he's being distracted by funny-looking optimization techniques, in which case he's not working.
+
+*** Efficient Verification of Fault Injection Attack Protections at Binary Level
+:PROPERTIES:
+:CUSTOM_ID: sellami
+:END:
+
+  *Yanis Sellami* (CEA List, Université Paris-Saclay),
+  Noémie Bénard (CEA List, Université Paris-Saclay),
+  Frédéric Recoules (CEA List, Université Paris-Saclay),
+  Sébastien Bardin (CEA List, Université Paris-Saclay)
+
+*Abstract*.
+Fault injection attacks use a physical perturbation on the system running a program to obtain an adversarial effect, leading to an execution that does not exist in the semantic of the original program. High-security components, particularly on protected embedded systems, must provide some level of countermeasures against such attacks.
+In order to evaluate the quality of these countermeasures, one solution is to analyze the programs running on the system to detect vulnerabilities to possible fault attacks. We think that designing software level analyses that are made aware of the microarchitectural effects needed to represent the investigated fault attacks is an ideal analysis level to compromise usefulness and efficiency.
+Previous work for Ducousso et. al. has demonstrated that we can construct efficient binary-level formal analyzer to detect fault injection attacks in protected software, including in the WooKey bootloader. However, this work was limited to value fault injection and test inversions, and deeply interleaved with the core of the underlying symbolic execution analyzer.
+We aim to extend this work to design a more parametric and extensible fault-injection aware binary-level symbolic execution.
+We propose to leverage the newest plugin mechanism of Binsec, a binary-level symbolic execution engine developped at CEA List, to design an adversarial symbolic execution analysis able to handle efficiently both value faults and control-flow faults for transient, persistent and permanent scenarios.
+We present the architecture that permits this implementation and the additional benefits we can leverage from it.
+As a validation, we have used this implementation to verify the correct application of hardening strategies against fault injection attacks, including the hardening of CompCert and the CompaSec countermeasure against instruction skips.
+
+*Bio*.
+Yanis Sellami est chercheur au CEA/List LSL, où il travaille sur le moteur d'exécution symbolique Binsec dans le contexte des attaques par injections de fautes, canaux cachés, et sur l'utilisation des techniques d'abduction. Il travaillait au préalable au CEA/List LFIM sur la caractérisation automatique des vulnérabilités aux attaques par injection de fautes, et a obtenu sa Thèse à l'Université Grenoble-Alpes, sous la supervision de N. Peltier et M. Echenim, sur les algorithmes d'abduction. Ses intérêts de recherche incluent la vérification formelle de programmes, l'exécution symbolique, les attaques en fautes et microarchitecturales et les applications de la logique à l'analyse de programme.
+
+*** When Post-Quantum Cryptography meets fault injection: Practical attacks on ML-KEM and ML-DSA
+:PROPERTIES:
+:CUSTOM_ID: techer
+:END:
+
+*Thomas Techer* (SGS Brighsight)
+
+*Abstract*.
+Recent approaches in quantum computing highlight the need to design and implement quantum-resistant cryptographic algorithms. ML-KEM and ML-DSA have been standardized for this purpose and are widely studied in research. Studies highlight various attack paths to threaten Kyber and Dilithium security using Fault Injection Attacks (FIA). Because of the complexity of these algorithms and the large data processed, most FIA require several faults to be successful. This makes them unpractical when targeting secure elements in an evaluation, where both time and equipment are constrained for each attack.
+
+Our work assesses the feasibility of existing FIA on these algorithms. We successfully conducted three attacks on a microcontroller implementation of ML-KEM and ML-DSA using an in-house EMFI set-up and a crescent coil, without chip decapsulation.
+
+We adapted a forging signature attack, to reduce the attack from a quadruple to a single fault attack on the memory optimized implementation of ML-DSA, which includes a loop processing the computation of the challenge.
+
+Moreover, by applying a state of the art attack, we were able to conduct the key recovery attack by altering the address of the noise seed used to sample the secret key. Two different fault models, instruction skip and pointer corruption, were identified that lead to generating a predictable key.
+
+Finally, we present improvements to an attack that reuse the nonce to make the error and the secret equals in order to recover the secret key by an equation trivially solvable. Different fault models were identified from single to triple FIA.
+
+*Bio*.
+Thomas holds an MSc in Microelectronics and Information Technology and joined Brightsight in 2024. His work focuses on hardware security evaluations, particularly fault injection attacks and secure code reviews. He is involved in assessing the robustness of secure implementations against physical attacks, with a growing interest in the security of post-quantum cryptography.
+
+*** Photoémission et injection de fautes laser sur microcontrôleur
+:PROPERTIES:
+:CUSTOM_ID: coatanhay
+:END:
+
+  *Mael Coatanhay* (IETR),
+  Laurent Le Brizoual (IETR),
+  Laurent Pichon (IETR),
+  Damien Hardy (IRISA),
+  Thomas Rubiano (INRIA),
+  Ludovic Claudepierre (IETR),
+  Edna Rocio Ferrucho Alvarez (IETR)
+
+*Abstract*.
+Les attaques par injection de fautes laser (LFI) constituent une menace pour les systèmes embarqués en perturbant temporairement leur comportement ou leurs données.
+Nous proposons une méthodologie combinant la photoémission et l'injection de fautes par laser sur un microcontrôleur 32 bits avec une technologie de 40 nm basée sur l'architecture RISC-V. Nous démontrons les capacités de caractérisation des vulnérabilités d'une implémentation de cette procédure sur une étude de cas d'attaque par injection de fautes persistantes tirée de FISSC (Fault Injection and Simulation Secure Collection). Dans un premier temps, l'analyse par photoémission a permis de réaliser une rétro- ingénierie de l'organisation des mémoires SRAM. Cette étape permet d'identifier la disposition des adresses mémoire ainsi que la localisation des instructions donnant des informations exploitées pour guider des injections de fautes laser ciblées.
+Dans un second temps, cette caractérisation de la SRAM est complétée par une rétro- ingénierie par injection de fautes (Fault Injection Reverse Engineering, FIRE) afin de définir la position des bits sur la SRAM via une approche S-LFI (Single-Laser Fault Injection) fondée sur un modèle de faute de type bit-flip.
+Pour terminer, nous appliquons des fautes persistantes pour modifier de manière ciblée les instructions du benchmark et démontrer la faisabilité d'attaques exploitant ces altérations rémanentes.
+
+*Bio*.
+ Mael Coatanhay est diplômé du Master Électronique, Énergie Électrique, Automatique (EEEA) option SYSTEMES EMBARQUES de l’Université de Rennes. Il mène actuellement sa thèse au sein de l’équipe Organic And Silicon Systems de l’IETR et l’équipe PACAP, IRISA/INRIA. Sa recherche, porte sur l’évaluation de microcontrôleurs basés sur l’architecture RISC-V face aux attaques par injection de fautes laser et à l’analyse par photoémission. Ce projet est financé par les EUR CyberSchool et le CMA CyberSkills4All.
+
+*** Au-delà de la redondance : le polymorphisme matériel contre les injections de fautes laser multi-faisceaux
+:PROPERTIES:
+:CUSTOM_ID: savry
+:END:
+
+*Olivier SAVRY* (CEA Leti)
+
+*Abstract*.
+L'injection laser multi-faisceaux atteint désormais jusqu'à quatre points simultanés, ce qui met la redondance spatiale naïve sous forte pression : détecter quatre fautes simultanées nécessiterait une réplication quintuple, un coût qu'aucun budget CPU réaliste ne peut absorber. Nous soutenons que, au-delà d'un certain ordre d'attaque, la redondance doit être remplacée par le polymorphisme. Nous présentons une permutation binaire légère et dépendante d'une clé, qui transforme une donnée 64 bits en une part permutée sur laquelle chaque opération ALU est reconstruite pour être homomorphe. Les calculs (opérations logiques, ADD, SUB, décalage, MUL) sur le mot original et sur sa part permutée suivent des chemins physiques distincts, et tout désaccord déclenche une exception. La clé de permutation est renouvelée à la volée par une transpermutation rapide qui réinitialise l'ensemble du banc de registres sans jamais exposer les données en clair. Ce schéma a été intégré dans le processeur RISC-V superscalaire hors ordre Naxriscv sur FPGA. Nous mesurons un surcoût de 74 % en surface pour l'ALU permutée.
+
+*Bio*.
+Olivier Savry est titulaire d'un doctorat en microélectronique obtenu en 2001 à l'INP Grenoble (France), après un diplôme de l'école d'ingénieurs Phelma (INP Grenoble) en 1997. Il possède également trois masters en traitement du signal (Université Grenoble Alpes, 1997), en microélectronique (UGA, 1998) et en astrophysique (École Normale Supérieure de Lyon, 1998). Olivier travaille depuis plusieurs années au CEA-LETI, où il a contribué à des projets dans le domaine de la sécurité matérielle. Il a participé à la conception d'une architecture sécurisée pour l'IoT et les systèmes cyber-physiques. Il a également collaboré étroitement avec l'industrie automobile sur la sécurité des véhicules. Depuis 2018, il s'investit dans la sécurité des processeurs applicatifs embarqués, avec pour objectif de traiter la majorité des vulnérabilités de manière holistique. Ses travaux portent sur la conception de processeurs intrinsèquement sécurisés, garantissant une confidentialité et une intégrité de bout en bout.
 
 ** Posters
 :PROPERTIES:
 :CUSTOM_ID: posters
 :END:
 
+*** Une méthodologie pour l’analyse du comportement microarchitectural sous injection de glitch d’horloge
+:PROPERTIES:
+:CUSTOM_ID: kafando
+:END:
 
-to be detailed
+*Boenzemwendé Israel Kafando* (CEA List),
+Jonah Alle Monne  (CEA List),
+Damien Couroussé (CEA List),
+Mathieu Jan (CEA List)
+
+*Abstract*.
+L’injection de fautes est une technique bien connue permettant de compromettre la sécurité et la sûreté des systèmes embarqués. Il existe un intérêt croissant de comprendre le comportement des processeurs embarqués soumis à des injections de fautes, afin d’expliquer avec précision la manifestation des fautes et de suivre leur propagation depuis leur cause première au sein de la microarchitecture.
+Dans ce travail, nous présentons une méthodologie permettant d’observer avec une précision au cycle près l’état microarchitectural d’un processeur RISC-V soumis à une injection par perturbation de l'horloge. L’approche proposée repose sur une unité de monitoring qui sonde des signaux internes sélectionnés à l’aide d’une horloge indépendante de celle pilotant le processeur testé.
+La méthodologie comprend également une analyse du caractère intrusif introduit par la logique de monitoring supplémentaire, afin de garantir que les conditions d’injection restent représentatives de l’implémentation de base. Parmi un espace de paramètres de 103 284 configurations, seules 69 configurations conduisant à des sorties erronées présentent une correspondance parfaite avec l'implémentation de base.
+Nous appliquons cette méthodologie au cœur CV32E40S afin d’analyser ses contre-mesures basées sur des alertes et montrons que ces mécanismes présentent des dysfonctionnements dans des scénarios de détection d'injections par perturbation de d’horloge
+
+*Bio*.
+Boenzemwendé Israel Kafando est doctorant au CEA-List et à l’Université Grenoble Alpes, en France. Ses travaux de recherche portent sur l’établissement de garanties formelles de robustesse pour les processeurs open-source, à travers la formalisation de contrats matériel–logiciel au niveau de ISA face aux attaques par injection de fautes. Il est titulaire d’un diplôme d’ingénieur en systèmes numériques de l’ENSSAT Lannion depuis 2025.
+
+*** Évaluation et renforcement des modules d'IA embarqués pour les systèmes critiques
+:PROPERTIES:
+:CUSTOM_ID: eguina
+:END:
+
+  *Germain EGUINA* (LCIS, Grenoble INP-UGA),
+  Vincent BEROULLE (LCIS, Grenoble INP-UGA),
+  Valentin EGLOFF (LCIS, Grenoble INP-UGA),
+  Louis MORGE-ROLLET (LCIS, Grenoble INP-UGA),
+  Youssef SERRESTOU (LAUM, Université du Mans - CNRS UMR 6613)
+
+*Abstract*.
+Ces dernières années, le déploiement de l'IA migre des serveurs vers la périphérie dans les systèmes critiques. Utiliser les modèles au plus près des données réduit la dépendance aux serveurs et permet une prise de décision en temps réel. Cette approche réduit la latence, la consommation de bande passante et les coûts opérationnels tout en améliorant la fiabilité et la confidentialité des données. Cependant, elle augmente la surface d'attaque et l'exposition aux perturbations matérielles et environnementales. Contrairement aux serveurs, les systèmes en périphérie sont accessibles physiquement et fonctionnent dans des environnements imprévisibles les rendant ainsi vulnérables aux menaces algorithmiques et matérielles. Dans les systèmes critiques, cette exposition doit être prise en compte pour garantir leur sécurité et leur sûreté.
+
+Notre travail porte sur les perturbations intentionnelles et non intentionnelles (attaques et fautes) modifiant la sortie des réseaux de neurones convolutifs largement utilisés dans les tâches de perception et de classification (reconnaissance d'image, détection d'objets, classification de signaux) au cœur de nombreux systèmes critiques. Ces perturbations peuvent atteindre les modèles par leurs entrées (exploitation algorithmique) ou via le matériel (injection de fautes). Nous évaluerons leur capacité à fonctionner correctement en présence de telles perturbations, leur robustesse.
+
+L'objectif est de développer une méthodologie d'évaluation des modèles unifiée prenant en compte simultanément les vecteurs algorithmiques et matériels. Un tel environnement fera le pont entre les communautés de la sécurité et de la sûreté, offrant une évaluation réaliste des vulnérabilités. Nous proposerons ensuite des techniques pour améliorer leur robustesse face à ces perturbations.
+
+*Bio*.
+Doctorant depuis février 2026 au Laboratoire de Conception et d'Intégration des Systèmes (LCIS) à Valence. Diplômé en 2025 de l'ENSPIMA (Bordeaux INP), où j'ai suivi une formation d'ingénieur en maintenance aéronautique avec une spécialisation en systèmes avioniques et embarqués. Mes travaux de recherche portent sur l'évaluation et le renforcement de la robustesse des modules d'IA embarqués dans les systèmes critiques face aux perturbations intentionnelles et non intentionnelles en considérant conjointement les dimensions algorithmique et matérielle.
+
+*** Injection de fautes par rayons X sur transistor unique dans un circuit intégré "Fully-Depleted Silicon On Insulator" 22 nm
+:PROPERTIES:
+:CUSTOM_ID: franco
+:END:
+
+  *Edouard FRANCO* (CEA, ONERA),
+  Laurent MAINGAULT (CEA),
+  Stéphanie ANCEAU (CEA),
+  Alejandro URENA-ACUNA (ONERA),
+  Guillaume HUBERT (ONERA),
+  Sophie BOUAT (SIMaP),
+  Rémi TUCOULOU (ESRF)
+
+*Abstract*.
+De nombreux travaux ont démontré que les environnements soumis aux rayonnements ionisants, tels que le spatial ou les installations nucléaires, ont un impact sur la fiabilité et sur la performance des circuits intégrés. Par conséquent, de nombreuses contremesures ont été mises au point ces dernières décennies afin de limiter ces effets.
+Toutefois, ces protections ne sont pas nécessairement efficaces face à des adversaires malveillants capables de focaliser volontairement des rayons X sur des zones très localisées d'une puce, allant de plusieurs cellules à un seul transistor. Au cours de la dernière décennie, la technique d'injection de fautes par rayons X (XRFI) s'est imposée comme une menace crédible pour la sécurité d'un large panel de circuits intégrés, y compris pour des nœuds technologiques avancés.
+Dans cette étude, nous présentons une attaque XRFI qui a été réalisée à l'ESRF ("European Synchrotron Radiation Facility") sur un ASIC FDSOI 22nm conçu par le CEA-Leti. Plusieurs D Flip-Flops (DFFs) ont été ciblées à l'aide d'un faisceau X focalisé avec un diamètre de faisceau d'environ 60 nm, nous permettant de créer des fautes permanentes à l'échelle d'un transistor. Nous détaillons également la méthodologie expérimentale à suivre pour réaliser des attaques XRFI dans un centre de rayonnement synchrotron, apportant ainsi des informations complémentaires sur les aspects pratiques et sur les possibilités qu'offrent cette technique.
+
+*Bio*.
+Edouard Franco est un doctorant de 2ème année au laboratoire CESTI du CEA-Leti à Grenoble (France) et au DPHY (Département de Physique) de l'ONERA à Toulouse (France). Passionné par la physique, la microélectronique et la cybersécurité matérielle, il travaille actuellement sur les attaques par injection de fautes rayons X (XRFI), afin d'étudier leur efficacité sur des circuits intégrés récents et pour approfondir la compréhension des mécanismes physiques/électroniques sous-jacents. Suite à un diplôme d'ingénieur en Génie Physique, spécialisé en Instrumentation, il a choisi d'effectuer un doctorat afin de relier recherche fondamentale et applications pratiques.
+
+
+
+*** Thermal Laser Stimulation of Bulk Built-In Current Sensors in Bulk Silicon Devices
+:PROPERTIES:
+:CUSTOM_ID: perrin
+:END:
+
+  *Hugo Perrin* (Mines Saint-Etienne, CEA-Leti, Centre CMP, Equipe commune SAS, F - 13541 Gardanne France),
+  Jean-Baptiste Rigaud (Mines Saint-Etienne, CEA-Leti, Centre CMP, Equipe commune SAS, F - 13541 Gardanne France),
+  Raphael Viera (Mines Saint-Etienne, CEA-Leti, Centre CMP, Equipe commune SAS, F - 13541 Gardanne France)
+
+*Abstract*.
+Lorsque la longueur d'onde d'une source laser dépasse un certain seuil, l'effet photoélectrique devient négligeable par rapport à l'échauffement thermique. Dans ces conditions, nous cherchons à évaluer la capacité du laser à modifier malgré tout l'état électrique d'un circuit intégré en technologie bulk CMOS. Dans le contexte de la sécurité matérielle, ce questionnement répond à deux problématiques : Ces longueurs d'ondes peuvent-elles êtres employées pour effectuer de l'injection de faute ? Le cas échéant, les effets produits échapperaient-ils aux contre-mesures existantes du type capteurs de courant intégrés. Nous présentons des expériences réalisées sur ASIC sur des capteurs de courants intégrés (Bulk Built-In Current Sensors). Ces structures permettent d'une part une comparaison facile avec les longueurs d'ondes utilisées classiquement pour l'injection de faute, d'autre part leur étude sous le laser nous renseigne sur les différents phénomènes physiques impliqués. Les expériences confirment que les photo-courants sont négligeables. Pour autant le laser est capable de déclencher la bascule du capteur lorsque cette dernière est directement sous le spot. L'échauffement des pistes métalliques environnantes ne semble pas suffisante pour modifier significativement le fonctionnement du capteur aux puissances testées. Enfin, des travaux préliminaires de reproduction des résultats expérimentaux en simulation ont été réalisés : d'après la littérature, des sources de tension du fait des gradients thermiques dans le silicium peuvent perturber la polarisation des transistors.
+
+*Bio*.
+Je m'appelle Hugo Perrin, doctorant en début de troisième année aux Mines Saint-Étienne sur le campus Aix-Marseille Provence à Gardanne, dans le département Systèmes et Architectures Sécurisés (SAS). Ma thèse est dirigée par Jean-Baptiste Rigaud et co-encadrée par Raphael Viera. J'ai travaillé un peu plus d'un an sur la photon-émission à SAS avant d'entamer une thèse sur les effets de la stimulation thermique par laser des circuits intégrés en 2024.
+*** Modélisation des fautes au niveau RTL et contre-mesures : axes de recherche dans le contexte des attaques laser sur les microarchitectures RISC-V
+:PROPERTIES:
+:CUSTOM_ID: rabiai
+:END:
+
+  *Mouad RABIAI* (Univ. Grenoble Alpes)
+
+*Abstract*.
+Les attaques par injection de fautes laser constituent une menace significative pour les circuits électroniques, en ce qu'elles sont susceptibles de compromettre les mécanismes de sécurité embarqués. En induisant des fautes, transitoires ou permanentes, elles peuvent altérer le comportement nominal d'un système, contourner ses mécanismes de vérification de sécurité, ou encore conduire à l'extraction d'informations sensibles. La modélisation précise de ces attaques s'avère par conséquent essentielle à la conception de contre-mesures efficaces, dont le coût et la surcharge doivent demeurer limités — un enjeu d'autant plus critique dans le contexte des objets connectés (IoT), dont la prolifération s'accompagne d'une accessibilité physique accrue.
+Ces travaux s'inscrivent dans le cadre du projet « Hardware Security Digital Twin », dont l'objectif est de proposer une analyse holistique et multi-niveaux des attaques par injection de fautes laser sur les architectures RISC-V. Une attention particulière y est portée à l'évaluation de la sécurité matérielle en amont de la fabrication, en ciblant des processeurs open source récents tels que le CV32E40P, implémentés dans des technologies avancées.
+Cet article présente le contexte ainsi que les principaux axes de recherche de la thèse en cours, en insistant plus particulièrement sur la modélisation des fautes au niveau transfert de registres (RTL – Register Transfer Level). La conduite de l'analyse des fautes à cette étape du flot de conception présente un triple intérêt : elle permet une évaluation précoce de la sécurité, offre un niveau d'abstraction pertinent et proche du comportement matériel effectif, et contribue à réduire les coûts associés aux refontes de conception et aux nouvelles fabrications de silicium.
+Notre approche s'articule en plusieurs volets. Elle débute par l'étude de méthodes de vérification formelle permettant une analyse efficace des vulnérabilités, s'appuyant sur un modèle de faute existant qui rend compte à la fois de la nature localisée des perturbations laser et de leur impact sur des groupes de bascules (flip-flops). Elle se poursuit par l'exploration de techniques de réduction de l'espace des fautes, ne retenant que les scénarios pertinents et exploitables. Elle s'étend enfin à une analyse conjointe matériel-logiciel, visant à dériver des modèles de fautes réalistes au niveau logiciel, tels que la corruption d'instructions ou la modification du flux de contrôle.
+
+*Bio*.
+Je suis Mouad Rabiai, doctorant en première année à l’Université Grenoble Alpes. Je suis affilié au laboratoire LCIS à Valence ainsi qu’au laboratoire TIMA à Grenoble. Ma thèse porte sur la modélisation des attaques par injection de fautes laser au niveau RTL sur les architectures RISC-V. Je suis encadré par Vincent Beroulle, Valentin Egloff et Paolo Maistri.
+
+*** Rejeu d'instructions piloté par le matériel dans le coeur RISC-V CVA6
+:PROPERTIES:
+:CUSTOM_ID: raheriniaina
+:END:
+
+  *Telly Raheriniaina* (Univ. Bretagne Sud, UMR 6285, Lab-STICC),
+  Kévin Quénéhervé (Univ. Bretagne Sud, UMR 6285, Lab-STICC),
+  Philippe Tanguy (Univ. Bretagne Sud, UMR 6285, Lab-STICC),
+  Rachid Dafali (DGA MI),
+  Vianney Lapôtre (Univ. Bretagne Sud, UMR 6285, Lab-STICC)
+
+*Abstract*.
+Les attaques par injection de fautes (FIA) représentent une menace sérieuse pour les processeurs embarqués.
+Pour dépasser les limites des processeurs lock-step, jugés trop coûteux en surface et en énergie, le rejeu d'instruction constitue une alternative légère.
+Dans ce travail, nous proposons un mécanisme de rejeu aléatoire d'instructions entièrement matériel et intégré dans le processeur RISC-V CVA6.
+Ce mécanisme est transparent pour le développeur logiciel.
+
+*Bio*.
+Telly RAHERINIAINA est doctorant en première année à l'UBS, Laboratoire Lab-STICC, au sein de l'équipe ARCAD à Lorient.
+Ses travaux de thèse se focalisent sur l'étude et la conception de processeurs embarqués robustes aux attaques par injections de fautes financé dans le cadre du projet ANR FAIR (ANR-25-CE39-5360).
+

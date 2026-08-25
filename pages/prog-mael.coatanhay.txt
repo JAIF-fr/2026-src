@@ -1,0 +1,18 @@
+Please fill the fields in brackets below, and please do not modify the rest of the template.
+
+
+
+*** [TALK TITLE]
+
+[for each author
+  [Mael Coatanhay] (IETR)]), [Laurent Le Brizoual] (IETR)]), [Laurent Pichon] (IETR)]), [Damien Hardy] (IRISA)]), [Thomas Rubiano] (INRIA)]), [Ludovic Claudepierre] (IETR)]), [Edna Rocio Ferrucho Alvarez] (IETR)])
+]
+
+*Abstract*.
+[Les attaques par injection de fautes laser (LFI) constituent une menace pour les systèmes embarqués en perturbant temporairement leur comportement ou leurs données.
+Nous proposons une méthodologie combinant la photoémission et l'injection de fautes par laser sur un microcontrôleur 32 bits avec une technologie de 40 nm basée sur l'architecture RISC-V. Nous démontrons les capacités de caractérisation des vulnérabilités d'une implémentation de cette procédure sur une étude de cas d'attaque par injection de fautes persistantes tirée de FISSC (Fault Injection and Simulation Secure Collection). Dans un premier temps, l'analyse par photoémission a permis de réaliser une rétro- ingénierie de l'organisation des mémoires SRAM. Cette étape permet d'identifier la disposition des adresses mémoire ainsi que la localisation des instructions donnant des informations exploitées pour guider des injections de fautes laser ciblées.
+Dans un second temps, cette caractérisation de la SRAM est complétée par une rétro- ingénierie par injection de fautes (Fault Injection Reverse Engineering, FIRE) afin de définir la position des bits sur la SRAM via une approche S-LFI (Single-Laser Fault Injection) fondée sur un modèle de faute de type bit-flip. 
+Pour terminer, nous appliquons des fautes persistantes pour modifier de manière ciblée les instructions du benchmark et démontrer la faisabilité d'attaques exploitant ces altérations rémanentes. ]
+
+*Bio*.
+[Bio. Mael Coatanhay est diplômé du Master Électronique, Énergie Électrique, Automatique (EEEA) option SYSTEMES EMBARQUES de l’Université de Rennes. Il mène actuellement sa thèse au sein de l’équipe Organic And Silicon Systems de l’IETR et l’équipe PACAP, IRISA/INRIA. Sa recherche, porte sur l’évaluation de microcontrôleurs basés sur l’architecture RISC-V face aux attaques par injection de fautes laser et à l’analyse par photoémission. Ce projet est financé par les EUR CyberSchool et le CMA CyberSkills4All.]

@@ -1,0 +1,19 @@
+Please fill the fields in brackets below, and please do not modify the rest of the template.
+
+
+
+*** [Fault Injection Attacks on NIST's Post-Quantum Standards: ML-DSA and ML-KEM]
+
+[for each author
+  [Andersson CALLE VIERA] ([Thales DIS]),
+]
+
+*Abstract*.
+[While large-scale quantum computers do not yet exist, major government agencies strongly recommend migrating to Post-Quantum Cryptography (PQC) within the next decade to mitigate the quantum threat. Consequently, migrating to NIST-standardized algorithms like ML-DSA and ML-KEM has become an industry priority. However, implementing these complex algorithms on resource-constrained embedded devices introduces severe physical security risks, making them vulnerable to hardware threats.
+
+This presentation provides a comprehensive review of the main Fault Injection Attacks (FIA) targeting these newly standardized post-quantum schemes and focuses on the feasibility and impact of the most critical ones. 
+
+First, we demonstrate how faults can exploit specific mathematical and structural operations within the signature generation of ML-DSA to achieve full secret key recovery. Second, we analyze the verification process of ML-DSA, showing that faults can bypass security checks to force the acceptance of invalid signatures. Finally, we extend our analysis to ML-KEM, highlighting specific operations where FIA enable the full secret key recovery.]
+
+*Bio*.
+[Andersson Calle Viera holds a PhD in Cryptography from Sorbonne Université, specializing in Post-Quantum Cryptography and their embedded systems security. His doctoral research focused on physical attacks and optimizations of PQC standards, with an emphasis on side-channel attacks and fault injection attacks against ML-KEM and ML-DSA. He is currently working as a Cryptography Engineer at Thales CDI, where he continues to assess and improve the security and performances of secure PQC implementations.]

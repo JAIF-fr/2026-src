@@ -1,0 +1,22 @@
+Please fill the fields in brackets below, and please do not modify the rest of the template.
+
+
+
+*** When Post-Quantum Cryptography meets fault injection: Practical attacks on ML-KEM and ML-DSA
+
+Thomas Techer (SGS Brighsight)
+
+*Abstract*.
+Recent approaches in quantum computing highlight the need to design and implement quantum-resistant cryptographic algorithms. ML-KEM and ML-DSA have been standardized for this purpose and are widely studied in research. Studies highlight various attack paths to threaten Kyber and Dilithium security using Fault Injection Attacks (FIA). Because of the complexity of these algorithms and the large data processed, most FIA require several faults to be successful. This makes them unpractical when targeting secure elements in an evaluation, where both time and equipment are constrained for each attack.
+
+Our work assesses the feasibility of existing FIA on these algorithms. We successfully conducted three attacks on a microcontroller implementation of ML-KEM and ML-DSA using an in-house EMFI set-up and a crescent coil, without chip decapsulation.
+
+We adapted a forging signature attack, to reduce the attack from a quadruple to a single fault attack on the memory optimized implementation of ML-DSA, which includes a loop processing the computation of the challenge.
+
+Moreover, by applying a state of the art attack, we were able to conduct the key recovery attack by altering the address of the noise seed used to sample the secret key. Two different fault models, instruction skip and pointer corruption, were identified that lead to generating a predictable key.
+
+Finally, we present improvements to an attack that reuse the nonce to make the error and the secret equals in order to recover the secret key by an equation trivially solvable. Different fault models were identified from single to triple FIA.
+
+
+*Bio*.
+Thomas holds an MSc in Microelectronics and Information Technology and joined Brightsight in 2024. His work focuses on hardware security evaluations, particularly fault injection attacks and secure code reviews. He is involved in assessing the robustness of secure implementations against physical attacks, with a growing interest in the security of post-quantum cryptography.

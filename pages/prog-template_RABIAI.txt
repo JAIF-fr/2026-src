@@ -1,0 +1,18 @@
+Please fill the fields in brackets below, and please do not modify the rest of the template.
+
+
+
+*** [TALK TITLE]
+
+[for each author
+  [Mouad RABIAI] ([Doctorant]),
+]
+
+*Abstract*.
+[Les attaques par injection de fautes laser constituent une menace significative pour les circuits électroniques, en ce qu'elles sont susceptibles de compromettre les mécanismes de sécurité embarqués. En induisant des fautes, transitoires ou permanentes, elles peuvent altérer le comportement nominal d'un système, contourner ses mécanismes de vérification de sécurité, ou encore conduire à l'extraction d'informations sensibles. La modélisation précise de ces attaques s'avère par conséquent essentielle à la conception de contre-mesures efficaces, dont le coût et la surcharge doivent demeurer limités — un enjeu d'autant plus critique dans le contexte des objets connectés (IoT), dont la prolifération s'accompagne d'une accessibilité physique accrue.
+Ces travaux s'inscrivent dans le cadre du projet « Hardware Security Digital Twin », dont l'objectif est de proposer une analyse holistique et multi-niveaux des attaques par injection de fautes laser sur les architectures RISC-V. Une attention particulière y est portée à l'évaluation de la sécurité matérielle en amont de la fabrication, en ciblant des processeurs open source récents tels que le CV32E40P, implémentés dans des technologies avancées.
+Cet article présente le contexte ainsi que les principaux axes de recherche de la thèse en cours, en insistant plus particulièrement sur la modélisation des fautes au niveau transfert de registres (RTL – Register Transfer Level). La conduite de l'analyse des fautes à cette étape du flot de conception présente un triple intérêt : elle permet une évaluation précoce de la sécurité, offre un niveau d'abstraction pertinent et proche du comportement matériel effectif, et contribue à réduire les coûts associés aux refontes de conception et aux nouvelles fabrications de silicium.
+Notre approche s'articule en plusieurs volets. Elle débute par l'étude de méthodes de vérification formelle permettant une analyse efficace des vulnérabilités, s'appuyant sur un modèle de faute existant qui rend compte à la fois de la nature localisée des perturbations laser et de leur impact sur des groupes de bascules (flip-flops). Elle se poursuit par l'exploration de techniques de réduction de l'espace des fautes, ne retenant que les scénarios pertinents et exploitables. Elle s'étend enfin à une analyse conjointe matériel-logiciel, visant à dériver des modèles de fautes réalistes au niveau logiciel, tels que la corruption d'instructions ou la modification du flux de contrôle.]
+
+*Bio*.
+[Je suis Mouad Rabiai, doctorant en première année à l’Université Grenoble Alpes. Je suis affilié au laboratoire LCIS à Valence ainsi qu’au laboratoire TIMA à Grenoble. Ma thèse porte sur la modélisation des attaques par injection de fautes laser au niveau RTL sur les architectures RISC-V. Je suis encadré par Vincent Beroulle, Valentin Egloff et Paolo Maistri.]

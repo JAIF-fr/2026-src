@@ -1,0 +1,17 @@
+Please fill the fields in brackets below, and please do not modify the rest of the template.
+
+
+
+*** Thermal Laser Stimulation of Bulk Built-In Current Sensors in Bulk Silicon Devices
+
+[
+  Hugo Perrin (Mines Saint-Etienne, CEA-Leti, Centre CMP, Equipe commune SAS, F - 13541 Gardanne France),
+  Jean-Baptiste Rigaud (Mines Saint-Etienne, CEA-Leti, Centre CMP, Equipe commune SAS, F - 13541 Gardanne France),
+  Raphael Viera (Mines Saint-Etienne, CEA-Leti, Centre CMP, Equipe commune SAS, F - 13541 Gardanne France),
+]
+
+*Abstract*.
+Lorsque la longueur d'onde d'une source laser dépasse un certain seuil, l'effet photoélectrique devient négligeable par rapport à l'échauffement thermique. Dans ces conditions, nous cherchons à évaluer la capacité du laser à modifier malgré tout l'état électrique d'un circuit intégré en technologie bulk CMOS. Dans le contexte de la sécurité matérielle, ce questionnement répond à deux problématiques : Ces longueurs d'ondes peuvent-elles êtres employées pour effectuer de l'injection de faute ? Le cas échéant, les effets produits échapperaient-ils aux contre-mesures existantes du type capteurs de courant intégrés. Nous présentons des expériences réalisées sur ASIC sur des capteurs de courants intégrés (Bulk Built-In Current Sensors). Ces structures permettent d'une part une comparaison facile avec les longueurs d'ondes utilisées classiquement pour l'injection de faute, d'autre part leur étude sous le laser nous renseigne sur les différents phénomènes physiques impliqués. Les expériences confirment que les photo-courants sont négligeables. Pour autant le laser est capable de déclencher la bascule du capteur lorsque cette dernière est directement sous le spot. L'échauffement des pistes métalliques environnantes ne semble pas suffisante pour modifier significativement le fonctionnement du capteur aux puissances testées. Enfin, des travaux préliminaires de reproduction des résultats expérimentaux en simulation ont été réalisés : d'après la littérature, des sources de tension du fait des gradients thermiques dans le silicium peuvent perturber la polarisation des transistors.
+
+*Bio*.
+Je m'appelle Hugo Perrin, doctorant en début de troisième année aux Mines Saint-Étienne sur le campus Aix-Marseille Provence à Gardanne, dans le département Systèmes et Architectures Sécurisés (SAS). Ma thèse est dirigée par Jean-Baptiste Rigaud et co-encadrée par Raphael Viera. J'ai travaillé un peu plus d'un an sur la photon-émission à SAS avant d'entamer une thèse sur les effets de la stimulation thermique par laser des circuits intégrés en 2024.
