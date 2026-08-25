@@ -124,6 +124,7 @@ La journée est aussi sponsorisée par
 - l'[[https://www.ssi.gouv.fr/][ANSSI]],
 - [[https://eshard.com][eShard]],
 - [[https://ninjalab.io][NinjaLab]],
+- le [[https://ptcc.fr][PTCC]],
 - [[http://www.secure-ic.com][Secure-IC]],
 - [[https://www.serma-safety-security.com][Serma Safety & Security]],
 - [[https://www.thalesgroup.com/fr/europe/france/dis][Thales DIS Identité et Sécurité Numériques]].
@@ -147,6 +148,11 @@ La journée est aussi sponsorisée par
      
 <a href="https://ninjalab.io">
 <img src="./media/logo-NinjaLab.svg" alt="Logo NinjaLab" title="NinjaLab" data-align="center" height="100" /></a>
+
+     
+<a href="https://ptcc.fr">
+<img src="./media/logo-PTCC.png" alt="Logo PTCC" title="PTCC" data-align="center" height="140" /></a>
+
 
      
 <a href="http://www.secure-ic.com">
