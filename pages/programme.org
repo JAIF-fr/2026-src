@@ -72,7 +72,7 @@ Guillaume Bouffard (ANSSI),
 Damien Couroussé (Univ. Grenoble Alpes, CEA, LIST),
 Mathieu Jan (Univ. Paris-Saclay, CEA, LIST)
 
-*Abstract*.
+*Résumé*.
 Les attaques par injection de fautes représentent une menace importante pour la sécurité des dispositifs embarqués. Bien que leurs effets soient souvent modélisés sous forme de sauts d’instructions ou de corruptions de données, la caractérisation de ces fautes nécessite des programmes capables de mettre en évidence des comportements erronés visibles au niveau logiciel. Cependant, des effets de fautes proviennent d’éléments microarchitecturaux, ce qui les rend difficiles à identifier avec les approches existantes. D’un côté, les analyses au niveau Register Transfer Level (RTL) fournissent des informations fines, mais reposent sur des modèles qui omettent des détails des circuits physiques. De l’autre, la caractérisation empirique permet de capturer des fautes réelles, mais nécessite de nombreuses expérimentations et ne permet souvent pas leur identification précise. Pour combler cette lacune, nous proposons une méthodologie automatisée qui synthétise des programmes de caractérisation conçus pour exposer des modèles de fautes microarchitecturaux précis en utilisant un algorithme de model-checking. Notre méthodologie permet également d’évaluer les modèles de fautes additionnels révélés par ces programmes. Appliquée à deux cœurs de processeurs RISC-V, CV32E40P et Ibex, notre approche synthétise des programmes qui mettent en évidence des fautes de type bit-flip pour environ 70 % des signaux microarchitecturaux, avec deux jours de calcul sur 10 cœurs en parallèle. Pour 25 % des signaux de contrôle du CV32E40P, nous synthétisons des programmes permettant d’attribuer précisément un bit-flip à un signal ciblé. De tels programmes pourraient faciliter l’utilisation de l’injection de fautes pour déduire la disposition des éléments microarchitecturaux et aider à concevoir des contre-mesures plus efficaces. À notre connaissance, ce travail présenté à la conférence IEEE HOST 2026 constitue la première méthodologie systématique de construction de programmes de caractérisation de fautes, marquant une avancée significative par rapport aux approches empiriques.
 
 *Bio*.
@@ -85,7 +85,7 @@ Diplômé d’un Master en électronique et informatique industrielle à Polytec
 
 *François Viangalli*  (Institut CyberAlps, CESICE, Université Grenoble-Alpes)
 
-*Abstract*.
+*Résumé*.
 Les attaques par injection de fautes — perturbations physiques volontaires (tension, horloge, électromagnétique, laser) visant à extraire des secrets cryptographiques ou contourner des authentifications — font l'objet d'une littérature technique abondante, mais restent largement ignorées par la doctrine juridique, encore centrée sur les attaques logicielles et réseau.
 
 Alors que la cybersécurité matérielle devient un enjeu réglementaire majeur (Cyber Resilience Act, NIS2, sécurisation des systèmes embarqués critiques), les attaques physiques contre les composants posent des questions spécifiques qui s'insèrent mal dans les catégories classiques du droit du numérique.
@@ -112,7 +112,7 @@ Antoine Gicquel (Univ Rennes, Inria, CNRS, IRISA),
 Damien Hardy (Univ Rennes, Inria, CNRS, IRISA),
 Erven Rohou (Univ Rennes, Inria, CNRS, IRISA)
 
-*Abstract*.
+*Résumé*.
 Analyser les effets d'injections de fautes au niveau logiciel est difficile parce que l'exécution fautée ne respecte pas la sémantique des programmes. Par exemple, sauter un retour de fonction peut permettre à l'attaquant de tomber dans une fonction différente sans réaliser proprement un appel. D'où des exécutions complètement invalides vis-à-vis du programme source, mais qui se terminent sans erreur tout en violant les propriétés de sécurité du système. Ces problèmes s'amplifient sous la pression d'attaques multi-fautes capables d'altérer à la fois la logique du code et ses contremesures.
 
 L'outil SAMVA, de Gicquel et al., analyse ce type de vulnérabilités en présence de sauts et rejeus d'instruction multi-fautes. Équipé d'un plan d'attaque tel que "partant du début de verifyPIN, atteindre et exécuter authenticated=true sans exécuter la contremesure", SAMVA trouve des séquences de fautes qui réalisent le plan par une combinaison d'analyse statique, heuristiques et émulation. Cette présentation couvrira les idées principales de SAMVA et ses tous nouveaux algorithmes qui éliminent les heuristiques au profit d'une analyse complète. La dernière version de SAMVA trouve *toutes* les attaques possibles (dans une classe bien définie) et les énumère par coût croissant ; elle trouve donc les attaques optimales et, par dualité, le niveau de robustesse du programme contre le modèle de faute et le plan d'attaque choisis. Ses performances sont aussi grandement améliorées ; SAMVA trouve généralement des attaques optimales de plus de 10 fautes en quelques secondes, et dans un cas prouve en 30 secondes qu'aucune attaque n'existe en 17 fautes ou moins.
@@ -172,7 +172,7 @@ Thomas holds an MSc in Microelectronics and Information Technology and joined Br
 *Rodrigo Silva Lima* (AlphaNov),
 *Sébastien Ordas* (Serma Safety and Security)
 
-*Abstract*.
+*Résumé*.
 Les composants électroniques modernes embarquent des fonctionnalités visant à garantir la sécurité de l'information. L’une des menaces contre lesquelles il est nécessaire de se prémunir est l’attaque par injection de fautes, notamment l’injection de faute par laser, considéré comme moyen d’attaque le plus « puissant ». A présent, la majorité des sources utilisées pour réaliser ces attaques sont des sources dites « nanoseconde ». Ce type de laser permet de produire une impulsion laser d’une durée minimale de l’ordre de la nanoseconde. Néanmoins, certaines puces nécessitant un fort niveau de sécurité implémentent des contre-mesures contrecarrant celle-ci.
 
 Récemment, de nouvelles technologies laser sont apparues sur le marché. Ces technologies, dites « picoseconde » et « femtoseconde », permettent de générer une impulsion laser d’une durée plus courte et exploitant pour le laser femtoseconde une longueur d’onde différente qui permet également de diminuer significativement le volume dans lequel les paires électron-trou sont générées. L’objectif de cette présentation est de partager des résultats d’attaques sur des composants de technologies différentes permettant de déterminer l’apport de ces nouvelles technologies comparé à la technologie nanoseconde.
@@ -194,7 +194,7 @@ Récemment, de nouvelles technologies laser sont apparues sur le marché. Ces te
   Ludovic Claudepierre (IETR),
   Edna Rocio Ferrucho Alvarez (IETR)
 
-*Abstract*.
+*Résumé*.
 Les attaques par injection de fautes laser (LFI) constituent une menace pour les systèmes embarqués en perturbant temporairement leur comportement ou leurs données.
 Nous proposons une méthodologie combinant la photoémission et l'injection de fautes par laser sur un microcontrôleur 32 bits avec une technologie de 40 nm basée sur l'architecture RISC-V. Nous démontrons les capacités de caractérisation des vulnérabilités d'une implémentation de cette procédure sur une étude de cas d'attaque par injection de fautes persistantes tirée de FISSC (Fault Injection and Simulation Secure Collection). Dans un premier temps, l'analyse par photoémission a permis de réaliser une rétro- ingénierie de l'organisation des mémoires SRAM. Cette étape permet d'identifier la disposition des adresses mémoire ainsi que la localisation des instructions donnant des informations exploitées pour guider des injections de fautes laser ciblées.
 Dans un second temps, cette caractérisation de la SRAM est complétée par une rétro- ingénierie par injection de fautes (Fault Injection Reverse Engineering, FIRE) afin de définir la position des bits sur la SRAM via une approche S-LFI (Single-Laser Fault Injection) fondée sur un modèle de faute de type bit-flip.
@@ -210,7 +210,7 @@ Pour terminer, nous appliquons des fautes persistantes pour modifier de manière
 
 *Olivier SAVRY* (CEA Leti)
 
-*Abstract*.
+*Résumé*.
 L'injection laser multi-faisceaux atteint désormais jusqu'à quatre points simultanés, ce qui met la redondance spatiale naïve sous forte pression : détecter quatre fautes simultanées nécessiterait une réplication quintuple, un coût qu'aucun budget CPU réaliste ne peut absorber. Nous soutenons que, au-delà d'un certain ordre d'attaque, la redondance doit être remplacée par le polymorphisme. Nous présentons une permutation binaire légère et dépendante d'une clé, qui transforme une donnée 64 bits en une part permutée sur laquelle chaque opération ALU est reconstruite pour être homomorphe. Les calculs (opérations logiques, ADD, SUB, décalage, MUL) sur le mot original et sur sa part permutée suivent des chemins physiques distincts, et tout désaccord déclenche une exception. La clé de permutation est renouvelée à la volée par une transpermutation rapide qui réinitialise l'ensemble du banc de registres sans jamais exposer les données en clair. Ce schéma a été intégré dans le processeur RISC-V superscalaire hors ordre Naxriscv sur FPGA. Nous mesurons un surcoût de 74 % en surface pour l'ALU permutée.
 
 *Bio*.
@@ -231,7 +231,7 @@ Jonah Alle Monne  (CEA List),
 Damien Couroussé (CEA List),
 Mathieu Jan (CEA List)
 
-*Abstract*.
+*Résumé*.
 L’injection de fautes est une technique bien connue permettant de compromettre la sécurité et la sûreté des systèmes embarqués. Il existe un intérêt croissant de comprendre le comportement des processeurs embarqués soumis à des injections de fautes, afin d’expliquer avec précision la manifestation des fautes et de suivre leur propagation depuis leur cause première au sein de la microarchitecture.
 Dans ce travail, nous présentons une méthodologie permettant d’observer avec une précision au cycle près l’état microarchitectural d’un processeur RISC-V soumis à une injection par perturbation de l'horloge. L’approche proposée repose sur une unité de monitoring qui sonde des signaux internes sélectionnés à l’aide d’une horloge indépendante de celle pilotant le processeur testé.
 La méthodologie comprend également une analyse du caractère intrusif introduit par la logique de monitoring supplémentaire, afin de garantir que les conditions d’injection restent représentatives de l’implémentation de base. Parmi un espace de paramètres de 103 284 configurations, seules 69 configurations conduisant à des sorties erronées présentent une correspondance parfaite avec l'implémentation de base.
@@ -251,7 +251,7 @@ Boenzemwendé Israel Kafando est doctorant au CEA-List et à l’Université Gre
   Louis MORGE-ROLLET (LCIS, Grenoble INP-UGA),
   Youssef SERRESTOU (LAUM, Université du Mans - CNRS UMR 6613)
 
-*Abstract*.
+*Résumé*.
 Ces dernières années, le déploiement de l'IA migre des serveurs vers la périphérie dans les systèmes critiques. Utiliser les modèles au plus près des données réduit la dépendance aux serveurs et permet une prise de décision en temps réel. Cette approche réduit la latence, la consommation de bande passante et les coûts opérationnels tout en améliorant la fiabilité et la confidentialité des données. Cependant, elle augmente la surface d'attaque et l'exposition aux perturbations matérielles et environnementales. Contrairement aux serveurs, les systèmes en périphérie sont accessibles physiquement et fonctionnent dans des environnements imprévisibles les rendant ainsi vulnérables aux menaces algorithmiques et matérielles. Dans les systèmes critiques, cette exposition doit être prise en compte pour garantir leur sécurité et leur sûreté.
 
 Notre travail porte sur les perturbations intentionnelles et non intentionnelles (attaques et fautes) modifiant la sortie des réseaux de neurones convolutifs largement utilisés dans les tâches de perception et de classification (reconnaissance d'image, détection d'objets, classification de signaux) au cœur de nombreux systèmes critiques. Ces perturbations peuvent atteindre les modèles par leurs entrées (exploitation algorithmique) ou via le matériel (injection de fautes). Nous évaluerons leur capacité à fonctionner correctement en présence de telles perturbations, leur robustesse.
@@ -274,7 +274,7 @@ Doctorant depuis février 2026 au Laboratoire de Conception et d'Intégration de
   Sophie BOUAT (SIMaP),
   Rémi TUCOULOU (ESRF)
 
-*Abstract*.
+*Résumé*.
 De nombreux travaux ont démontré que les environnements soumis aux rayonnements ionisants, tels que le spatial ou les installations nucléaires, ont un impact sur la fiabilité et sur la performance des circuits intégrés. Par conséquent, de nombreuses contremesures ont été mises au point ces dernières décennies afin de limiter ces effets.
 Toutefois, ces protections ne sont pas nécessairement efficaces face à des adversaires malveillants capables de focaliser volontairement des rayons X sur des zones très localisées d'une puce, allant de plusieurs cellules à un seul transistor. Au cours de la dernière décennie, la technique d'injection de fautes par rayons X (XRFI) s'est imposée comme une menace crédible pour la sécurité d'un large panel de circuits intégrés, y compris pour des nœuds technologiques avancés.
 Dans cette étude, nous présentons une attaque XRFI qui a été réalisée à l'ESRF ("European Synchrotron Radiation Facility") sur un ASIC FDSOI 22nm conçu par le CEA-Leti. Plusieurs D Flip-Flops (DFFs) ont été ciblées à l'aide d'un faisceau X focalisé avec un diamètre de faisceau d'environ 60 nm, nous permettant de créer des fautes permanentes à l'échelle d'un transistor. Nous détaillons également la méthodologie expérimentale à suivre pour réaliser des attaques XRFI dans un centre de rayonnement synchrotron, apportant ainsi des informations complémentaires sur les aspects pratiques et sur les possibilités qu'offrent cette technique.
@@ -293,7 +293,7 @@ Edouard Franco est un doctorant de 2ème année au laboratoire CESTI du CEA-Leti
   Jean-Baptiste Rigaud (Mines Saint-Etienne, CEA-Leti, Centre CMP, Equipe commune SAS, F - 13541 Gardanne France),
   Raphael Viera (Mines Saint-Etienne, CEA-Leti, Centre CMP, Equipe commune SAS, F - 13541 Gardanne France)
 
-*Abstract*.
+*Résumé*.
 Lorsque la longueur d'onde d'une source laser dépasse un certain seuil, l'effet photoélectrique devient négligeable par rapport à l'échauffement thermique. Dans ces conditions, nous cherchons à évaluer la capacité du laser à modifier malgré tout l'état électrique d'un circuit intégré en technologie bulk CMOS. Dans le contexte de la sécurité matérielle, ce questionnement répond à deux problématiques : Ces longueurs d'ondes peuvent-elles êtres employées pour effectuer de l'injection de faute ? Le cas échéant, les effets produits échapperaient-ils aux contre-mesures existantes du type capteurs de courant intégrés. Nous présentons des expériences réalisées sur ASIC sur des capteurs de courants intégrés (Bulk Built-In Current Sensors). Ces structures permettent d'une part une comparaison facile avec les longueurs d'ondes utilisées classiquement pour l'injection de faute, d'autre part leur étude sous le laser nous renseigne sur les différents phénomènes physiques impliqués. Les expériences confirment que les photo-courants sont négligeables. Pour autant le laser est capable de déclencher la bascule du capteur lorsque cette dernière est directement sous le spot. L'échauffement des pistes métalliques environnantes ne semble pas suffisante pour modifier significativement le fonctionnement du capteur aux puissances testées. Enfin, des travaux préliminaires de reproduction des résultats expérimentaux en simulation ont été réalisés : d'après la littérature, des sources de tension du fait des gradients thermiques dans le silicium peuvent perturber la polarisation des transistors.
 
 *Bio*.
@@ -305,7 +305,7 @@ Je m'appelle Hugo Perrin, doctorant en début de troisième année aux Mines Sai
 
   *Mouad RABIAI* (Univ. Grenoble Alpes)
 
-*Abstract*.
+*Résumé*.
 Les attaques par injection de fautes laser constituent une menace significative pour les circuits électroniques, en ce qu'elles sont susceptibles de compromettre les mécanismes de sécurité embarqués. En induisant des fautes, transitoires ou permanentes, elles peuvent altérer le comportement nominal d'un système, contourner ses mécanismes de vérification de sécurité, ou encore conduire à l'extraction d'informations sensibles. La modélisation précise de ces attaques s'avère par conséquent essentielle à la conception de contre-mesures efficaces, dont le coût et la surcharge doivent demeurer limités — un enjeu d'autant plus critique dans le contexte des objets connectés (IoT), dont la prolifération s'accompagne d'une accessibilité physique accrue.
 Ces travaux s'inscrivent dans le cadre du projet « Hardware Security Digital Twin », dont l'objectif est de proposer une analyse holistique et multi-niveaux des attaques par injection de fautes laser sur les architectures RISC-V. Une attention particulière y est portée à l'évaluation de la sécurité matérielle en amont de la fabrication, en ciblant des processeurs open source récents tels que le CV32E40P, implémentés dans des technologies avancées.
 Cet article présente le contexte ainsi que les principaux axes de recherche de la thèse en cours, en insistant plus particulièrement sur la modélisation des fautes au niveau transfert de registres (RTL – Register Transfer Level). La conduite de l'analyse des fautes à cette étape du flot de conception présente un triple intérêt : elle permet une évaluation précoce de la sécurité, offre un niveau d'abstraction pertinent et proche du comportement matériel effectif, et contribue à réduire les coûts associés aux refontes de conception et aux nouvelles fabrications de silicium.
@@ -325,7 +325,7 @@ Je suis Mouad Rabiai, doctorant en première année à l’Université Grenoble 
   Rachid Dafali (DGA MI),
   Vianney Lapôtre (Univ. Bretagne Sud, UMR 6285, Lab-STICC)
 
-*Abstract*.
+*Résumé*.
 Les attaques par injection de fautes (FIA) représentent une menace sérieuse pour les processeurs embarqués.
 Pour dépasser les limites des processeurs lock-step, jugés trop coûteux en surface et en énergie, le rejeu d'instruction constitue une alternative légère.
 Dans ce travail, nous proposons un mécanisme de rejeu aléatoire d'instructions entièrement matériel et intégré dans le processeur RISC-V CVA6.
