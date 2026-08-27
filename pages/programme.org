@@ -4,30 +4,30 @@
 #+EXPORT_EXCLUDE_TAGS: noexport
 #+title: JAIF -- programme
 
-|       |                                                 |                                                                                                                                 |
-| 09h00 |                                            | Accueil café - badges                                                                                                           |
-| 09h30 | Philippe Maurine  (LIRMM)                  | Ouverture de la journée & mot d’accueil                                                                                         |
-| 09h45 |                                            | *Session 1 – Applications concrètes et implications juridiques*                                                                   |
-|       | Lennert Wouters / Benedikt Gierlichs (KUL) | (tbd)                                                                                                                           |
-|       | Francois Viangalli (Institut CyberAlps, CESICE) | [[#viangalli][Les attaques par injection de fautes : premiers jalons pour une analyse juridique]]                                               |
-| 10h45 |                                            | Pause café - [[#posters][posters / demos / stands]]                                                                                           |
-| 11h30 |                                            | *Session 2 – Contremesures Logicielles*                                                                                           |
-|       | Sébastien Michelland (IRISA)                    | [[#michelland][Analyse statique pour quantifier la robustesse des programmes contre les attaques multi-fautes sur le flot de contrôle]]          |
-|       | Yanis Sellami (CEA)                             | [[#sellami][Efficient Verification of Fault Injection Attack Protections at Binary Level]]                                                    |
-|       | Etienne Boespflug (Verimag)                | Étude de la surface d'attaque de Rust face aux injections de fautes multiples                                                   |
-| 12h30 |                                            | Déjeuner - [[#posters][posters and demos]]                                                                                                    |
-| 14h00 |                                            | *Session 3 – PQC, Vérification formelle et caractérisation*                                                                       |
-|       | Anderson Callé Viera (Thales)                   | [[#calle viera][Fault Injection Attacks on NIST's Post-Quantum Standards: ML-DSA and ML-KEM]]                                                     |
-|       | Thomas Techer (SGS)                             | [[#techer][When Post-Quantum Cryptography meets fault injection: Practical attacks on ML-KEM and ML-DSA]]                                    |
-|       | Daniel Thirion (STM)                       | Vérification formelle guidée par des modèles de fautes de primitives cryptographiques matérielles contre les attaques en fautes |
-|       | Jonah Alle Monne (CEA)                          | [[#alle monne][Synthèse de programmes de caractérisation à partir du RTL pour l'injection de fautes]]                                            |
-| 15h30 |                                            | Pause café - [[#posters][posters and demos]]                                                                                                  |
-| 16h15 |                                            | *Session 4 – Laser & photoémission*                                                                                               |
-|       | Rodrigo Silva Lima (AlphaNov), Sébastien Ordas (SERMA)                  | Analyse de l’efficacité des lasers pico et femto seconde à l’injection de faute.                                                |
-|       | Mael Coatanhay (IETR)                           | [[#coatanhay][Photoémission et injection de fautes laser sur microcontrôleur]] RISC-V                                                           |
-|       | Olivier Savry (CEA)                             | [[#savry][Au-delà de la redondance : polymorphisme matériel contre l'injection de fautes par laser multi-faisceaux]]                        |
-| 17h15 | Comité d’organisation                      | Mot de clôture de la journée                                                                                                    |
-| 19h00 |                                            | [[./infos-pratiques.html#social-event][social event]]                                                                                                                    |
+|       |                                                        |                                                                                                                                 |
+| 09h00 |                                                        | Accueil café - badges                                                                                                           |
+| 09h30 | Philippe Maurine  (LIRMM)                              | Ouverture de la journée & mot d’accueil                                                                                         |
+| 09h45 |                                                        | *Session 1 – Applications concrètes et implications juridiques*                                                                   |
+|       | Lennert Wouters / Benedikt Gierlichs (KUL)             | (tbd)                                                                                                                           |
+|       | Francois Viangalli (Institut CyberAlps, CESICE)        | [[#viangalli][Les attaques par injection de fautes : premiers jalons pour une analyse juridique]]                                               |
+| 10h45 |                                                        | Pause café - [[#posters][posters / demos / stands]]                                                                                           |
+| 11h30 |                                                        | *Session 2 – Contremesures Logicielles*                                                                                           |
+|       | Sébastien Michelland (IRISA)                           | [[#michelland][Analyse statique pour quantifier la robustesse des programmes contre les attaques multi-fautes sur le flot de contrôle]]          |
+|       | Yanis Sellami (CEA)                                    | [[#sellami][Efficient Verification of Fault Injection Attack Protections at Binary Level]]                                                    |
+|       | Etienne Boespflug (Verimag)                            | Étude de la surface d'attaque de Rust face aux injections de fautes multiples                                                   |
+| 12h30 |                                                        | Déjeuner - [[#posters][posters and demos]]                                                                                                    |
+| 14h00 |                                                        | *Session 3 – PQC, Vérification formelle et caractérisation*                                                                       |
+|       | Anderson Callé Viera (Thales)                          | [[#calle viera][Fault Injection Attacks on NIST's Post-Quantum Standards: ML-DSA and ML-KEM]]                                                     |
+|       | Thomas Techer (SGS)                                    | [[#techer][When Post-Quantum Cryptography meets fault injection: Practical attacks on ML-KEM and ML-DSA]]                                    |
+|       | Daniel Thirion (STM)                                   | Vérification formelle guidée par des modèles de fautes de primitives cryptographiques matérielles contre les attaques en fautes |
+|       | Jonah Alle Monne (CEA)                                 | [[#alle monne][Synthèse de programmes de caractérisation à partir du RTL pour l'injection de fautes]]                                            |
+| 15h30 |                                                        | Pause café - [[#posters][posters and demos]]                                                                                                  |
+| 16h15 |                                                        | *Session 4 – Laser & photoémission*                                                                                               |
+|       | Rodrigo Silva Lima (AlphaNov), Sébastien Ordas (SERMA) | [[#lima-ordas][Analyse de l’efficacité des lasers pico et femto seconde à l’injection de faute]]                                                |
+|       | Mael Coatanhay (IETR)                                  | [[#coatanhay][Photoémission et injection de fautes laser sur microcontrôleur]] RISC-V                                                           |
+|       | Olivier Savry (CEA)                                    | [[#savry][Au-delà de la redondance : polymorphisme matériel contre l'injection de fautes par laser multi-faisceaux]]                        |
+| 17h15 | Comité d’organisation                                  | Mot de clôture de la journée                                                                                                    |
+| 19h00 |                                                        | [[./infos-pratiques.html#social-event][social event]]                                                                                                                    |
 
 *Posters*
 
@@ -162,6 +162,24 @@ Finally, we present improvements to an attack that reuse the nonce to make the e
 
 *Bio*.
 Thomas holds an MSc in Microelectronics and Information Technology and joined Brightsight in 2024. His work focuses on hardware security evaluations, particularly fault injection attacks and secure code reviews. He is involved in assessing the robustness of secure implementations against physical attacks, with a growing interest in the security of post-quantum cryptography.
+
+
+*** Analyse de l’efficacité des lasers pico et femto seconde à l’injection de faute
+:PROPERTIES:
+:CUSTOM_ID: lima-ordas
+:END:
+
+*Rodrigo Silva Lima* (AlphaNov),
+*Sébastien Ordas* (Serma Safety and Security)
+
+*Abstract*.
+Les composants électroniques modernes embarquent des fonctionnalités visant à garantir la sécurité de l'information. L’une des menaces contre lesquelles il est nécessaire de se prémunir est l’attaque par injection de fautes, notamment l’injection de faute par laser, considéré comme moyen d’attaque le plus « puissant ». A présent, la majorité des sources utilisées pour réaliser ces attaques sont des sources dites « nanoseconde ». Ce type de laser permet de produire une impulsion laser d’une durée minimale de l’ordre de la nanoseconde. Néanmoins, certaines puces nécessitant un fort niveau de sécurité implémentent des contre-mesures contrecarrant celle-ci.
+
+Récemment, de nouvelles technologies laser sont apparues sur le marché. Ces technologies, dites « picoseconde » et « femtoseconde », permettent de générer une impulsion laser d’une durée plus courte et exploitant pour le laser femtoseconde une longueur d’onde différente qui permet également de diminuer significativement le volume dans lequel les paires électron-trou sont générées. L’objectif de cette présentation est de partager des résultats d’attaques sur des composants de technologies différentes permettant de déterminer l’apport de ces nouvelles technologies comparé à la technologie nanoseconde.
+
+# Modern electronic components incorporate security features designed to protect information. One of the threats against which protection is required is fault injection attacks, particularly laser fault injection attacks, which are considered the most powerful injection technique. Currently, the main laser technology currently used to carry out such attacks is the so-called nanosecond laser technology. This type of laser can generate pulses with a minimum duration in the nanosecond range. However, some highly secure chips implement dedicated countermeasures to protect themselves against this kind of attack.
+
+# Recently, new laser technologies have emerged on the market. These so-called picosecond and femtosecond technologies are capable of generating much shorter laser pulses and exploiting for the femtosecond laser a different wavelength also enabling a more confined electron-hole pairs generation volume. The purpose of this presentation is to share attack results obtained on components based on different technologies in order to assess the benefits of these new laser technologies compared to conventional nanosecond laser technology.
 
 *** Photoémission et injection de fautes laser sur microcontrôleur
 :PROPERTIES:
