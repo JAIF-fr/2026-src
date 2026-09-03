@@ -8,7 +8,7 @@
 | 09h00 |                                                        | Accueil café - badges                                                                                                           |
 | 09h30 | Philippe Maurine  (LIRMM)                              | Ouverture de la journée & mot d’accueil                                                                                         |
 | 09h45 |                                                        | *Session 1 – Applications concrètes et implications juridiques*                                                                   |
-|       | Lennert Wouters / Benedikt Gierlichs (KUL)             | (tbd)                                                                                                                           |
+|       | Lennert Wouters / Benedikt Gierlichs (KUL)             |  [[#wouters][Failure Is Not an Option: A Reliable Process to Exploit STM32F2/F4 Microcontrollers]]                                                                                                                          |
 |       | Francois Viangalli (Institut CyberAlps, CESICE)        | [[#viangalli][Les attaques par injection de fautes : premiers jalons pour une analyse juridique]]                                               |
 | 10h45 |                                                        | Pause café - [[#posters][posters / demos / stands]]                                                                                           |
 | 11h30 |                                                        | *Session 2 – Contremesures Logicielles*                                                                                           |
@@ -58,10 +58,28 @@ First, we demonstrate how faults can exploit specific mathematical and structura
 *Bio*.
 Andersson Calle Viera holds a PhD in Cryptography from Sorbonne Université, specializing in Post-Quantum Cryptography and their embedded systems security. His doctoral research focused on physical attacks and optimizations of PQC standards, with an emphasis on side-channel attacks and fault injection attacks against ML-KEM and ML-DSA. He is currently working as a Cryptography Engineer at Thales CDI, where he continues to assess and improve the security and performances of secure PQC implementations.
 
+** Failure Is Not an Option: A Reliable Process to Exploit STM32F2/F4 Microcontrollers
+:PROPERTIES:
+:CUSTOM_ID: wouters
+:END:
+
+*Abstract*.
+The STM32 family of microcontrollers is deployed in billions of embedded systems, making them desirable, high-value targets. In particular, the STM32F2 and STM32F4 series have been heavily scrutinized due to their use in popular cryptocurrency hardware wallets like the KeepKey, Trezor One, and Trezor Model T. Previous research has shown that fault injection can bypass protection mechanisms and enable flash memory extraction. However, those techniques can lead to permanent loss or corruption of data.
+In this talk we present a repeatable and reliable process for extracting protected flash memory from STM32F2 and STM32F4 devices. We will discuss the practical engineering behind the work, including failures, breakthroughs, and new attack strategies. Additionally, we will discuss insights gained from successfully applying these techniques on more than 60 distinct STM32 samples.
+
+*Bio*.
+Dr Benedikt Gierlichs is a research expert in the COSIC (Computer Security and Industrial Cryptography) research group at KU Leuven in Belgium. He works with the embedded security group and leads the attacks and evaluations team. His research focuses on the (physical) security of embedded devices. He has co-authored more than 75 scientific publications in peer-reviewed, international conferences and journals. He has served on many program committees of international conferences and has co-chaired 4 of them. He is a member of the IACR, a Belgian delegate to the ISO/IEC SC27 standardization group and chairman of the CHES steering committee.
+
+*Bio*.
+Lennert Wouters is a hardware security researcher at COSIC, KU Leuven, specializing in embedded and connected devices.
+His work focuses on reverse engineering, physical attacks, and practical security analysis of real-world systems.
+His recent projects include developing a modchip for fault-injection attacks on a Starlink user terminal and uncovering vulnerabilities in Saflok hotel locks.
+
 ** Présentations
 :PROPERTIES:
 :CUSTOM_ID: presentations
 :END:
+
 *** Synthesis of RTL-based Characterization Programs for Fault Injection
 :PROPERTIES:
 :CUSTOM_ID: alle monne
