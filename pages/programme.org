@@ -18,7 +18,7 @@
 | 12h30 |                                                        | Déjeuner - [[#posters][posters and demos]]                                                                                                    |
 | 14h00 |                                                        | *Session 3 – PQC, Vérification formelle et caractérisation*                                                                       |
 |       | Anderson Callé Viera (Thales)                          | [[#calle viera][Fault Injection Attacks on NIST's Post-Quantum Standards: ML-DSA and ML-KEM]]                                                     |
-|       | Thomas Techer (SGS)                                    | [[#techer][When Post-Quantum Cryptography meets fault injection: Practical attacks on ML-KEM and ML-DSA]]                                    |
+|       | Thomas Techer (Brighsight)                                | [[#techer][When Post-Quantum Cryptography meets fault injection: Practical attacks on ML-KEM and ML-DSA]]                                    |
 |       | Daniel Thirion (STM)                                   | Vérification formelle guidée par des modèles de fautes de primitives cryptographiques matérielles contre les attaques en fautes |
 |       | Jonah Alle Monne (CEA)                                 | [[#alle monne][Synthèse de programmes de caractérisation à partir du RTL pour l'injection de fautes]]                                            |
 | 15h30 |                                                        | Pause café - [[#posters][posters and demos]]                                                                                                  |
@@ -164,7 +164,7 @@ Yanis Sellami est chercheur au CEA/List LSL, où il travaille sur le moteur d'ex
 :CUSTOM_ID: techer
 :END:
 
-*Thomas Techer* (SGS Brighsight)
+*Thomas Techer* (Brighsight)
 
 *Abstract*.
 Recent approaches in quantum computing highlight the need to design and implement quantum-resistant cryptographic algorithms. ML-KEM and ML-DSA have been standardized for this purpose and are widely studied in research. Studies highlight various attack paths to threaten Kyber and Dilithium security using Fault Injection Attacks (FIA). Because of the complexity of these algorithms and the large data processed, most FIA require several faults to be successful. This makes them unpractical when targeting secure elements in an evaluation, where both time and equipment are constrained for each attack.
