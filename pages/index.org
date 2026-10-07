@@ -5,15 +5,17 @@
 * Journée thématique sur les attaques par injection de fautes
 
 #+begin_export html
-<p style="text-align:center; font-weight: bold;">
+<center>
+<p>
+<a href="https://jaif.io">
+<img src="./media/logo-JAIF.png" alt="Logo JAIF" title="JAIF" data-align="center" height="100" /></a>
 </p>
-<p class="alert" style="text-align:center; color: #3B31D9; line-height: 2em; font-size: x-large; font-weight: bold;">
+<p class="alert" style="color: #3B31D9; line-height: 2em; font-size: x-large; font-weight: bold;">
 Jeudi 1er Octobre 2026
 <br>
 Montpellier
 <br>
 </p>
-<center>
 </center>
 #+end_export
 
