@@ -4,30 +4,30 @@
 #+EXPORT_EXCLUDE_TAGS: noexport
 #+title: JAIF -- programme
 
-|       |                                                        |                                                                                                                                 |
-| 09h00 |                                                        | Accueil café - badges                                                                                                           |
-| 09h30 | Philippe Maurine  (LIRMM)                              | Ouverture de la journée & mot d’accueil                                                                                         |
-| 09h45 |                                                        | *Session 1 – Applications concrètes et implications juridiques*                                                                   |
-|       | Lennert Wouters / Benedikt Gierlichs (KUL)             |  [[#wouters][Failure Is Not an Option: A Reliable Process to Exploit STM32F2/F4 Microcontrollers]]                                                                                                                          |
-|       | Francois Viangalli (Institut CyberAlps, CESICE)        | [[#viangalli][Les attaques par injection de fautes : premiers jalons pour une analyse juridique]]                                               |
-| 10h45 |                                                        | Pause café - [[#posters][posters / demos / stands]]                                                                                           |
-| 11h30 |                                                        | *Session 2 – Contremesures Logicielles*                                                                                           |
-|       | Sébastien Michelland (IRISA)                           | [[#michelland][Analyse statique pour quantifier la robustesse des programmes contre les attaques multi-fautes sur le flot de contrôle]]          |
-|       | Yanis Sellami (CEA)                                    | [[#sellami][Efficient Verification of Fault Injection Attack Protections at Binary Level]]                                                    |
-|       | Etienne Boespflug (Verimag)                            | Étude de la surface d'attaque de Rust face aux injections de fautes multiples                                                   |
-| 12h30 |                                                        | Déjeuner - [[#posters][posters and demos]]                                                                                                    |
-| 14h00 |                                                        | *Session 3 – PQC, Vérification formelle et caractérisation*                                                                       |
-|       | Anderson Callé Viera (Thales)                          | [[#calle viera][Fault Injection Attacks on NIST's Post-Quantum Standards: ML-DSA and ML-KEM]]                                                     |
-|       | Thomas Techer (Brighsight)                                | [[#techer][When Post-Quantum Cryptography meets fault injection: Practical attacks on ML-KEM and ML-DSA]]                                    |
-|       | Daniel Thirion (STM)                                   | Vérification formelle guidée par des modèles de fautes de primitives cryptographiques matérielles contre les attaques en fautes |
-|       | Jonah Alle Monne (CEA)                                 | [[#alle monne][Synthèse de programmes de caractérisation à partir du RTL pour l'injection de fautes]]                                            |
-| 15h30 |                                                        | Pause café - [[#posters][posters and demos]]                                                                                                  |
-| 16h15 |                                                        | *Session 4 – Laser & photoémission*                                                                                               |
-|       | Rodrigo Silva Lima (AlphaNov), Sébastien Ordas (SERMA) | [[#lima-ordas][Analyse de l’efficacité des lasers pico et femto seconde à l’injection de faute]]                                                |
-|       | Mael Coatanhay (IETR)                                  | [[#coatanhay][Photoémission et injection de fautes laser sur microcontrôleur]] RISC-V                                                           |
-|       | Olivier Savry (CEA)                                    | [[#savry][Au-delà de la redondance : polymorphisme matériel contre l'injection de fautes par laser multi-faisceaux]]                        |
-| 17h15 | Comité d’organisation                                  | Mot de clôture de la journée                                                                                                    |
-| 19h00 |                                                        | [[./infos-pratiques.html#social-event][social event]]                                                                                                                    |
+|       |                                                        |          |                                                                                                                                 |
+| 09h00 |                                                        |          | Accueil café - badges                                                                                                           |
+| 09h30 | Philippe Maurine  (LIRMM)                              |          | Ouverture de la journée & mot d’accueil                                                                                         |
+| 09h45 |                                                        |          | *Session 1 – Applications concrètes et implications juridiques*                                                                   |
+|       | Lennert Wouters / Benedikt Gierlichs (KUL)             | [[[file:media/JAIF2026-Wouters-Gierlichs.pdf][slides]]] | [[#wouters][Failure Is Not an Option: A Reliable Process to Exploit STM32F2/F4 Microcontrollers]]                                             |
+|       | Francois Viangalli (Institut CyberAlps, CESICE)        | [[[file:media/JAIF2026-Viangalli.pdf][slides]]] | [[#viangalli][Les attaques par injection de fautes : premiers jalons pour une analyse juridique]]                                               |
+| 10h45 |                                                        |          | Pause café - [[#posters][posters / demos / stands]]                                                                                           |
+| 11h30 |                                                        |          | *Session 2 – Contremesures Logicielles*                                                                                           |
+|       | Sébastien Michelland (IRISA)                           | [[[file:media/JAIF2026-Michelland.pdf][slides]]] | [[#michelland][Analyse statique pour quantifier la robustesse des programmes contre les attaques multi-fautes sur le flot de contrôle]]          |
+|       | Yanis Sellami (CEA)                                    | [[[file:media/JAIF2026-Sellami.pdf][slides]]] | [[#sellami][Efficient Verification of Fault Injection Attack Protections at Binary Level]]                                                    |
+|       | Etienne Boespflug (Verimag)                            | [[[file:media/JAIF2026-Boespflug.pdf][slides]]] | Étude de la surface d'attaque de Rust face aux injections de fautes multiples                                                   |
+| 12h30 |                                                        |          | Déjeuner - [[#posters][posters and demos]]                                                                                                    |
+| 14h00 |                                                        |          | *Session 3 – PQC, Vérification formelle et caractérisation*                                                                       |
+|       | Anderson Callé Viera (Thales)                          | [[[file:media/JAIF2026-Calle-Viera.pdf][slides]]] | [[#calle viera][Fault Injection Attacks on NIST's Post-Quantum Standards: ML-DSA and ML-KEM]]                                                     |
+|       | Thomas Techer (Brighsight)                             | [[[file:media/JAIF2026-Techer.pdf][slides]]] | [[#techer][When Post-Quantum Cryptography meets fault injection: Practical attacks on ML-KEM and ML-DSA]]                                    |
+|       | Daniel Thirion (STM)                                   | [[[file:media/JAIF2026-Thirion.pdf][slides]]] | Vérification formelle guidée par des modèles de fautes de primitives cryptographiques matérielles contre les attaques en fautes |
+|       | Jonah Alle Monne (CEA)                                 | [[[file:media/JAIF2026-Alle-Monne.pdf][slides]]] | [[#alle monne][Synthèse de programmes de caractérisation à partir du RTL pour l'injection de fautes]]                                            |
+| 15h30 |                                                        |          | Pause café - [[#posters][posters and demos]]                                                                                                  |
+| 16h15 |                                                        |          | *Session 4 – Laser & photoémission*                                                                                               |
+|       | Rodrigo Silva Lima (AlphaNov), Sébastien Ordas (SERMA) |          | [[#lima-ordas][Analyse de l’efficacité des lasers pico et femto seconde à l’injection de faute]]                                                 |
+|       | Mael Coatanhay (IETR)                                  | [[[file:media/JAIF2026-Coatanhay.pdf][slides]]] | [[#coatanhay][Photoémission et injection de fautes laser sur microcontrôleur]] RISC-V                                                           |
+|       | Olivier Savry (CEA)                                    | [[[file:media/JAIF2026-Savry.pdf][slides]]] | [[#savry][Au-delà de la redondance : polymorphisme matériel contre l'injection de fautes par laser multi-faisceaux]]                        |
+| 17h15 | Comité d’organisation                                  |          | Mot de clôture de la journée                                                                                                    |
+| 19h00 |                                                        |          | [[./infos-pratiques.html#social-event][social event]]                                                                                                                    |
 
 *Posters*
 
